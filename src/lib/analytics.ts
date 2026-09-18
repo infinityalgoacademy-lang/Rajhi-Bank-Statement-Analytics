@@ -188,6 +188,61 @@ export interface Analytics {
   largest_volume_days: BusiestDay[];
 }
 
+// ===== Names Analysis Types =====
+
+export interface NameSampleTx {
+  date_greg: string | null;
+  amount: number | null;
+  description: string;
+  category: string;
+  category_ar: string;
+}
+
+export interface NameEntry {
+  name: string;
+  name_normalized: string;
+  language: 'ar' | 'en';
+  direction: 'in' | 'out';
+  count: number;
+  total_amount: number;
+  avg_amount: number;
+  first_date: string | null;
+  last_date: string | null;
+  categories: string[];
+  sample_transactions: NameSampleTx[];
+}
+
+export interface BothDirectionEntry {
+  name: string;
+  name_normalized: string;
+  language: 'ar' | 'en';
+  in_count: number;
+  out_count: number;
+  in_amount: number;
+  out_amount: number;
+  total_amount: number;
+  net: number;
+  first_date: string | null;
+  last_date: string | null;
+}
+
+export interface NamesData {
+  summary: {
+    total_unique_names: number;
+    incoming_names_count: number;
+    outgoing_names_count: number;
+    both_directions_count: number;
+    matched_transactions: number;
+    no_name_transactions: number;
+    total_incoming_amount: number;
+    total_outgoing_amount: number;
+  };
+  incoming_names: NameEntry[];
+  outgoing_names: NameEntry[];
+  both_directions: BothDirectionEntry[];
+  all_names: NameEntry[];
+}
+
 /**
  * Format a number as Saudi Riyal currency in Arabic.
  */

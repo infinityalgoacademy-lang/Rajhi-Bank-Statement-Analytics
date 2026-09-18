@@ -10,7 +10,8 @@ import { Categories } from "@/components/dashboard/categories";
 import { Trends } from "@/components/dashboard/trends";
 import { DeepAnalysis } from "@/components/dashboard/deep-analysis";
 import { Sizes } from "@/components/dashboard/sizes";
-import { Analytics, Transaction, TransactionData } from "@/lib/analytics";
+import { NamesAnalyzer } from "@/components/dashboard/names-analyzer";
+import { Analytics, Transaction, TransactionData, NamesData } from "@/lib/analytics";
 import { Loader2, AlertCircle } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
@@ -18,6 +19,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = React.useState("overview");
   const [analytics, setAnalytics] = React.useState<Analytics | null>(null);
   const [transactions, setTransactions] = React.useState<Transaction[]>([]);
+  const [namesData, setNamesData] = React.useState<NamesData | null>(null);
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
 
@@ -52,11 +54,26 @@ export default function Home() {
       .catch((e) => {
         console.error(e);
         setError("تعذر تحميل المعاملات");
-      })
-      .finally(() => {
-        // Don't setLoading(false) here — analytics loading handles it
       });
   }, [activeTab, transactions.length]);
+
+  // Load names data only when names tab is opened
+  React.useEffect(() => {
+    if (activeTab !== "names") return;
+    if (namesData) return;
+    fetch("/names.json")
+      .then((r) => {
+        if (!r.ok) throw new Error("Failed to load names");
+        return r.json();
+      })
+      .then((data: NamesData) => {
+        setNamesData(data);
+      })
+      .catch((e) => {
+        console.error(e);
+        setError("تعذر تحميل بيانات الأسماء");
+      });
+  }, [activeTab, namesData]);
 
   React.useEffect(() => {
     if (analytics) setLoading(false);
@@ -99,6 +116,16 @@ export default function Home() {
             ) : (
               <div className="flex items-center justify-center py-12">
                 <Loader2 className="h-8 w-8 animate-spin text-primary" />
+              </div>
+            )
+          )}
+          {activeTab === "names" && (
+            namesData ? (
+              <NamesAnalyzer data={namesData} />
+            ) : (
+              <div className="flex items-center justify-center py-12">
+                <Loader2 className="h-8 w-8 animate-spin text-primary" />
+                <p className="font-cairo text-sm text-muted-foreground ms-3">جارٍ تحليل الأسماء...</p>
               </div>
             )
           )}

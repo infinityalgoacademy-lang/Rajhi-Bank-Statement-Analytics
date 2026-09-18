@@ -8,6 +8,7 @@ import {
   TrendingUp,
   Microscope,
   Wallet,
+  Users,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -21,6 +22,7 @@ export const TABS: TabDef[] = [
   { id: "overview", label: "نظرة عامة", icon: LayoutDashboard },
   { id: "flow", label: "الوارد والصادر", icon: ArrowRightLeft },
   { id: "transactions", label: "سجل المعاملات", icon: Table2 },
+  { id: "names", label: "الأسماء", icon: Users },
   { id: "categories", label: "التصنيفات", icon: PieChart },
   { id: "trends", label: "الاتجاهات الزمنية", icon: TrendingUp },
   { id: "deep", label: "التحليل العميق", icon: Microscope },
