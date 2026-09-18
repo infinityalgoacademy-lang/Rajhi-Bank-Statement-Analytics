@@ -1,0 +1,7904 @@
+{
+  "account_info": {
+    "period_from": "2000/11/25",
+    "period_to": "2026/09/15",
+    "name": "SALEM MOHAMED A ALFARES",
+    "name_ar": "سالم محمد الفارس",
+    "iban": "SA4580000287608010015158",
+    "branch_code": "28700",
+    "branch_name": "Safwah",
+    "beginning_balance": -476.0
+  },
+  "kpis": {
+    "total_transactions": 5796,
+    "total_outgoing_count": 4670,
+    "total_incoming_count": 1126,
+    "total_outgoing_amount": 7423262.53,
+    "total_incoming_amount": 7427126.71,
+    "net_flow": 3864.18,
+    "avg_outgoing": 1589.56,
+    "avg_incoming": 6596.03,
+    "beginning_balance": -476.0,
+    "final_balance": 3388.18,
+    "max_balance": 506793.41,
+    "min_balance": -1263.6,
+    "avg_balance": 34760.88,
+    "active_years": 26,
+    "active_months": 262,
+    "period_from": "2000/11/25",
+    "period_to": "2026/09/15",
+    "active_years_list": [
+      2000,
+      2001,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "yearly": [
+    {
+      "year": 2000,
+      "in_count": 1,
+      "out_count": 0,
+      "in_amount": 476.0,
+      "out_amount": 0.0,
+      "net": 476.0,
+      "total_count": 1
+    },
+    {
+      "year": 2001,
+      "in_count": 0,
+      "out_count": 1,
+      "in_amount": 0.0,
+      "out_amount": 200.0,
+      "net": -200.0,
+      "total_count": 1
+    },
+    {
+      "year": 2003,
+      "in_count": 1,
+      "out_count": 0,
+      "in_amount": 200.0,
+      "out_amount": 0.0,
+      "net": 200.0,
+      "total_count": 1
+    },
+    {
+      "year": 2004,
+      "in_count": 2,
+      "out_count": 2,
+      "in_amount": 3100.0,
+      "out_amount": 3100.0,
+      "net": 0.0,
+      "total_count": 4
+    },
+    {
+      "year": 2005,
+      "in_count": 8,
+      "out_count": 24,
+      "in_amount": 18150.0,
+      "out_amount": 16937.07,
+      "net": 1212.93,
+      "total_count": 32
+    },
+    {
+      "year": 2006,
+      "in_count": 37,
+      "out_count": 94,
+      "in_amount": 264078.4,
+      "out_amount": 265205.53,
+      "net": -1127.13,
+      "total_count": 131
+    },
+    {
+      "year": 2007,
+      "in_count": 30,
+      "out_count": 110,
+      "in_amount": 119453.52,
+      "out_amount": 114312.47,
+      "net": 5141.05,
+      "total_count": 140
+    },
+    {
+      "year": 2008,
+      "in_count": 43,
+      "out_count": 133,
+      "in_amount": 248815.68,
+      "out_amount": 102926.47,
+      "net": 145889.21,
+      "total_count": 176
+    },
+    {
+      "year": 2009,
+      "in_count": 36,
+      "out_count": 121,
+      "in_amount": 237066.44,
+      "out_amount": 387091.45,
+      "net": -150025.01,
+      "total_count": 157
+    },
+    {
+      "year": 2010,
+      "in_count": 39,
+      "out_count": 104,
+      "in_amount": 425735.0,
+      "out_amount": 425459.83,
+      "net": 275.17,
+      "total_count": 143
+    },
+    {
+      "year": 2011,
+      "in_count": 42,
+      "out_count": 134,
+      "in_amount": 603700.0,
+      "out_amount": 541132.53,
+      "net": 62567.47,
+      "total_count": 176
+    },
+    {
+      "year": 2012,
+      "in_count": 18,
+      "out_count": 157,
+      "in_amount": 296775.0,
+      "out_amount": 346627.09,
+      "net": -49852.09,
+      "total_count": 175
+    },
+    {
+      "year": 2013,
+      "in_count": 24,
+      "out_count": 150,
+      "in_amount": 745266.0,
+      "out_amount": 756301.46,
+      "net": -11035.46,
+      "total_count": 174
+    },
+    {
+      "year": 2014,
+      "in_count": 24,
+      "out_count": 114,
+      "in_amount": 759700.0,
+      "out_amount": 613992.7,
+      "net": 145707.3,
+      "total_count": 138
+    },
+    {
+      "year": 2015,
+      "in_count": 34,
+      "out_count": 113,
+      "in_amount": 162750.0,
+      "out_amount": 309020.16,
+      "net": -146270.16,
+      "total_count": 147
+    },
+    {
+      "year": 2016,
+      "in_count": 30,
+      "out_count": 126,
+      "in_amount": 676292.28,
+      "out_amount": 398772.88,
+      "net": 277519.4,
+      "total_count": 156
+    },
+    {
+      "year": 2017,
+      "in_count": 30,
+      "out_count": 176,
+      "in_amount": 219128.96,
+      "out_amount": 289000.17,
+      "net": -69871.21,
+      "total_count": 206
+    },
+    {
+      "year": 2018,
+      "in_count": 46,
+      "out_count": 186,
+      "in_amount": 373529.04,
+      "out_amount": 550224.09,
+      "net": -176695.05,
+      "total_count": 232
+    },
+    {
+      "year": 2019,
+      "in_count": 62,
+      "out_count": 247,
+      "in_amount": 268586.1,
+      "out_amount": 292489.18,
+      "net": -23903.08,
+      "total_count": 309
+    },
+    {
+      "year": 2020,
+      "in_count": 69,
+      "out_count": 241,
+      "in_amount": 377110.27,
+      "out_amount": 366085.2,
+      "net": 11025.07,
+      "total_count": 310
+    },
+    {
+      "year": 2021,
+      "in_count": 77,
+      "out_count": 311,
+      "in_amount": 326981.21,
+      "out_amount": 334858.77,
+      "net": -7877.56,
+      "total_count": 388
+    },
+    {
+      "year": 2022,
+      "in_count": 81,
+      "out_count": 430,
+      "in_amount": 272495.71,
+      "out_amount": 272876.51,
+      "net": -380.8,
+      "total_count": 511
+    },
+    {
+      "year": 2023,
+      "in_count": 101,
+      "out_count": 465,
+      "in_amount": 377645.18,
+      "out_amount": 388382.43,
+      "net": -10737.25,
+      "total_count": 566
+    },
+    {
+      "year": 2024,
+      "in_count": 140,
+      "out_count": 527,
+      "in_amount": 218266.93,
+      "out_amount": 219779.3,
+      "net": -1512.37,
+      "total_count": 667
+    },
+    {
+      "year": 2025,
+      "in_count": 91,
+      "out_count": 446,
+      "in_amount": 265131.5,
+      "out_amount": 264791.31,
+      "net": 340.19,
+      "total_count": 537
+    },
+    {
+      "year": 2026,
+      "in_count": 60,
+      "out_count": 258,
+      "in_amount": 166693.49,
+      "out_amount": 163695.93,
+      "net": 2997.56,
+      "total_count": 318
+    }
+  ],
+  "monthly": [
+    {
+      "year_month": "2000-11",
+      "year": 2000,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 1,
+      "out_count": 0,
+      "in_amount": 476.0,
+      "out_amount": 0.0,
+      "net": 476.0,
+      "total_count": 1
+    },
+    {
+      "year_month": "2001-09",
+      "year": 2001,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 0,
+      "out_count": 1,
+      "in_amount": 0.0,
+      "out_amount": 200.0,
+      "net": -200.0,
+      "total_count": 1
+    },
+    {
+      "year_month": "2003-04",
+      "year": 2003,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 1,
+      "out_count": 0,
+      "in_amount": 200.0,
+      "out_amount": 0.0,
+      "net": 200.0,
+      "total_count": 1
+    },
+    {
+      "year_month": "2004-10",
+      "year": 2004,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 1,
+      "out_count": 1,
+      "in_amount": 2000.0,
+      "out_amount": 2000.0,
+      "net": 0.0,
+      "total_count": 2
+    },
+    {
+      "year_month": "2004-11",
+      "year": 2004,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 1,
+      "out_count": 1,
+      "in_amount": 1100.0,
+      "out_amount": 1100.0,
+      "net": 0.0,
+      "total_count": 2
+    },
+    {
+      "year_month": "2005-02",
+      "year": 2005,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 1,
+      "out_count": 1,
+      "in_amount": 4000.0,
+      "out_amount": 4000.0,
+      "net": 0.0,
+      "total_count": 2
+    },
+    {
+      "year_month": "2005-03",
+      "year": 2005,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 1,
+      "out_count": 1,
+      "in_amount": 3350.0,
+      "out_amount": 3350.0,
+      "net": 0.0,
+      "total_count": 2
+    },
+    {
+      "year_month": "2005-07",
+      "year": 2005,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 1,
+      "out_count": 0,
+      "in_amount": 1000.0,
+      "out_amount": 0.0,
+      "net": 1000.0,
+      "total_count": 1
+    },
+    {
+      "year_month": "2005-08",
+      "year": 2005,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 1,
+      "out_count": 2,
+      "in_amount": 1000.0,
+      "out_amount": 481.86,
+      "net": 518.14,
+      "total_count": 3
+    },
+    {
+      "year_month": "2005-09",
+      "year": 2005,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 0,
+      "out_count": 1,
+      "in_amount": 0.0,
+      "out_amount": 150.0,
+      "net": -150.0,
+      "total_count": 1
+    },
+    {
+      "year_month": "2005-10",
+      "year": 2005,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 1,
+      "out_count": 10,
+      "in_amount": 2100.0,
+      "out_amount": 3256.93,
+      "net": -1156.93,
+      "total_count": 11
+    },
+    {
+      "year_month": "2005-11",
+      "year": 2005,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 0,
+      "out_count": 1,
+      "in_amount": 0.0,
+      "out_amount": 2.5,
+      "net": -2.5,
+      "total_count": 1
+    },
+    {
+      "year_month": "2005-12",
+      "year": 2005,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 3,
+      "out_count": 8,
+      "in_amount": 6700.0,
+      "out_amount": 5695.78,
+      "net": 1004.22,
+      "total_count": 11
+    },
+    {
+      "year_month": "2006-01",
+      "year": 2006,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 5,
+      "out_count": 5,
+      "in_amount": 65250.0,
+      "out_amount": 11558.5,
+      "net": 53691.5,
+      "total_count": 10
+    },
+    {
+      "year_month": "2006-02",
+      "year": 2006,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 2,
+      "out_count": 11,
+      "in_amount": 10400.0,
+      "out_amount": 12751.53,
+      "net": -2351.53,
+      "total_count": 13
+    },
+    {
+      "year_month": "2006-03",
+      "year": 2006,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 1,
+      "out_count": 3,
+      "in_amount": 599.0,
+      "out_amount": 8892.64,
+      "net": -8293.64,
+      "total_count": 4
+    },
+    {
+      "year_month": "2006-04",
+      "year": 2006,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 2,
+      "out_count": 5,
+      "in_amount": 20500.0,
+      "out_amount": 30300.0,
+      "net": -9800.0,
+      "total_count": 7
+    },
+    {
+      "year_month": "2006-05",
+      "year": 2006,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 4,
+      "out_count": 19,
+      "in_amount": 116936.85,
+      "out_amount": 140298.32,
+      "net": -23361.47,
+      "total_count": 23
+    },
+    {
+      "year_month": "2006-06",
+      "year": 2006,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 0,
+      "out_count": 2,
+      "in_amount": 0.0,
+      "out_amount": 10050.0,
+      "net": -10050.0,
+      "total_count": 2
+    },
+    {
+      "year_month": "2006-07",
+      "year": 2006,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 5,
+      "out_count": 6,
+      "in_amount": 5800.0,
+      "out_amount": 5514.54,
+      "net": 285.46,
+      "total_count": 11
+    },
+    {
+      "year_month": "2006-08",
+      "year": 2006,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 2,
+      "out_count": 6,
+      "in_amount": 3480.0,
+      "out_amount": 3626.44,
+      "net": -146.44,
+      "total_count": 8
+    },
+    {
+      "year_month": "2006-09",
+      "year": 2006,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 3,
+      "out_count": 14,
+      "in_amount": 14400.0,
+      "out_amount": 13201.33,
+      "net": 1198.67,
+      "total_count": 17
+    },
+    {
+      "year_month": "2006-10",
+      "year": 2006,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 7,
+      "out_count": 10,
+      "in_amount": 11772.55,
+      "out_amount": 14122.6,
+      "net": -2350.05,
+      "total_count": 17
+    },
+    {
+      "year_month": "2006-11",
+      "year": 2006,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 2,
+      "out_count": 1,
+      "in_amount": 2100.0,
+      "out_amount": 1000.0,
+      "net": 1100.0,
+      "total_count": 3
+    },
+    {
+      "year_month": "2006-12",
+      "year": 2006,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 4,
+      "out_count": 12,
+      "in_amount": 12840.0,
+      "out_amount": 13889.63,
+      "net": -1049.63,
+      "total_count": 16
+    },
+    {
+      "year_month": "2007-01",
+      "year": 2007,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 4,
+      "out_count": 11,
+      "in_amount": 16300.0,
+      "out_amount": 14457.06,
+      "net": 1842.94,
+      "total_count": 15
+    },
+    {
+      "year_month": "2007-02",
+      "year": 2007,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 0,
+      "out_count": 1,
+      "in_amount": 0.0,
+      "out_amount": 1675.23,
+      "net": -1675.23,
+      "total_count": 1
+    },
+    {
+      "year_month": "2007-03",
+      "year": 2007,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 5,
+      "out_count": 13,
+      "in_amount": 9150.52,
+      "out_amount": 7089.65,
+      "net": 2060.87,
+      "total_count": 18
+    },
+    {
+      "year_month": "2007-04",
+      "year": 2007,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 3,
+      "out_count": 7,
+      "in_amount": 9700.0,
+      "out_amount": 10480.6,
+      "net": -780.6,
+      "total_count": 10
+    },
+    {
+      "year_month": "2007-05",
+      "year": 2007,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 2,
+      "out_count": 7,
+      "in_amount": 2500.0,
+      "out_amount": 3954.07,
+      "net": -1454.07,
+      "total_count": 9
+    },
+    {
+      "year_month": "2007-06",
+      "year": 2007,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 5,
+      "out_count": 7,
+      "in_amount": 8292.0,
+      "out_amount": 8479.76,
+      "net": -187.76,
+      "total_count": 12
+    },
+    {
+      "year_month": "2007-07",
+      "year": 2007,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 2,
+      "out_count": 10,
+      "in_amount": 5000.0,
+      "out_amount": 4372.72,
+      "net": 627.28,
+      "total_count": 12
+    },
+    {
+      "year_month": "2007-08",
+      "year": 2007,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 0,
+      "out_count": 6,
+      "in_amount": 0.0,
+      "out_amount": 508.03,
+      "net": -508.03,
+      "total_count": 6
+    },
+    {
+      "year_month": "2007-09",
+      "year": 2007,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 4,
+      "out_count": 8,
+      "in_amount": 54131.0,
+      "out_amount": 13823.99,
+      "net": 40307.01,
+      "total_count": 12
+    },
+    {
+      "year_month": "2007-10",
+      "year": 2007,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 3,
+      "out_count": 9,
+      "in_amount": 9400.0,
+      "out_amount": 19328.0,
+      "net": -9928.0,
+      "total_count": 12
+    },
+    {
+      "year_month": "2007-11",
+      "year": 2007,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 1,
+      "out_count": 15,
+      "in_amount": 1000.0,
+      "out_amount": 16213.23,
+      "net": -15213.23,
+      "total_count": 16
+    },
+    {
+      "year_month": "2007-12",
+      "year": 2007,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 1,
+      "out_count": 16,
+      "in_amount": 3980.0,
+      "out_amount": 13930.13,
+      "net": -9950.13,
+      "total_count": 17
+    },
+    {
+      "year_month": "2008-01",
+      "year": 2008,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 0,
+      "out_count": 5,
+      "in_amount": 0.0,
+      "out_amount": 4235.68,
+      "net": -4235.68,
+      "total_count": 5
+    },
+    {
+      "year_month": "2008-02",
+      "year": 2008,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 7,
+      "out_count": 9,
+      "in_amount": 16159.0,
+      "out_amount": 13807.65,
+      "net": 2351.35,
+      "total_count": 16
+    },
+    {
+      "year_month": "2008-03",
+      "year": 2008,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 4,
+      "out_count": 6,
+      "in_amount": 6100.0,
+      "out_amount": 4074.44,
+      "net": 2025.56,
+      "total_count": 10
+    },
+    {
+      "year_month": "2008-04",
+      "year": 2008,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 6,
+      "out_count": 21,
+      "in_amount": 18675.0,
+      "out_amount": 22593.22,
+      "net": -3918.22,
+      "total_count": 27
+    },
+    {
+      "year_month": "2008-05",
+      "year": 2008,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 2,
+      "out_count": 6,
+      "in_amount": 6445.0,
+      "out_amount": 6443.9,
+      "net": 1.1,
+      "total_count": 8
+    },
+    {
+      "year_month": "2008-06",
+      "year": 2008,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 3,
+      "out_count": 16,
+      "in_amount": 16520.0,
+      "out_amount": 5884.71,
+      "net": 10635.29,
+      "total_count": 19
+    },
+    {
+      "year_month": "2008-07",
+      "year": 2008,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 2,
+      "out_count": 14,
+      "in_amount": 1212.75,
+      "out_amount": 11173.75,
+      "net": -9961.0,
+      "total_count": 16
+    },
+    {
+      "year_month": "2008-08",
+      "year": 2008,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 5,
+      "out_count": 21,
+      "in_amount": 15060.93,
+      "out_amount": 12854.0,
+      "net": 2206.93,
+      "total_count": 26
+    },
+    {
+      "year_month": "2008-09",
+      "year": 2008,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 4,
+      "out_count": 17,
+      "in_amount": 5065.0,
+      "out_amount": 4005.51,
+      "net": 1059.49,
+      "total_count": 21
+    },
+    {
+      "year_month": "2008-10",
+      "year": 2008,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 2,
+      "out_count": 6,
+      "in_amount": 4090.0,
+      "out_amount": 8113.0,
+      "net": -4023.0,
+      "total_count": 8
+    },
+    {
+      "year_month": "2008-11",
+      "year": 2008,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 2,
+      "out_count": 8,
+      "in_amount": 10500.0,
+      "out_amount": 6040.61,
+      "net": 4459.39,
+      "total_count": 10
+    },
+    {
+      "year_month": "2008-12",
+      "year": 2008,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 6,
+      "out_count": 4,
+      "in_amount": 148988.0,
+      "out_amount": 3700.0,
+      "net": 145288.0,
+      "total_count": 10
+    },
+    {
+      "year_month": "2009-01",
+      "year": 2009,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 3,
+      "out_count": 19,
+      "in_amount": 21850.0,
+      "out_amount": 133527.76,
+      "net": -111677.76,
+      "total_count": 22
+    },
+    {
+      "year_month": "2009-02",
+      "year": 2009,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 6,
+      "out_count": 4,
+      "in_amount": 22380.0,
+      "out_amount": 33553.76,
+      "net": -11173.76,
+      "total_count": 10
+    },
+    {
+      "year_month": "2009-03",
+      "year": 2009,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 3,
+      "out_count": 9,
+      "in_amount": 2070.0,
+      "out_amount": 19288.14,
+      "net": -17218.14,
+      "total_count": 12
+    },
+    {
+      "year_month": "2009-04",
+      "year": 2009,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 3,
+      "out_count": 17,
+      "in_amount": 1737.5,
+      "out_amount": 8088.92,
+      "net": -6351.42,
+      "total_count": 20
+    },
+    {
+      "year_month": "2009-05",
+      "year": 2009,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 1,
+      "out_count": 2,
+      "in_amount": 1170.0,
+      "out_amount": 5500.0,
+      "net": -4330.0,
+      "total_count": 3
+    },
+    {
+      "year_month": "2009-06",
+      "year": 2009,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 2,
+      "out_count": 1,
+      "in_amount": 18470.0,
+      "out_amount": 700.0,
+      "net": 17770.0,
+      "total_count": 3
+    },
+    {
+      "year_month": "2009-07",
+      "year": 2009,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 5,
+      "out_count": 24,
+      "in_amount": 95715.94,
+      "out_amount": 67581.74,
+      "net": 28134.2,
+      "total_count": 29
+    },
+    {
+      "year_month": "2009-08",
+      "year": 2009,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 3,
+      "out_count": 10,
+      "in_amount": 21713.0,
+      "out_amount": 26765.49,
+      "net": -5052.49,
+      "total_count": 13
+    },
+    {
+      "year_month": "2009-09",
+      "year": 2009,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 2,
+      "out_count": 5,
+      "in_amount": 1820.0,
+      "out_amount": 12976.5,
+      "net": -11156.5,
+      "total_count": 7
+    },
+    {
+      "year_month": "2009-10",
+      "year": 2009,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 2,
+      "out_count": 4,
+      "in_amount": 11170.0,
+      "out_amount": 31200.0,
+      "net": -20030.0,
+      "total_count": 6
+    },
+    {
+      "year_month": "2009-11",
+      "year": 2009,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 4,
+      "out_count": 9,
+      "in_amount": 37170.0,
+      "out_amount": 37439.52,
+      "net": -269.52,
+      "total_count": 13
+    },
+    {
+      "year_month": "2009-12",
+      "year": 2009,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 2,
+      "out_count": 17,
+      "in_amount": 1800.0,
+      "out_amount": 10469.62,
+      "net": -8669.62,
+      "total_count": 19
+    },
+    {
+      "year_month": "2010-01",
+      "year": 2010,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 6,
+      "out_count": 13,
+      "in_amount": 59970.0,
+      "out_amount": 9188.56,
+      "net": 50781.44,
+      "total_count": 19
+    },
+    {
+      "year_month": "2010-02",
+      "year": 2010,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 8,
+      "out_count": 1,
+      "in_amount": 104765.0,
+      "out_amount": 400.0,
+      "net": 104365.0,
+      "total_count": 9
+    },
+    {
+      "year_month": "2010-03",
+      "year": 2010,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 2,
+      "out_count": 10,
+      "in_amount": 61000.0,
+      "out_amount": 217237.38,
+      "net": -156237.38,
+      "total_count": 12
+    },
+    {
+      "year_month": "2010-04",
+      "year": 2010,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 2,
+      "out_count": 4,
+      "in_amount": 5000.0,
+      "out_amount": 3559.21,
+      "net": 1440.79,
+      "total_count": 6
+    },
+    {
+      "year_month": "2010-05",
+      "year": 2010,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 6,
+      "out_count": 15,
+      "in_amount": 10150.0,
+      "out_amount": 9854.5,
+      "net": 295.5,
+      "total_count": 21
+    },
+    {
+      "year_month": "2010-06",
+      "year": 2010,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 1,
+      "out_count": 10,
+      "in_amount": 10000.0,
+      "out_amount": 7317.55,
+      "net": 2682.45,
+      "total_count": 11
+    },
+    {
+      "year_month": "2010-07",
+      "year": 2010,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 1,
+      "out_count": 9,
+      "in_amount": 6500.0,
+      "out_amount": 6109.58,
+      "net": 390.42,
+      "total_count": 10
+    },
+    {
+      "year_month": "2010-08",
+      "year": 2010,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 3,
+      "out_count": 8,
+      "in_amount": 136800.0,
+      "out_amount": 140537.74,
+      "net": -3737.74,
+      "total_count": 11
+    },
+    {
+      "year_month": "2010-09",
+      "year": 2010,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 3,
+      "out_count": 6,
+      "in_amount": 12350.0,
+      "out_amount": 8875.81,
+      "net": 3474.19,
+      "total_count": 9
+    },
+    {
+      "year_month": "2010-10",
+      "year": 2010,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 2,
+      "out_count": 13,
+      "in_amount": 8400.0,
+      "out_amount": 10581.8,
+      "net": -2181.8,
+      "total_count": 15
+    },
+    {
+      "year_month": "2010-11",
+      "year": 2010,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 1,
+      "out_count": 3,
+      "in_amount": 1500.0,
+      "out_amount": 2806.0,
+      "net": -1306.0,
+      "total_count": 4
+    },
+    {
+      "year_month": "2010-12",
+      "year": 2010,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 4,
+      "out_count": 12,
+      "in_amount": 9300.0,
+      "out_amount": 8991.7,
+      "net": 308.3,
+      "total_count": 16
+    },
+    {
+      "year_month": "2011-01",
+      "year": 2011,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 5,
+      "out_count": 15,
+      "in_amount": 11900.0,
+      "out_amount": 12980.76,
+      "net": -1080.76,
+      "total_count": 20
+    },
+    {
+      "year_month": "2011-02",
+      "year": 2011,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 4,
+      "out_count": 10,
+      "in_amount": 5600.0,
+      "out_amount": 5879.88,
+      "net": -279.88,
+      "total_count": 14
+    },
+    {
+      "year_month": "2011-03",
+      "year": 2011,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 7,
+      "out_count": 14,
+      "in_amount": 9400.0,
+      "out_amount": 9388.28,
+      "net": 11.72,
+      "total_count": 21
+    },
+    {
+      "year_month": "2011-04",
+      "year": 2011,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 3,
+      "out_count": 13,
+      "in_amount": 15000.0,
+      "out_amount": 15007.96,
+      "net": -7.96,
+      "total_count": 16
+    },
+    {
+      "year_month": "2011-05",
+      "year": 2011,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 3,
+      "out_count": 6,
+      "in_amount": 6650.0,
+      "out_amount": 6648.36,
+      "net": 1.64,
+      "total_count": 9
+    },
+    {
+      "year_month": "2011-06",
+      "year": 2011,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 4,
+      "out_count": 11,
+      "in_amount": 72500.0,
+      "out_amount": 70604.58,
+      "net": 1895.42,
+      "total_count": 15
+    },
+    {
+      "year_month": "2011-07",
+      "year": 2011,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 3,
+      "out_count": 10,
+      "in_amount": 15500.0,
+      "out_amount": 12399.0,
+      "net": 3101.0,
+      "total_count": 13
+    },
+    {
+      "year_month": "2011-08",
+      "year": 2011,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 5,
+      "out_count": 17,
+      "in_amount": 340600.0,
+      "out_amount": 84491.22,
+      "net": 256108.78,
+      "total_count": 22
+    },
+    {
+      "year_month": "2011-09",
+      "year": 2011,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 2,
+      "out_count": 11,
+      "in_amount": 18750.0,
+      "out_amount": 240410.0,
+      "net": -221660.0,
+      "total_count": 13
+    },
+    {
+      "year_month": "2011-10",
+      "year": 2011,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 3,
+      "out_count": 15,
+      "in_amount": 5200.0,
+      "out_amount": 44587.82,
+      "net": -39387.82,
+      "total_count": 18
+    },
+    {
+      "year_month": "2011-11",
+      "year": 2011,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 2,
+      "out_count": 1,
+      "in_amount": 2600.0,
+      "out_amount": 2642.0,
+      "net": -42.0,
+      "total_count": 3
+    },
+    {
+      "year_month": "2011-12",
+      "year": 2011,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 1,
+      "out_count": 11,
+      "in_amount": 100000.0,
+      "out_amount": 36092.67,
+      "net": 63907.33,
+      "total_count": 12
+    },
+    {
+      "year_month": "2012-01",
+      "year": 2012,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 1,
+      "out_count": 3,
+      "in_amount": 3000.0,
+      "out_amount": 3217.0,
+      "net": -217.0,
+      "total_count": 4
+    },
+    {
+      "year_month": "2012-02",
+      "year": 2012,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 2,
+      "out_count": 16,
+      "in_amount": 6000.0,
+      "out_amount": 19429.55,
+      "net": -13429.55,
+      "total_count": 18
+    },
+    {
+      "year_month": "2012-03",
+      "year": 2012,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 1,
+      "out_count": 6,
+      "in_amount": 6000.0,
+      "out_amount": 5713.05,
+      "net": 286.95,
+      "total_count": 7
+    },
+    {
+      "year_month": "2012-04",
+      "year": 2012,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 1,
+      "out_count": 12,
+      "in_amount": 3500.0,
+      "out_amount": 6042.03,
+      "net": -2542.03,
+      "total_count": 13
+    },
+    {
+      "year_month": "2012-05",
+      "year": 2012,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 4,
+      "out_count": 19,
+      "in_amount": 28500.0,
+      "out_amount": 19976.81,
+      "net": 8523.19,
+      "total_count": 23
+    },
+    {
+      "year_month": "2012-06",
+      "year": 2012,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 1,
+      "out_count": 13,
+      "in_amount": 40000.0,
+      "out_amount": 51923.5,
+      "net": -11923.5,
+      "total_count": 14
+    },
+    {
+      "year_month": "2012-07",
+      "year": 2012,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 0,
+      "out_count": 21,
+      "in_amount": 0.0,
+      "out_amount": 34455.83,
+      "net": -34455.83,
+      "total_count": 21
+    },
+    {
+      "year_month": "2012-08",
+      "year": 2012,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 1,
+      "out_count": 13,
+      "in_amount": 20000.0,
+      "out_amount": 25962.0,
+      "net": -5962.0,
+      "total_count": 14
+    },
+    {
+      "year_month": "2012-09",
+      "year": 2012,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 3,
+      "out_count": 14,
+      "in_amount": 165400.0,
+      "out_amount": 79559.22,
+      "net": 85840.78,
+      "total_count": 17
+    },
+    {
+      "year_month": "2012-10",
+      "year": 2012,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 0,
+      "out_count": 4,
+      "in_amount": 0.0,
+      "out_amount": 1258.99,
+      "net": -1258.99,
+      "total_count": 4
+    },
+    {
+      "year_month": "2012-11",
+      "year": 2012,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 2,
+      "out_count": 19,
+      "in_amount": 10875.0,
+      "out_amount": 82640.36,
+      "net": -71765.36,
+      "total_count": 21
+    },
+    {
+      "year_month": "2012-12",
+      "year": 2012,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 2,
+      "out_count": 17,
+      "in_amount": 13500.0,
+      "out_amount": 16448.75,
+      "net": -2948.75,
+      "total_count": 19
+    },
+    {
+      "year_month": "2013-01",
+      "year": 2013,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 4,
+      "out_count": 7,
+      "in_amount": 98250.0,
+      "out_amount": 12214.0,
+      "net": 86036.0,
+      "total_count": 11
+    },
+    {
+      "year_month": "2013-02",
+      "year": 2013,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 1,
+      "out_count": 19,
+      "in_amount": 35500.0,
+      "out_amount": 8315.38,
+      "net": 27184.62,
+      "total_count": 20
+    },
+    {
+      "year_month": "2013-03",
+      "year": 2013,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 3,
+      "out_count": 20,
+      "in_amount": 8073.0,
+      "out_amount": 6370.3,
+      "net": 1702.7,
+      "total_count": 23
+    },
+    {
+      "year_month": "2013-04",
+      "year": 2013,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 0,
+      "out_count": 14,
+      "in_amount": 0.0,
+      "out_amount": 8520.48,
+      "net": -8520.48,
+      "total_count": 14
+    },
+    {
+      "year_month": "2013-05",
+      "year": 2013,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 1,
+      "out_count": 19,
+      "in_amount": 1500.0,
+      "out_amount": 81975.62,
+      "net": -80475.62,
+      "total_count": 20
+    },
+    {
+      "year_month": "2013-06",
+      "year": 2013,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 3,
+      "out_count": 12,
+      "in_amount": 15000.0,
+      "out_amount": 44938.0,
+      "net": -29938.0,
+      "total_count": 15
+    },
+    {
+      "year_month": "2013-07",
+      "year": 2013,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 4,
+      "out_count": 5,
+      "in_amount": 22700.0,
+      "out_amount": 31668.63,
+      "net": -8968.63,
+      "total_count": 9
+    },
+    {
+      "year_month": "2013-08",
+      "year": 2013,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 2,
+      "out_count": 8,
+      "in_amount": 54887.5,
+      "out_amount": 9753.95,
+      "net": 45133.55,
+      "total_count": 10
+    },
+    {
+      "year_month": "2013-09",
+      "year": 2013,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 1,
+      "out_count": 17,
+      "in_amount": 14917.5,
+      "out_amount": 42645.23,
+      "net": -27727.73,
+      "total_count": 18
+    },
+    {
+      "year_month": "2013-10",
+      "year": 2013,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 0,
+      "out_count": 8,
+      "in_amount": 0.0,
+      "out_amount": 3499.0,
+      "net": -3499.0,
+      "total_count": 8
+    },
+    {
+      "year_month": "2013-11",
+      "year": 2013,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 5,
+      "out_count": 11,
+      "in_amount": 494438.0,
+      "out_amount": 502653.6,
+      "net": -8215.6,
+      "total_count": 16
+    },
+    {
+      "year_month": "2013-12",
+      "year": 2013,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 0,
+      "out_count": 10,
+      "in_amount": 0.0,
+      "out_amount": 3747.27,
+      "net": -3747.27,
+      "total_count": 10
+    },
+    {
+      "year_month": "2014-01",
+      "year": 2014,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 1,
+      "out_count": 3,
+      "in_amount": 24000.0,
+      "out_amount": 349.3,
+      "net": 23650.7,
+      "total_count": 4
+    },
+    {
+      "year_month": "2014-02",
+      "year": 2014,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 0,
+      "out_count": 10,
+      "in_amount": 0.0,
+      "out_amount": 3170.95,
+      "net": -3170.95,
+      "total_count": 10
+    },
+    {
+      "year_month": "2014-03",
+      "year": 2014,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 4,
+      "out_count": 11,
+      "in_amount": 30500.0,
+      "out_amount": 24650.95,
+      "net": 5849.05,
+      "total_count": 15
+    },
+    {
+      "year_month": "2014-04",
+      "year": 2014,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 3,
+      "out_count": 9,
+      "in_amount": 21200.0,
+      "out_amount": 50231.05,
+      "net": -29031.05,
+      "total_count": 12
+    },
+    {
+      "year_month": "2014-05",
+      "year": 2014,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 1,
+      "out_count": 5,
+      "in_amount": 4000.0,
+      "out_amount": 1169.78,
+      "net": 2830.22,
+      "total_count": 6
+    },
+    {
+      "year_month": "2014-06",
+      "year": 2014,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 5,
+      "out_count": 14,
+      "in_amount": 6800.0,
+      "out_amount": 8259.5,
+      "net": -1459.5,
+      "total_count": 19
+    },
+    {
+      "year_month": "2014-07",
+      "year": 2014,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 2,
+      "out_count": 4,
+      "in_amount": 1200.0,
+      "out_amount": 1799.1,
+      "net": -599.1,
+      "total_count": 6
+    },
+    {
+      "year_month": "2014-08",
+      "year": 2014,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 1,
+      "out_count": 13,
+      "in_amount": 300000.0,
+      "out_amount": 73691.22,
+      "net": 226308.78,
+      "total_count": 14
+    },
+    {
+      "year_month": "2014-09",
+      "year": 2014,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 0,
+      "out_count": 13,
+      "in_amount": 0.0,
+      "out_amount": 224785.19,
+      "net": -224785.19,
+      "total_count": 13
+    },
+    {
+      "year_month": "2014-10",
+      "year": 2014,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 0,
+      "out_count": 10,
+      "in_amount": 0.0,
+      "out_amount": 2375.12,
+      "net": -2375.12,
+      "total_count": 10
+    },
+    {
+      "year_month": "2014-11",
+      "year": 2014,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 2,
+      "out_count": 4,
+      "in_amount": 50500.0,
+      "out_amount": 50606.94,
+      "net": -106.94,
+      "total_count": 6
+    },
+    {
+      "year_month": "2014-12",
+      "year": 2014,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 5,
+      "out_count": 18,
+      "in_amount": 321500.0,
+      "out_amount": 172903.6,
+      "net": 148596.4,
+      "total_count": 23
+    },
+    {
+      "year_month": "2015-01",
+      "year": 2015,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 3,
+      "out_count": 5,
+      "in_amount": 27950.0,
+      "out_amount": 1364.0,
+      "net": 26586.0,
+      "total_count": 8
+    },
+    {
+      "year_month": "2015-02",
+      "year": 2015,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 5,
+      "out_count": 10,
+      "in_amount": 51800.0,
+      "out_amount": 10368.42,
+      "net": 41431.58,
+      "total_count": 15
+    },
+    {
+      "year_month": "2015-03",
+      "year": 2015,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 4,
+      "out_count": 5,
+      "in_amount": 28000.0,
+      "out_amount": 2858.55,
+      "net": 25141.45,
+      "total_count": 9
+    },
+    {
+      "year_month": "2015-04",
+      "year": 2015,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 1,
+      "out_count": 17,
+      "in_amount": 1000.0,
+      "out_amount": 242348.07,
+      "net": -241348.07,
+      "total_count": 18
+    },
+    {
+      "year_month": "2015-05",
+      "year": 2015,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 2,
+      "out_count": 7,
+      "in_amount": 5000.0,
+      "out_amount": 1547.74,
+      "net": 3452.26,
+      "total_count": 9
+    },
+    {
+      "year_month": "2015-06",
+      "year": 2015,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 0,
+      "out_count": 5,
+      "in_amount": 0.0,
+      "out_amount": 3910.18,
+      "net": -3910.18,
+      "total_count": 5
+    },
+    {
+      "year_month": "2015-07",
+      "year": 2015,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 2,
+      "out_count": 15,
+      "in_amount": 3800.0,
+      "out_amount": 3901.74,
+      "net": -101.74,
+      "total_count": 17
+    },
+    {
+      "year_month": "2015-08",
+      "year": 2015,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 5,
+      "out_count": 16,
+      "in_amount": 13300.0,
+      "out_amount": 8616.93,
+      "net": 4683.07,
+      "total_count": 21
+    },
+    {
+      "year_month": "2015-09",
+      "year": 2015,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 2,
+      "out_count": 7,
+      "in_amount": 1100.0,
+      "out_amount": 5450.0,
+      "net": -4350.0,
+      "total_count": 9
+    },
+    {
+      "year_month": "2015-10",
+      "year": 2015,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 2,
+      "out_count": 13,
+      "in_amount": 22300.0,
+      "out_amount": 21455.95,
+      "net": 844.05,
+      "total_count": 15
+    },
+    {
+      "year_month": "2015-11",
+      "year": 2015,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 1,
+      "out_count": 7,
+      "in_amount": 1000.0,
+      "out_amount": 1726.98,
+      "net": -726.98,
+      "total_count": 8
+    },
+    {
+      "year_month": "2015-12",
+      "year": 2015,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 7,
+      "out_count": 6,
+      "in_amount": 7500.0,
+      "out_amount": 5471.6,
+      "net": 2028.4,
+      "total_count": 13
+    },
+    {
+      "year_month": "2016-01",
+      "year": 2016,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 2,
+      "out_count": 5,
+      "in_amount": 176000.0,
+      "out_amount": 612.66,
+      "net": 175387.34,
+      "total_count": 7
+    },
+    {
+      "year_month": "2016-02",
+      "year": 2016,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 0,
+      "out_count": 14,
+      "in_amount": 0.0,
+      "out_amount": 25753.99,
+      "net": -25753.99,
+      "total_count": 14
+    },
+    {
+      "year_month": "2016-03",
+      "year": 2016,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 1,
+      "out_count": 2,
+      "in_amount": 1000.0,
+      "out_amount": 793.74,
+      "net": 206.26,
+      "total_count": 3
+    },
+    {
+      "year_month": "2016-04",
+      "year": 2016,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 4,
+      "out_count": 8,
+      "in_amount": 71500.0,
+      "out_amount": 1870.0,
+      "net": 69630.0,
+      "total_count": 12
+    },
+    {
+      "year_month": "2016-05",
+      "year": 2016,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 3,
+      "out_count": 6,
+      "in_amount": 7000.0,
+      "out_amount": 60998.85,
+      "net": -53998.85,
+      "total_count": 9
+    },
+    {
+      "year_month": "2016-06",
+      "year": 2016,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 4,
+      "out_count": 11,
+      "in_amount": 27727.8,
+      "out_amount": 20292.28,
+      "net": 7435.52,
+      "total_count": 15
+    },
+    {
+      "year_month": "2016-07",
+      "year": 2016,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 4,
+      "out_count": 10,
+      "in_amount": 18344.08,
+      "out_amount": 14424.5,
+      "net": 3919.58,
+      "total_count": 14
+    },
+    {
+      "year_month": "2016-08",
+      "year": 2016,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 2,
+      "out_count": 15,
+      "in_amount": 15344.08,
+      "out_amount": 124504.86,
+      "net": -109160.78,
+      "total_count": 17
+    },
+    {
+      "year_month": "2016-09",
+      "year": 2016,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 2,
+      "out_count": 10,
+      "in_amount": 64344.08,
+      "out_amount": 15398.73,
+      "net": 48945.35,
+      "total_count": 12
+    },
+    {
+      "year_month": "2016-10",
+      "year": 2016,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 3,
+      "out_count": 11,
+      "in_amount": 165344.08,
+      "out_amount": 78514.4,
+      "net": 86829.68,
+      "total_count": 14
+    },
+    {
+      "year_month": "2016-11",
+      "year": 2016,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 2,
+      "out_count": 12,
+      "in_amount": 84344.08,
+      "out_amount": 18996.71,
+      "net": 65347.37,
+      "total_count": 14
+    },
+    {
+      "year_month": "2016-12",
+      "year": 2016,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 3,
+      "out_count": 22,
+      "in_amount": 45344.08,
+      "out_amount": 36612.16,
+      "net": 8731.92,
+      "total_count": 25
+    },
+    {
+      "year_month": "2017-01",
+      "year": 2017,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 3,
+      "out_count": 16,
+      "in_amount": 20594.08,
+      "out_amount": 18077.04,
+      "net": 2517.04,
+      "total_count": 19
+    },
+    {
+      "year_month": "2017-02",
+      "year": 2017,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 2,
+      "out_count": 11,
+      "in_amount": 15344.08,
+      "out_amount": 19510.92,
+      "net": -4166.84,
+      "total_count": 13
+    },
+    {
+      "year_month": "2017-03",
+      "year": 2017,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 2,
+      "out_count": 10,
+      "in_amount": 15344.08,
+      "out_amount": 22055.67,
+      "net": -6711.59,
+      "total_count": 12
+    },
+    {
+      "year_month": "2017-04",
+      "year": 2017,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 3,
+      "out_count": 21,
+      "in_amount": 16344.08,
+      "out_amount": 38325.21,
+      "net": -21981.13,
+      "total_count": 24
+    },
+    {
+      "year_month": "2017-05",
+      "year": 2017,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 2,
+      "out_count": 11,
+      "in_amount": 15344.08,
+      "out_amount": 25141.25,
+      "net": -9797.17,
+      "total_count": 13
+    },
+    {
+      "year_month": "2017-06",
+      "year": 2017,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 1,
+      "out_count": 8,
+      "in_amount": 14344.08,
+      "out_amount": 10251.42,
+      "net": 4092.66,
+      "total_count": 9
+    },
+    {
+      "year_month": "2017-07",
+      "year": 2017,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 2,
+      "out_count": 16,
+      "in_amount": 18344.08,
+      "out_amount": 23264.42,
+      "net": -4920.34,
+      "total_count": 18
+    },
+    {
+      "year_month": "2017-08",
+      "year": 2017,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 8,
+      "out_count": 29,
+      "in_amount": 56938.16,
+      "out_amount": 51949.87,
+      "net": 4988.29,
+      "total_count": 37
+    },
+    {
+      "year_month": "2017-09",
+      "year": 2017,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 1,
+      "out_count": 12,
+      "in_amount": 2000.0,
+      "out_amount": 15091.42,
+      "net": -13091.42,
+      "total_count": 13
+    },
+    {
+      "year_month": "2017-10",
+      "year": 2017,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 1,
+      "out_count": 11,
+      "in_amount": 14344.08,
+      "out_amount": 28404.05,
+      "net": -14059.97,
+      "total_count": 12
+    },
+    {
+      "year_month": "2017-11",
+      "year": 2017,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 3,
+      "out_count": 10,
+      "in_amount": 15344.08,
+      "out_amount": 16706.23,
+      "net": -1362.15,
+      "total_count": 13
+    },
+    {
+      "year_month": "2017-12",
+      "year": 2017,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 2,
+      "out_count": 21,
+      "in_amount": 14844.08,
+      "out_amount": 20222.67,
+      "net": -5378.59,
+      "total_count": 23
+    },
+    {
+      "year_month": "2018-01",
+      "year": 2018,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 4,
+      "out_count": 11,
+      "in_amount": 30188.16,
+      "out_amount": 13967.22,
+      "net": 16220.94,
+      "total_count": 15
+    },
+    {
+      "year_month": "2018-02",
+      "year": 2018,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 4,
+      "out_count": 9,
+      "in_amount": 18694.08,
+      "out_amount": 15021.42,
+      "net": 3672.66,
+      "total_count": 13
+    },
+    {
+      "year_month": "2018-03",
+      "year": 2018,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 3,
+      "out_count": 17,
+      "in_amount": 15344.08,
+      "out_amount": 115419.67,
+      "net": -100075.59,
+      "total_count": 20
+    },
+    {
+      "year_month": "2018-04",
+      "year": 2018,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 4,
+      "out_count": 20,
+      "in_amount": 17550.08,
+      "out_amount": 19895.74,
+      "net": -2345.66,
+      "total_count": 24
+    },
+    {
+      "year_month": "2018-05",
+      "year": 2018,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 2,
+      "out_count": 13,
+      "in_amount": 14844.08,
+      "out_amount": 33238.91,
+      "net": -18394.83,
+      "total_count": 15
+    },
+    {
+      "year_month": "2018-06",
+      "year": 2018,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 4,
+      "out_count": 16,
+      "in_amount": 23944.08,
+      "out_amount": 23173.8,
+      "net": 770.28,
+      "total_count": 20
+    },
+    {
+      "year_month": "2018-07",
+      "year": 2018,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 3,
+      "out_count": 11,
+      "in_amount": 74844.08,
+      "out_amount": 10813.58,
+      "net": 64030.5,
+      "total_count": 14
+    },
+    {
+      "year_month": "2018-08",
+      "year": 2018,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 5,
+      "out_count": 16,
+      "in_amount": 35844.08,
+      "out_amount": 147919.86,
+      "net": -112075.78,
+      "total_count": 21
+    },
+    {
+      "year_month": "2018-09",
+      "year": 2018,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 3,
+      "out_count": 11,
+      "in_amount": 34844.08,
+      "out_amount": 46606.49,
+      "net": -11762.41,
+      "total_count": 14
+    },
+    {
+      "year_month": "2018-10",
+      "year": 2018,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 6,
+      "out_count": 24,
+      "in_amount": 56744.08,
+      "out_amount": 62902.11,
+      "net": -6158.03,
+      "total_count": 30
+    },
+    {
+      "year_month": "2018-11",
+      "year": 2018,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 5,
+      "out_count": 21,
+      "in_amount": 34844.08,
+      "out_amount": 36367.66,
+      "net": -1523.58,
+      "total_count": 26
+    },
+    {
+      "year_month": "2018-12",
+      "year": 2018,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 3,
+      "out_count": 17,
+      "in_amount": 15844.08,
+      "out_amount": 24897.63,
+      "net": -9053.55,
+      "total_count": 20
+    },
+    {
+      "year_month": "2019-01",
+      "year": 2019,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 3,
+      "out_count": 25,
+      "in_amount": 19844.08,
+      "out_amount": 49254.77,
+      "net": -29410.69,
+      "total_count": 28
+    },
+    {
+      "year_month": "2019-02",
+      "year": 2019,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 3,
+      "out_count": 10,
+      "in_amount": 16844.08,
+      "out_amount": 16589.37,
+      "net": 254.71,
+      "total_count": 13
+    },
+    {
+      "year_month": "2019-03",
+      "year": 2019,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 3,
+      "out_count": 15,
+      "in_amount": 15144.08,
+      "out_amount": 15044.54,
+      "net": 99.54,
+      "total_count": 18
+    },
+    {
+      "year_month": "2019-04",
+      "year": 2019,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 6,
+      "out_count": 23,
+      "in_amount": 27944.08,
+      "out_amount": 13097.42,
+      "net": 14846.66,
+      "total_count": 29
+    },
+    {
+      "year_month": "2019-05",
+      "year": 2019,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 4,
+      "out_count": 27,
+      "in_amount": 19344.08,
+      "out_amount": 22946.3,
+      "net": -3602.22,
+      "total_count": 31
+    },
+    {
+      "year_month": "2019-06",
+      "year": 2019,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 4,
+      "out_count": 16,
+      "in_amount": 16524.08,
+      "out_amount": 13602.59,
+      "net": 2921.49,
+      "total_count": 20
+    },
+    {
+      "year_month": "2019-07",
+      "year": 2019,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 5,
+      "out_count": 30,
+      "in_amount": 17024.08,
+      "out_amount": 17789.93,
+      "net": -765.85,
+      "total_count": 35
+    },
+    {
+      "year_month": "2019-08",
+      "year": 2019,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 8,
+      "out_count": 23,
+      "in_amount": 35011.22,
+      "out_amount": 46031.35,
+      "net": -11020.13,
+      "total_count": 31
+    },
+    {
+      "year_month": "2019-09",
+      "year": 2019,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 9,
+      "out_count": 25,
+      "in_amount": 24163.08,
+      "out_amount": 26950.97,
+      "net": -2787.89,
+      "total_count": 34
+    },
+    {
+      "year_month": "2019-10",
+      "year": 2019,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 8,
+      "out_count": 22,
+      "in_amount": 41459.08,
+      "out_amount": 38884.74,
+      "net": 2574.34,
+      "total_count": 30
+    },
+    {
+      "year_month": "2019-11",
+      "year": 2019,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 5,
+      "out_count": 16,
+      "in_amount": 19344.08,
+      "out_amount": 22567.71,
+      "net": -3223.63,
+      "total_count": 21
+    },
+    {
+      "year_month": "2019-12",
+      "year": 2019,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 4,
+      "out_count": 15,
+      "in_amount": 15940.08,
+      "out_amount": 9729.49,
+      "net": 6210.59,
+      "total_count": 19
+    },
+    {
+      "year_month": "2020-01",
+      "year": 2020,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 2,
+      "out_count": 17,
+      "in_amount": 15844.08,
+      "out_amount": 13476.09,
+      "net": 2367.99,
+      "total_count": 19
+    },
+    {
+      "year_month": "2020-02",
+      "year": 2020,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 4,
+      "out_count": 24,
+      "in_amount": 16344.08,
+      "out_amount": 14990.81,
+      "net": 1353.27,
+      "total_count": 28
+    },
+    {
+      "year_month": "2020-03",
+      "year": 2020,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 4,
+      "out_count": 15,
+      "in_amount": 21844.08,
+      "out_amount": 14747.4,
+      "net": 7096.68,
+      "total_count": 19
+    },
+    {
+      "year_month": "2020-04",
+      "year": 2020,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 7,
+      "out_count": 17,
+      "in_amount": 22784.08,
+      "out_amount": 12645.38,
+      "net": 10138.7,
+      "total_count": 24
+    },
+    {
+      "year_month": "2020-05",
+      "year": 2020,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 7,
+      "out_count": 16,
+      "in_amount": 18609.36,
+      "out_amount": 8782.83,
+      "net": 9826.53,
+      "total_count": 23
+    },
+    {
+      "year_month": "2020-06",
+      "year": 2020,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 3,
+      "out_count": 16,
+      "in_amount": 16124.08,
+      "out_amount": 7285.24,
+      "net": 8838.84,
+      "total_count": 19
+    },
+    {
+      "year_month": "2020-07",
+      "year": 2020,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 7,
+      "out_count": 26,
+      "in_amount": 144742.2,
+      "out_amount": 158377.83,
+      "net": -13635.63,
+      "total_count": 33
+    },
+    {
+      "year_month": "2020-08",
+      "year": 2020,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 6,
+      "out_count": 25,
+      "in_amount": 20068.08,
+      "out_amount": 33662.02,
+      "net": -13593.94,
+      "total_count": 31
+    },
+    {
+      "year_month": "2020-09",
+      "year": 2020,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 7,
+      "out_count": 22,
+      "in_amount": 27845.08,
+      "out_amount": 23010.8,
+      "net": 4834.28,
+      "total_count": 29
+    },
+    {
+      "year_month": "2020-10",
+      "year": 2020,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 7,
+      "out_count": 25,
+      "in_amount": 23187.08,
+      "out_amount": 29924.54,
+      "net": -6737.46,
+      "total_count": 32
+    },
+    {
+      "year_month": "2020-11",
+      "year": 2020,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 7,
+      "out_count": 16,
+      "in_amount": 23473.08,
+      "out_amount": 16401.92,
+      "net": 7071.16,
+      "total_count": 23
+    },
+    {
+      "year_month": "2020-12",
+      "year": 2020,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 8,
+      "out_count": 22,
+      "in_amount": 26244.99,
+      "out_amount": 32780.34,
+      "net": -6535.35,
+      "total_count": 30
+    },
+    {
+      "year_month": "2021-01",
+      "year": 2021,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 6,
+      "out_count": 24,
+      "in_amount": 26942.33,
+      "out_amount": 28979.44,
+      "net": -2037.11,
+      "total_count": 30
+    },
+    {
+      "year_month": "2021-02",
+      "year": 2021,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 5,
+      "out_count": 21,
+      "in_amount": 30925.08,
+      "out_amount": 37089.61,
+      "net": -6164.53,
+      "total_count": 26
+    },
+    {
+      "year_month": "2021-03",
+      "year": 2021,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 6,
+      "out_count": 23,
+      "in_amount": 26915.08,
+      "out_amount": 28039.06,
+      "net": -1123.98,
+      "total_count": 29
+    },
+    {
+      "year_month": "2021-04",
+      "year": 2021,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 7,
+      "out_count": 32,
+      "in_amount": 35478.08,
+      "out_amount": 44689.96,
+      "net": -9211.88,
+      "total_count": 39
+    },
+    {
+      "year_month": "2021-05",
+      "year": 2021,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 9,
+      "out_count": 23,
+      "in_amount": 28807.08,
+      "out_amount": 30152.19,
+      "net": -1345.11,
+      "total_count": 32
+    },
+    {
+      "year_month": "2021-06",
+      "year": 2021,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 8,
+      "out_count": 31,
+      "in_amount": 37403.08,
+      "out_amount": 36223.85,
+      "net": 1179.23,
+      "total_count": 39
+    },
+    {
+      "year_month": "2021-07",
+      "year": 2021,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 3,
+      "out_count": 24,
+      "in_amount": 15091.08,
+      "out_amount": 14477.69,
+      "net": 613.39,
+      "total_count": 27
+    },
+    {
+      "year_month": "2021-08",
+      "year": 2021,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 4,
+      "out_count": 14,
+      "in_amount": 21844.08,
+      "out_amount": 21326.15,
+      "net": 517.93,
+      "total_count": 18
+    },
+    {
+      "year_month": "2021-09",
+      "year": 2021,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 7,
+      "out_count": 24,
+      "in_amount": 23386.08,
+      "out_amount": 21859.42,
+      "net": 1526.66,
+      "total_count": 31
+    },
+    {
+      "year_month": "2021-10",
+      "year": 2021,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 9,
+      "out_count": 29,
+      "in_amount": 29849.08,
+      "out_amount": 32667.89,
+      "net": -2818.81,
+      "total_count": 38
+    },
+    {
+      "year_month": "2021-11",
+      "year": 2021,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 7,
+      "out_count": 28,
+      "in_amount": 32652.08,
+      "out_amount": 16955.41,
+      "net": 15696.67,
+      "total_count": 35
+    },
+    {
+      "year_month": "2021-12",
+      "year": 2021,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 6,
+      "out_count": 38,
+      "in_amount": 17688.08,
+      "out_amount": 22398.1,
+      "net": -4710.02,
+      "total_count": 44
+    },
+    {
+      "year_month": "2022-01",
+      "year": 2022,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 5,
+      "out_count": 35,
+      "in_amount": 21921.08,
+      "out_amount": 30947.55,
+      "net": -9026.47,
+      "total_count": 40
+    },
+    {
+      "year_month": "2022-02",
+      "year": 2022,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 7,
+      "out_count": 28,
+      "in_amount": 55701.08,
+      "out_amount": 22911.03,
+      "net": 32790.05,
+      "total_count": 35
+    },
+    {
+      "year_month": "2022-03",
+      "year": 2022,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 12,
+      "out_count": 36,
+      "in_amount": 29154.65,
+      "out_amount": 32943.73,
+      "net": -3789.08,
+      "total_count": 48
+    },
+    {
+      "year_month": "2022-04",
+      "year": 2022,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 6,
+      "out_count": 42,
+      "in_amount": 16111.08,
+      "out_amount": 21089.54,
+      "net": -4978.46,
+      "total_count": 48
+    },
+    {
+      "year_month": "2022-05",
+      "year": 2022,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 5,
+      "out_count": 31,
+      "in_amount": 16896.08,
+      "out_amount": 19341.61,
+      "net": -2445.53,
+      "total_count": 36
+    },
+    {
+      "year_month": "2022-06",
+      "year": 2022,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 4,
+      "out_count": 33,
+      "in_amount": 15637.08,
+      "out_amount": 20682.33,
+      "net": -5045.25,
+      "total_count": 37
+    },
+    {
+      "year_month": "2022-07",
+      "year": 2022,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 7,
+      "out_count": 32,
+      "in_amount": 20104.08,
+      "out_amount": 26068.74,
+      "net": -5964.66,
+      "total_count": 39
+    },
+    {
+      "year_month": "2022-08",
+      "year": 2022,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 6,
+      "out_count": 67,
+      "in_amount": 17067.08,
+      "out_amount": 28104.31,
+      "net": -11037.23,
+      "total_count": 73
+    },
+    {
+      "year_month": "2022-09",
+      "year": 2022,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 8,
+      "out_count": 36,
+      "in_amount": 19808.08,
+      "out_amount": 17557.01,
+      "net": 2251.07,
+      "total_count": 44
+    },
+    {
+      "year_month": "2022-10",
+      "year": 2022,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 6,
+      "out_count": 29,
+      "in_amount": 18967.08,
+      "out_amount": 18328.57,
+      "net": 638.51,
+      "total_count": 35
+    },
+    {
+      "year_month": "2022-11",
+      "year": 2022,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 9,
+      "out_count": 30,
+      "in_amount": 20890.08,
+      "out_amount": 15463.08,
+      "net": 5427.0,
+      "total_count": 39
+    },
+    {
+      "year_month": "2022-12",
+      "year": 2022,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 6,
+      "out_count": 31,
+      "in_amount": 20238.26,
+      "out_amount": 19439.01,
+      "net": 799.25,
+      "total_count": 37
+    },
+    {
+      "year_month": "2023-01",
+      "year": 2023,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 9,
+      "out_count": 30,
+      "in_amount": 18921.08,
+      "out_amount": 20720.31,
+      "net": -1799.23,
+      "total_count": 39
+    },
+    {
+      "year_month": "2023-02",
+      "year": 2023,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 5,
+      "out_count": 24,
+      "in_amount": 18179.08,
+      "out_amount": 17649.9,
+      "net": 529.18,
+      "total_count": 29
+    },
+    {
+      "year_month": "2023-03",
+      "year": 2023,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 13,
+      "out_count": 41,
+      "in_amount": 32179.09,
+      "out_amount": 43147.69,
+      "net": -10968.6,
+      "total_count": 54
+    },
+    {
+      "year_month": "2023-04",
+      "year": 2023,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 8,
+      "out_count": 30,
+      "in_amount": 57536.08,
+      "out_amount": 23854.68,
+      "net": 33681.4,
+      "total_count": 38
+    },
+    {
+      "year_month": "2023-05",
+      "year": 2023,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 5,
+      "out_count": 42,
+      "in_amount": 47021.08,
+      "out_amount": 78712.85,
+      "net": -31691.77,
+      "total_count": 47
+    },
+    {
+      "year_month": "2023-06",
+      "year": 2023,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 12,
+      "out_count": 34,
+      "in_amount": 31338.69,
+      "out_amount": 23900.65,
+      "net": 7438.04,
+      "total_count": 46
+    },
+    {
+      "year_month": "2023-07",
+      "year": 2023,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 10,
+      "out_count": 52,
+      "in_amount": 37466.4,
+      "out_amount": 43775.33,
+      "net": -6308.93,
+      "total_count": 62
+    },
+    {
+      "year_month": "2023-08",
+      "year": 2023,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 10,
+      "out_count": 37,
+      "in_amount": 36444.08,
+      "out_amount": 38478.63,
+      "net": -2034.55,
+      "total_count": 47
+    },
+    {
+      "year_month": "2023-09",
+      "year": 2023,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 11,
+      "out_count": 51,
+      "in_amount": 26000.0,
+      "out_amount": 23144.82,
+      "net": 2855.18,
+      "total_count": 62
+    },
+    {
+      "year_month": "2023-10",
+      "year": 2023,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 4,
+      "out_count": 28,
+      "in_amount": 17544.08,
+      "out_amount": 16700.43,
+      "net": 843.65,
+      "total_count": 32
+    },
+    {
+      "year_month": "2023-11",
+      "year": 2023,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 4,
+      "out_count": 43,
+      "in_amount": 38844.08,
+      "out_amount": 38898.01,
+      "net": -53.93,
+      "total_count": 47
+    },
+    {
+      "year_month": "2023-12",
+      "year": 2023,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 10,
+      "out_count": 53,
+      "in_amount": 16171.44,
+      "out_amount": 19399.13,
+      "net": -3227.69,
+      "total_count": 63
+    },
+    {
+      "year_month": "2024-01",
+      "year": 2024,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 12,
+      "out_count": 37,
+      "in_amount": 21434.6,
+      "out_amount": 22957.8,
+      "net": -1523.2,
+      "total_count": 49
+    },
+    {
+      "year_month": "2024-02",
+      "year": 2024,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 11,
+      "out_count": 35,
+      "in_amount": 36337.53,
+      "out_amount": 12301.68,
+      "net": 24035.85,
+      "total_count": 46
+    },
+    {
+      "year_month": "2024-03",
+      "year": 2024,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 8,
+      "out_count": 48,
+      "in_amount": 28430.0,
+      "out_amount": 39616.07,
+      "net": -11186.07,
+      "total_count": 56
+    },
+    {
+      "year_month": "2024-04",
+      "year": 2024,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 15,
+      "out_count": 56,
+      "in_amount": 10232.71,
+      "out_amount": 22200.41,
+      "net": -11967.7,
+      "total_count": 71
+    },
+    {
+      "year_month": "2024-05",
+      "year": 2024,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 16,
+      "out_count": 76,
+      "in_amount": 29363.9,
+      "out_amount": 22609.02,
+      "net": 6754.88,
+      "total_count": 92
+    },
+    {
+      "year_month": "2024-06",
+      "year": 2024,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 6,
+      "out_count": 20,
+      "in_amount": 4071.1,
+      "out_amount": 11482.25,
+      "net": -7411.15,
+      "total_count": 26
+    },
+    {
+      "year_month": "2024-07",
+      "year": 2024,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 10,
+      "out_count": 34,
+      "in_amount": 11121.0,
+      "out_amount": 11386.12,
+      "net": -265.12,
+      "total_count": 44
+    },
+    {
+      "year_month": "2024-08",
+      "year": 2024,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 17,
+      "out_count": 32,
+      "in_amount": 17317.0,
+      "out_amount": 16880.14,
+      "net": 436.86,
+      "total_count": 49
+    },
+    {
+      "year_month": "2024-09",
+      "year": 2024,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 14,
+      "out_count": 55,
+      "in_amount": 18425.67,
+      "out_amount": 16751.52,
+      "net": 1674.15,
+      "total_count": 69
+    },
+    {
+      "year_month": "2024-10",
+      "year": 2024,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 10,
+      "out_count": 53,
+      "in_amount": 13595.37,
+      "out_amount": 11754.72,
+      "net": 1840.65,
+      "total_count": 63
+    },
+    {
+      "year_month": "2024-11",
+      "year": 2024,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 4,
+      "out_count": 38,
+      "in_amount": 2704.12,
+      "out_amount": 6342.99,
+      "net": -3638.87,
+      "total_count": 42
+    },
+    {
+      "year_month": "2024-12",
+      "year": 2024,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 17,
+      "out_count": 43,
+      "in_amount": 25233.93,
+      "out_amount": 25496.58,
+      "net": -262.65,
+      "total_count": 60
+    },
+    {
+      "year_month": "2025-01",
+      "year": 2025,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 6,
+      "out_count": 27,
+      "in_amount": 13600.0,
+      "out_amount": 9329.46,
+      "net": 4270.54,
+      "total_count": 33
+    },
+    {
+      "year_month": "2025-02",
+      "year": 2025,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 13,
+      "out_count": 43,
+      "in_amount": 12608.0,
+      "out_amount": 16856.62,
+      "net": -4248.62,
+      "total_count": 56
+    },
+    {
+      "year_month": "2025-03",
+      "year": 2025,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 7,
+      "out_count": 22,
+      "in_amount": 7905.0,
+      "out_amount": 4245.18,
+      "net": 3659.82,
+      "total_count": 29
+    },
+    {
+      "year_month": "2025-04",
+      "year": 2025,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 5,
+      "out_count": 33,
+      "in_amount": 5563.0,
+      "out_amount": 9256.37,
+      "net": -3693.37,
+      "total_count": 38
+    },
+    {
+      "year_month": "2025-05",
+      "year": 2025,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 9,
+      "out_count": 43,
+      "in_amount": 12389.69,
+      "out_amount": 11491.91,
+      "net": 897.78,
+      "total_count": 52
+    },
+    {
+      "year_month": "2025-06",
+      "year": 2025,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 4,
+      "out_count": 26,
+      "in_amount": 8866.0,
+      "out_amount": 7980.28,
+      "net": 885.72,
+      "total_count": 30
+    },
+    {
+      "year_month": "2025-07",
+      "year": 2025,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 8,
+      "out_count": 59,
+      "in_amount": 34543.81,
+      "out_amount": 29339.52,
+      "net": 5204.29,
+      "total_count": 67
+    },
+    {
+      "year_month": "2025-08",
+      "year": 2025,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 8,
+      "out_count": 36,
+      "in_amount": 9000.0,
+      "out_amount": 15978.9,
+      "net": -6978.9,
+      "total_count": 44
+    },
+    {
+      "year_month": "2025-09",
+      "year": 2025,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 10,
+      "out_count": 50,
+      "in_amount": 37746.0,
+      "out_amount": 26061.29,
+      "net": 11684.71,
+      "total_count": 60
+    },
+    {
+      "year_month": "2025-10",
+      "year": 2025,
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "month_name_en": "Oct",
+      "in_count": 8,
+      "out_count": 35,
+      "in_amount": 76630.0,
+      "out_amount": 87437.26,
+      "net": -10807.26,
+      "total_count": 43
+    },
+    {
+      "year_month": "2025-11",
+      "year": 2025,
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "month_name_en": "Nov",
+      "in_count": 6,
+      "out_count": 46,
+      "in_amount": 30230.0,
+      "out_amount": 30292.85,
+      "net": -62.85,
+      "total_count": 52
+    },
+    {
+      "year_month": "2025-12",
+      "year": 2025,
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "month_name_en": "Dec",
+      "in_count": 7,
+      "out_count": 26,
+      "in_amount": 16050.0,
+      "out_amount": 16521.67,
+      "net": -471.67,
+      "total_count": 33
+    },
+    {
+      "year_month": "2026-01",
+      "year": 2026,
+      "month": 1,
+      "month_name_ar": "يناير",
+      "month_name_en": "Jan",
+      "in_count": 8,
+      "out_count": 33,
+      "in_amount": 20260.0,
+      "out_amount": 18439.28,
+      "net": 1820.72,
+      "total_count": 41
+    },
+    {
+      "year_month": "2026-02",
+      "year": 2026,
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "month_name_en": "Feb",
+      "in_count": 7,
+      "out_count": 29,
+      "in_amount": 14150.0,
+      "out_amount": 16359.65,
+      "net": -2209.65,
+      "total_count": 36
+    },
+    {
+      "year_month": "2026-03",
+      "year": 2026,
+      "month": 3,
+      "month_name_ar": "مارس",
+      "month_name_en": "Mar",
+      "in_count": 6,
+      "out_count": 17,
+      "in_amount": 9753.0,
+      "out_amount": 9718.27,
+      "net": 34.73,
+      "total_count": 23
+    },
+    {
+      "year_month": "2026-04",
+      "year": 2026,
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "month_name_en": "Apr",
+      "in_count": 9,
+      "out_count": 20,
+      "in_amount": 13480.0,
+      "out_amount": 13460.08,
+      "net": 19.92,
+      "total_count": 29
+    },
+    {
+      "year_month": "2026-05",
+      "year": 2026,
+      "month": 5,
+      "month_name_ar": "مايو",
+      "month_name_en": "May",
+      "in_count": 11,
+      "out_count": 15,
+      "in_amount": 9232.0,
+      "out_amount": 9099.77,
+      "net": 132.23,
+      "total_count": 26
+    },
+    {
+      "year_month": "2026-06",
+      "year": 2026,
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "month_name_en": "Jun",
+      "in_count": 7,
+      "out_count": 37,
+      "in_amount": 13220.5,
+      "out_amount": 13341.87,
+      "net": -121.37,
+      "total_count": 44
+    },
+    {
+      "year_month": "2026-07",
+      "year": 2026,
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "month_name_en": "Jul",
+      "in_count": 8,
+      "out_count": 49,
+      "in_amount": 57250.99,
+      "out_amount": 50221.3,
+      "net": 7029.69,
+      "total_count": 57
+    },
+    {
+      "year_month": "2026-08",
+      "year": 2026,
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "month_name_en": "Aug",
+      "in_count": 1,
+      "out_count": 34,
+      "in_amount": 3800.0,
+      "out_amount": 7688.02,
+      "net": -3888.02,
+      "total_count": 35
+    },
+    {
+      "year_month": "2026-09",
+      "year": 2026,
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "month_name_en": "Sep",
+      "in_count": 3,
+      "out_count": 24,
+      "in_amount": 25547.0,
+      "out_amount": 25367.69,
+      "net": 179.31,
+      "total_count": 27
+    }
+  ],
+  "categories": [
+    {
+      "category": "other",
+      "category_ar": "أخرى",
+      "in_count": 328,
+      "out_count": 1257,
+      "in_amount": 1131118.59,
+      "out_amount": 1943224.89,
+      "total_amount": 3074343.48,
+      "total_count": 1585,
+      "avg_amount": 1939.65
+    },
+    {
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "in_count": 207,
+      "out_count": 101,
+      "in_amount": 2869048.0,
+      "out_amount": 169101.0,
+      "total_amount": 3038149.0,
+      "total_count": 308,
+      "avg_amount": 9864.12
+    },
+    {
+      "category": "sarie_transfer",
+      "category_ar": "تحويل سريع",
+      "in_count": 136,
+      "out_count": 53,
+      "in_amount": 1880789.62,
+      "out_amount": 392056.3,
+      "total_amount": 2272845.92,
+      "total_count": 189,
+      "avg_amount": 12025.64
+    },
+    {
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "in_count": 11,
+      "out_count": 28,
+      "in_amount": 443032.0,
+      "out_amount": 1820159.0,
+      "total_amount": 2263191.0,
+      "total_count": 39,
+      "avg_amount": 58030.54
+    },
+    {
+      "category": "atm_withdrawal",
+      "category_ar": "سحب ATM",
+      "in_count": 0,
+      "out_count": 699,
+      "in_amount": 0.0,
+      "out_amount": 2027365.27,
+      "total_amount": 2027365.27,
+      "total_count": 699,
+      "avg_amount": 2900.38
+    },
+    {
+      "category": "local_transfer",
+      "category_ar": "تحويل محلي",
+      "in_count": 201,
+      "out_count": 110,
+      "in_amount": 583039.55,
+      "out_amount": 99078.55,
+      "total_amount": 682118.1,
+      "total_count": 311,
+      "avg_amount": 2193.31
+    },
+    {
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "in_count": 131,
+      "out_count": 222,
+      "in_amount": 405637.8,
+      "out_amount": 188882.7,
+      "total_amount": 594520.5,
+      "total_count": 353,
+      "avg_amount": 1684.19
+    },
+    {
+      "category": "card",
+      "category_ar": "مشتريات بطاقة",
+      "in_count": 70,
+      "out_count": 1116,
+      "in_amount": 37467.4,
+      "out_amount": 337395.04,
+      "total_amount": 374862.44,
+      "total_count": 1186,
+      "avg_amount": 316.07
+    },
+    {
+      "category": "sadad",
+      "category_ar": "سداد",
+      "in_count": 8,
+      "out_count": 881,
+      "in_amount": 10350.0,
+      "out_amount": 233274.93,
+      "total_amount": 243624.93,
+      "total_count": 889,
+      "avg_amount": 274.04
+    },
+    {
+      "category": "salary",
+      "category_ar": "راتب",
+      "in_count": 2,
+      "out_count": 53,
+      "in_amount": 2250.0,
+      "out_amount": 95150.64,
+      "total_amount": 97400.64,
+      "total_count": 55,
+      "avg_amount": 1770.92
+    },
+    {
+      "category": "fees",
+      "category_ar": "رسوم",
+      "in_count": 2,
+      "out_count": 17,
+      "in_amount": 30122.0,
+      "out_amount": 22614.0,
+      "total_amount": 52736.0,
+      "total_count": 19,
+      "avg_amount": 2775.58
+    },
+    {
+      "category": "refund",
+      "category_ar": "استرداد",
+      "in_count": 23,
+      "out_count": 2,
+      "in_amount": 30431.75,
+      "out_amount": 18700.0,
+      "total_amount": 49131.75,
+      "total_count": 25,
+      "avg_amount": 1965.27
+    },
+    {
+      "category": "stc_bill",
+      "category_ar": "فاتورة STC",
+      "in_count": 0,
+      "out_count": 60,
+      "in_amount": 0.0,
+      "out_amount": 26551.61,
+      "total_amount": 26551.61,
+      "total_count": 60,
+      "avg_amount": 442.53
+    },
+    {
+      "category": "ipo",
+      "category_ar": "اكتتاب عام",
+      "in_count": 0,
+      "out_count": 11,
+      "in_amount": 0.0,
+      "out_amount": 26440.0,
+      "total_amount": 26440.0,
+      "total_count": 11,
+      "avg_amount": 2403.64
+    },
+    {
+      "category": "foreign_transfer",
+      "category_ar": "تحويل دولي",
+      "in_count": 0,
+      "out_count": 16,
+      "in_amount": 0.0,
+      "out_amount": 12667.85,
+      "total_amount": 12667.85,
+      "total_count": 16,
+      "avg_amount": 791.74
+    },
+    {
+      "category": "government",
+      "category_ar": "مدفوعات حكومية",
+      "in_count": 5,
+      "out_count": 17,
+      "in_amount": 2125.0,
+      "out_amount": 4400.0,
+      "total_amount": 6525.0,
+      "total_count": 22,
+      "avg_amount": 296.59
+    },
+    {
+      "category": "electricity_bill",
+      "category_ar": "فاتورة كهرباء",
+      "in_count": 0,
+      "out_count": 23,
+      "in_amount": 0.0,
+      "out_amount": 3954.6,
+      "total_amount": 3954.6,
+      "total_count": 23,
+      "avg_amount": 171.94
+    },
+    {
+      "category": "charity",
+      "category_ar": "صدقة وزكاة",
+      "in_count": 1,
+      "out_count": 1,
+      "in_amount": 1670.0,
+      "out_amount": 860.0,
+      "total_amount": 2530.0,
+      "total_count": 2,
+      "avg_amount": 1265.0
+    },
+    {
+      "category": "insurance",
+      "category_ar": "تأمين",
+      "in_count": 0,
+      "out_count": 3,
+      "in_amount": 0.0,
+      "out_amount": 1386.15,
+      "total_amount": 1386.15,
+      "total_count": 3,
+      "avg_amount": 462.05
+    },
+    {
+      "category": "dividends",
+      "category_ar": "توزيعات أرباح",
+      "in_count": 1,
+      "out_count": 0,
+      "in_amount": 45.0,
+      "out_amount": 0.0,
+      "total_amount": 45.0,
+      "total_count": 1,
+      "avg_amount": 45.0
+    }
+  ],
+  "sizes": [
+    {
+      "size": "large",
+      "size_ar": "كبيرة (10,000+)",
+      "in_count": 209,
+      "out_count": 109,
+      "in_amount": 5950585.21,
+      "out_amount": 4052840.47,
+      "total_count": 318,
+      "total_amount": 10003425.68
+    },
+    {
+      "size": "medium",
+      "size_ar": "متوسطة (1,000-9,999)",
+      "in_count": 467,
+      "out_count": 1043,
+      "in_amount": 1324273.27,
+      "out_amount": 2569522.96,
+      "total_count": 1510,
+      "total_amount": 3893796.23
+    },
+    {
+      "size": "small",
+      "size_ar": "صغيرة (أقل من 1,000)",
+      "in_count": 450,
+      "out_count": 3518,
+      "in_amount": 152268.23,
+      "out_amount": 800899.1,
+      "total_count": 3968,
+      "total_amount": 953167.33
+    },
+    {
+      "size": "unknown",
+      "size_ar": "غير محدد",
+      "in_count": 0,
+      "out_count": 0,
+      "in_amount": 0,
+      "out_amount": 0,
+      "total_count": 0,
+      "total_amount": 0
+    }
+  ],
+  "day_of_week": [
+    {
+      "dow": 0,
+      "dow_ar": "الإثنين",
+      "dow_en": "Mon",
+      "in_count": 176,
+      "out_count": 723,
+      "in_amount": 806070.17,
+      "out_amount": 984943.74,
+      "total_count": 899
+    },
+    {
+      "dow": 1,
+      "dow_ar": "الثلاثاء",
+      "dow_en": "Tue",
+      "in_count": 182,
+      "out_count": 727,
+      "in_amount": 919644.06,
+      "out_amount": 1081232.62,
+      "total_count": 909
+    },
+    {
+      "dow": 2,
+      "dow_ar": "الأربعاء",
+      "dow_en": "Wed",
+      "in_count": 192,
+      "out_count": 731,
+      "in_amount": 2137434.9,
+      "out_amount": 2005428.36,
+      "total_count": 923
+    },
+    {
+      "dow": 3,
+      "dow_ar": "الخميس",
+      "dow_en": "Thu",
+      "in_count": 191,
+      "out_count": 684,
+      "in_amount": 1343586.41,
+      "out_amount": 1238644.54,
+      "total_count": 875
+    },
+    {
+      "dow": 4,
+      "dow_ar": "الجمعة",
+      "dow_en": "Fri",
+      "in_count": 78,
+      "out_count": 464,
+      "in_amount": 177628.91,
+      "out_amount": 400323.4,
+      "total_count": 542
+    },
+    {
+      "dow": 5,
+      "dow_ar": "السبت",
+      "dow_en": "Sat",
+      "in_count": 99,
+      "out_count": 585,
+      "in_amount": 493174.0,
+      "out_amount": 776509.11,
+      "total_count": 684
+    },
+    {
+      "dow": 6,
+      "dow_ar": "الأحد",
+      "dow_en": "Sun",
+      "in_count": 208,
+      "out_count": 756,
+      "in_amount": 1549588.26,
+      "out_amount": 936180.76,
+      "total_count": 964
+    }
+  ],
+  "month_pattern": [
+    {
+      "month": 1,
+      "month_name_ar": "يناير",
+      "in_count": 92,
+      "out_count": 346,
+      "in_amount": 714019.49,
+      "out_amount": 429854.24,
+      "total_count": 438
+    },
+    {
+      "month": 2,
+      "month_name_ar": "فبراير",
+      "in_count": 97,
+      "out_count": 340,
+      "in_amount": 491731.09,
+      "out_amount": 328387.35,
+      "total_count": 437
+    },
+    {
+      "month": 3,
+      "month_name_ar": "مارس",
+      "in_count": 100,
+      "out_count": 344,
+      "in_amount": 367255.66,
+      "out_amount": 634684.4,
+      "total_count": 444
+    },
+    {
+      "month": 4,
+      "month_name_ar": "أبريل",
+      "in_count": 99,
+      "out_count": 421,
+      "in_amount": 391035.77,
+      "out_amount": 617556.33,
+      "total_count": 520
+    },
+    {
+      "month": 5,
+      "month_name_ar": "مايو",
+      "in_count": 99,
+      "out_count": 408,
+      "in_amount": 401703.28,
+      "out_amount": 599884.59,
+      "total_count": 507
+    },
+    {
+      "month": 6,
+      "month_name_ar": "يونيو",
+      "in_count": 81,
+      "out_count": 339,
+      "in_amount": 396782.57,
+      "out_amount": 400284.34,
+      "total_count": 420
+    },
+    {
+      "month": 7,
+      "month_name_ar": "يوليو",
+      "in_count": 94,
+      "out_count": 461,
+      "in_amount": 607304.57,
+      "out_amount": 578915.59,
+      "total_count": 555
+    },
+    {
+      "month": 8,
+      "month_name_ar": "أغسطس",
+      "in_count": 103,
+      "out_count": 448,
+      "in_amount": 1175519.29,
+      "out_amount": 919812.99,
+      "total_count": 551
+    },
+    {
+      "month": 9,
+      "month_name_ar": "سبتمبر",
+      "in_count": 99,
+      "out_count": 434,
+      "in_amount": 592042.65,
+      "out_amount": 903882.94,
+      "total_count": 533
+    },
+    {
+      "month": 10,
+      "month_name_ar": "أكتوبر",
+      "in_count": 85,
+      "out_count": 370,
+      "in_amount": 534096.56,
+      "out_amount": 567297.92,
+      "total_count": 455
+    },
+    {
+      "month": 11,
+      "month_name_ar": "نوفمبر",
+      "in_count": 76,
+      "out_count": 340,
+      "in_amount": 915928.76,
+      "out_amount": 923864.31,
+      "total_count": 416
+    },
+    {
+      "month": 12,
+      "month_name_ar": "ديسمبر",
+      "in_count": 101,
+      "out_count": 419,
+      "in_amount": 839707.02,
+      "out_amount": 518837.53,
+      "total_count": 520
+    }
+  ],
+  "top_recurring_in": [
+    {
+      "description": "Transfer",
+      "count": 321,
+      "total_amount": 1033226.61
+    },
+    {
+      "description": "ATM Deposit",
+      "count": 141,
+      "total_amount": 701720.0
+    },
+    {
+      "description": "Sariee Inward",
+      "count": 136,
+      "total_amount": 1880789.62
+    },
+    {
+      "description": "Inward IPS Credit",
+      "count": 131,
+      "total_amount": 405637.8
+    },
+    {
+      "description": "Transfer to Account",
+      "count": 121,
+      "total_amount": 364511.24
+    },
+    {
+      "description": "Cash Deposit",
+      "count": 78,
+      "total_amount": 2219718.0
+    },
+    {
+      "description": "Internal Transfer",
+      "count": 72,
+      "total_amount": 131117.99
+    },
+    {
+      "description": "Visa Payment",
+      "count": 56,
+      "total_amount": 26559.83
+    },
+    {
+      "description": "ATM Credit",
+      "count": 12,
+      "total_amount": 26925.0
+    },
+    {
+      "description": "Sadad Government",
+      "count": 8,
+      "total_amount": 10350.0
+    },
+    {
+      "description": "Inward Local Payment",
+      "count": 8,
+      "total_amount": 87010.32
+    },
+    {
+      "description": "Cheque Deposit",
+      "count": 5,
+      "total_amount": 115124.0
+    },
+    {
+      "description": "POS Credit",
+      "count": 5,
+      "total_amount": 9950.55
+    },
+    {
+      "description": "Refund of",
+      "count": 5,
+      "total_amount": 9064.0
+    },
+    {
+      "description": "Clearing Cheques",
+      "count": 4,
+      "total_amount": 37908.0
+    }
+  ],
+  "top_recurring_out": [
+    {
+      "description": "Sadad Payments",
+      "count": 803,
+      "total_amount": 195765.06
+    },
+    {
+      "description": "Transfer",
+      "count": 796,
+      "total_amount": 1220262.0
+    },
+    {
+      "description": "POS purchase Atheer",
+      "count": 661,
+      "total_amount": 101048.44
+    },
+    {
+      "description": "ATM Withdrawal",
+      "count": 657,
+      "total_amount": 1159372.1
+    },
+    {
+      "description": "POS Payment",
+      "count": 487,
+      "total_amount": 375687.77
+    },
+    {
+      "description": "Debit - Credit",
+      "count": 252,
+      "total_amount": 159004.26
+    },
+    {
+      "description": "Outward IPS Credit",
+      "count": 232,
+      "total_amount": 201968.77
+    },
+    {
+      "description": "Sadad Payment -",
+      "count": 120,
+      "total_amount": 60393.0
+    },
+    {
+      "description": "Sawa Prepaid Card",
+      "count": 118,
+      "total_amount": 10699.5
+    },
+    {
+      "description": "Internal Transfer",
+      "count": 111,
+      "total_amount": 106078.55
+    },
+    {
+      "description": "Transfer From",
+      "count": 92,
+      "total_amount": 612930.73
+    },
+    {
+      "description": "Sarie Payment Order",
+      "count": 50,
+      "total_amount": 392034.45
+    },
+    {
+      "description": "ATM - STC",
+      "count": 48,
+      "total_amount": 22648.55
+    },
+    {
+      "description": "Online purchase",
+      "count": 44,
+      "total_amount": 34576.68
+    },
+    {
+      "description": "Cash Withdrawal",
+      "count": 42,
+      "total_amount": 868450.0
+    }
+  ],
+  "largest_outgoing": [
+    {
+      "date_greg": "2013-11-27",
+      "amount": 500000.0,
+      "description": "Draft Issuance",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 6793.41
+    },
+    {
+      "date_greg": "2015-04-08",
+      "amount": 240000.0,
+      "description": "Cheque Withdrawal",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 2912.47
+    },
+    {
+      "date_greg": "2011-09-13",
+      "amount": 230000.0,
+      "description": "Cheque Withdrawal",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 41076.18
+    },
+    {
+      "date_greg": "2014-09-11",
+      "amount": 153577.0,
+      "description": "Transfer From",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 73630.69
+    },
+    {
+      "date_greg": "2010-03-23",
+      "amount": 130000.0,
+      "description": "Transfer",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 5840.11
+    },
+    {
+      "date_greg": "2010-08-12",
+      "amount": 130000.0,
+      "description": "Cheque Withdrawal",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 917.27
+    },
+    {
+      "date_greg": "2006-05-18",
+      "amount": 114000.0,
+      "description": "Cheque Withdrawal",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 21213.68
+    },
+    {
+      "date_greg": "2018-08-29",
+      "amount": 109090.0,
+      "description": "Sarie Payment Order",
+      "category": "sarie_transfer",
+      "category_ar": "تحويل سريع",
+      "balance_after": 52033.99
+    },
+    {
+      "date_greg": "2014-12-10",
+      "amount": 100000.0,
+      "description": "Cash Withdrawal",
+      "category": "atm_withdrawal",
+      "category_ar": "سحب ATM",
+      "balance_after": 180132.04
+    },
+    {
+      "date_greg": "2016-08-31",
+      "amount": 100000.0,
+      "description": "Cheque Withdrawal",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 70148.36
+    },
+    {
+      "date_greg": "2018-03-28",
+      "amount": 100000.0,
+      "description": "Transfer From",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 134993.08
+    },
+    {
+      "date_greg": "2009-01-10",
+      "amount": 94000.0,
+      "description": "Cash Withdrawal",
+      "category": "atm_withdrawal",
+      "category_ar": "سحب ATM",
+      "balance_after": 27650.79
+    },
+    {
+      "date_greg": "2010-03-21",
+      "amount": 80000.0,
+      "description": "Cash Withdrawal",
+      "category": "atm_withdrawal",
+      "category_ar": "سحب ATM",
+      "balance_after": 75840.11
+    },
+    {
+      "date_greg": "2012-09-10",
+      "amount": 70000.0,
+      "description": "Cheque Withdrawal",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 26895.7
+    },
+    {
+      "date_greg": "2025-10-20",
+      "amount": 67000.0,
+      "description": "Cash Withdrawal",
+      "category": "atm_withdrawal",
+      "category_ar": "سحب ATM",
+      "balance_after": 502.35
+    },
+    {
+      "date_greg": "2011-06-04",
+      "amount": 60000.0,
+      "description": "Cheque Withdrawal",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 10.98
+    },
+    {
+      "date_greg": "2016-10-16",
+      "amount": 60000.0,
+      "description": "Transfer From",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 209937.79
+    },
+    {
+      "date_greg": "2013-05-04",
+      "amount": 50000.0,
+      "description": "Cash Withdrawal",
+      "category": "atm_withdrawal",
+      "category_ar": "سحب ATM",
+      "balance_after": 71984.44
+    },
+    {
+      "date_greg": "2014-08-14",
+      "amount": 50000.0,
+      "description": "Cash Withdrawal",
+      "category": "atm_withdrawal",
+      "category_ar": "سحب ATM",
+      "balance_after": 249124.29
+    },
+    {
+      "date_greg": "2014-09-28",
+      "amount": 50000.0,
+      "description": "Cheque Withdrawal",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 2639.1
+    }
+  ],
+  "largest_incoming": [
+    {
+      "date_greg": "2014-08-10",
+      "amount": 300000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 300615.51
+    },
+    {
+      "date_greg": "2014-12-10",
+      "amount": 250000.0,
+      "description": "Repurchased Cheques",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 280132.04
+    },
+    {
+      "date_greg": "2013-11-21",
+      "amount": 179000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 366843.41
+    },
+    {
+      "date_greg": "2013-11-13",
+      "amount": 175438.0,
+      "description": "Sariee Inward",
+      "category": "sarie_transfer",
+      "category_ar": "تحويل سريع",
+      "balance_after": 189647.01
+    },
+    {
+      "date_greg": "2016-01-06",
+      "amount": 175000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 177483.28
+    },
+    {
+      "date_greg": "2011-08-24",
+      "amount": 150000.0,
+      "description": "Sariee Inward",
+      "category": "sarie_transfer",
+      "category_ar": "تحويل سريع",
+      "balance_after": 280416.18
+    },
+    {
+      "date_greg": "2016-10-10",
+      "amount": 150000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 268093.71
+    },
+    {
+      "date_greg": "2010-08-11",
+      "amount": 130000.0,
+      "description": "Transfer",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 130917.27
+    },
+    {
+      "date_greg": "2008-12-27",
+      "amount": 120000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 150146.06
+    },
+    {
+      "date_greg": "2013-11-27",
+      "amount": 110000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 506793.41
+    },
+    {
+      "date_greg": "2011-08-21",
+      "amount": 107000.0,
+      "description": "Transfer",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 134616.5
+    },
+    {
+      "date_greg": "2011-12-07",
+      "amount": 100000.0,
+      "description": "Sariee Inward",
+      "category": "sarie_transfer",
+      "category_ar": "تحويل سريع",
+      "balance_after": 100023.86
+    },
+    {
+      "date_greg": "2020-07-05",
+      "amount": 100000.0,
+      "description": "Cheque Deposit",
+      "category": "cheque",
+      "category_ar": "شيكات",
+      "balance_after": 149008.35
+    },
+    {
+      "date_greg": "2012-09-04",
+      "amount": 95000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 96995.7
+    },
+    {
+      "date_greg": "2011-08-10",
+      "amount": 80000.0,
+      "description": "Transfer",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 80007.4
+    },
+    {
+      "date_greg": "2012-09-12",
+      "amount": 70000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 96895.7
+    },
+    {
+      "date_greg": "2016-11-03",
+      "amount": 70000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 275923.39
+    },
+    {
+      "date_greg": "2013-01-07",
+      "amount": 67500.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 103331.6
+    },
+    {
+      "date_greg": "2006-05-17",
+      "amount": 60000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 135213.68
+    },
+    {
+      "date_greg": "2010-03-23",
+      "amount": 60000.0,
+      "description": "Cash Deposit",
+      "category": "cash_deposit",
+      "category_ar": "إيداع نقدي",
+      "balance_after": 135840.11
+    }
+  ],
+  "smallest_outgoing": [
+    {
+      "date_greg": "2023-03-02",
+      "amount": 0.5,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 8980.26
+    },
+    {
+      "date_greg": "2021-07-05",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 1554.45
+    },
+    {
+      "date_greg": "2021-12-25",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 10156.8
+    },
+    {
+      "date_greg": "2022-01-06",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 1614.2
+    },
+    {
+      "date_greg": "2022-04-29",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 27814.89
+    },
+    {
+      "date_greg": "2022-05-08",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 28342.81
+    },
+    {
+      "date_greg": "2022-05-25",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 40381.31
+    },
+    {
+      "date_greg": "2022-07-04",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 14511.86
+    },
+    {
+      "date_greg": "2022-08-03",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 11862.37
+    },
+    {
+      "date_greg": "2022-08-12",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 8887.02
+    },
+    {
+      "date_greg": "2022-08-12",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 8886.44
+    },
+    {
+      "date_greg": "2022-08-14",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 8568.36
+    },
+    {
+      "date_greg": "2022-08-14",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 7967.78
+    },
+    {
+      "date_greg": "2022-09-02",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 2983.64
+    },
+    {
+      "date_greg": "2022-10-26",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 6023.8
+    },
+    {
+      "date_greg": "2022-12-25",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 16477.05
+    },
+    {
+      "date_greg": "2023-01-27",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 10911.82
+    },
+    {
+      "date_greg": "2023-02-26",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 12037.0
+    },
+    {
+      "date_greg": "2023-03-02",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 8979.68
+    },
+    {
+      "date_greg": "2023-03-26",
+      "amount": 0.58,
+      "description": "Outward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 6910.84
+    }
+  ],
+  "smallest_incoming": [
+    {
+      "date_greg": "2025-07-01",
+      "amount": 1.0,
+      "description": "Refund purchase",
+      "category": "refund",
+      "category_ar": "استرداد",
+      "balance_after": 1822.3
+    },
+    {
+      "date_greg": "2026-04-06",
+      "amount": 1.0,
+      "description": "Refund purchase",
+      "category": "refund",
+      "category_ar": "استرداد",
+      "balance_after": 71.84
+    },
+    {
+      "date_greg": "2023-12-03",
+      "amount": 4.0,
+      "description": "Transfer",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 3412.74
+    },
+    {
+      "date_greg": "2024-05-02",
+      "amount": 5.0,
+      "description": "Inward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 995.1
+    },
+    {
+      "date_greg": "2024-12-03",
+      "amount": 5.93,
+      "description": "Visa Payment",
+      "category": "card",
+      "category_ar": "مشتريات بطاقة",
+      "balance_after": 1324.01
+    },
+    {
+      "date_greg": "2023-09-25",
+      "amount": 10.0,
+      "description": "Transfer",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 12548.77
+    },
+    {
+      "date_greg": "2024-04-30",
+      "amount": 10.0,
+      "description": "Inward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 921.68
+    },
+    {
+      "date_greg": "2024-12-03",
+      "amount": 10.0,
+      "description": "Transfer",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 1334.01
+    },
+    {
+      "date_greg": "2021-06-20",
+      "amount": 14.0,
+      "description": "Transfer",
+      "category": "other",
+      "category_ar": "أخرى",
+      "balance_after": 1040.1
+    },
+    {
+      "date_greg": "2024-04-04",
+      "amount": 16.16,
+      "description": "Visa Payment",
+      "category": "card",
+      "category_ar": "مشتريات بطاقة",
+      "balance_after": 8316.39
+    },
+    {
+      "date_greg": "2024-05-12",
+      "amount": 16.26,
+      "description": "Visa Payment",
+      "category": "card",
+      "category_ar": "مشتريات بطاقة",
+      "balance_after": 11537.67
+    },
+    {
+      "date_greg": "2024-04-06",
+      "amount": 20.0,
+      "description": "Transfer",
+      "category": "card",
+      "category_ar": "مشتريات بطاقة",
+      "balance_after": 8145.39
+    },
+    {
+      "date_greg": "2025-09-30",
+      "amount": 20.0,
+      "description": "Internal Transfer",
+      "category": "local_transfer",
+      "category_ar": "تحويل محلي",
+      "balance_after": 11732.4
+    },
+    {
+      "date_greg": "2024-05-01",
+      "amount": 24.0,
+      "description": "Inward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 995.68
+    },
+    {
+      "date_greg": "2021-01-17",
+      "amount": 26.25,
+      "description": "Prepaid Incentive",
+      "category": "refund",
+      "category_ar": "استرداد",
+      "balance_after": 25186.04
+    },
+    {
+      "date_greg": "2024-09-09",
+      "amount": 27.67,
+      "description": "Visa Payment",
+      "category": "card",
+      "category_ar": "مشتريات بطاقة",
+      "balance_after": 1314.78
+    },
+    {
+      "date_greg": "2025-05-24",
+      "amount": 30.0,
+      "description": "Visa Payment",
+      "category": "card",
+      "category_ar": "مشتريات بطاقة",
+      "balance_after": 1749.08
+    },
+    {
+      "date_greg": "2025-10-30",
+      "amount": 30.0,
+      "description": "Inward IPS Credit",
+      "category": "ips_transfer",
+      "category_ar": "تحويل دولي IPS",
+      "balance_after": 525.14
+    },
+    {
+      "date_greg": "2023-12-21",
+      "amount": 34.5,
+      "description": "Refunding Collected",
+      "category": "refund",
+      "category_ar": "استرداد",
+      "balance_after": 53.38
+    },
+    {
+      "date_greg": "2024-11-04",
+      "amount": 35.12,
+      "description": "Visa Payment",
+      "category": "card",
+      "category_ar": "مشتريات بطاقة",
+      "balance_after": 3100.07
+    }
+  ],
+  "balance_history": [
+    {
+      "date": "2000-11-25",
+      "balance": 0.0,
+      "page": 1
+    },
+    {
+      "date": "2005-07-25",
+      "balance": 1000.0,
+      "page": 2
+    },
+    {
+      "date": "2005-10-10",
+      "balance": 1689.51,
+      "page": 3
+    },
+    {
+      "date": "2005-12-12",
+      "balance": 2212.93,
+      "page": 5
+    },
+    {
+      "date": "2006-01-08",
+      "balance": 58504.43,
+      "page": 6
+    },
+    {
+      "date": "2006-02-01",
+      "balance": 62412.9,
+      "page": 7
+    },
+    {
+      "date": "2006-04-01",
+      "balance": 42259.26,
+      "page": 8
+    },
+    {
+      "date": "2006-05-03",
+      "balance": 21890.31,
+      "page": 9
+    },
+    {
+      "date": "2006-05-17",
+      "balance": 135213.68,
+      "page": 11
+    },
+    {
+      "date": "2006-07-05",
+      "balance": 1447.79,
+      "page": 12
+    },
+    {
+      "date": "2006-08-08",
+      "balance": 3995.36,
+      "page": 13
+    },
+    {
+      "date": "2006-09-13",
+      "balance": 12065.41,
+      "page": 14
+    },
+    {
+      "date": "2006-09-30",
+      "balance": 2985.48,
+      "page": 15
+    },
+    {
+      "date": "2006-10-15",
+      "balance": 6112.93,
+      "page": 16
+    },
+    {
+      "date": "2006-12-02",
+      "balance": 4135.43,
+      "page": 17
+    },
+    {
+      "date": "2006-12-14",
+      "balance": 9085.8,
+      "page": 19
+    },
+    {
+      "date": "2007-01-16",
+      "balance": 11632.8,
+      "page": 20
+    },
+    {
+      "date": "2007-03-03",
+      "balance": 3634.04,
+      "page": 21
+    },
+    {
+      "date": "2007-03-22",
+      "balance": 3147.81,
+      "page": 22
+    },
+    {
+      "date": "2007-04-23",
+      "balance": 7064.68,
+      "page": 23
+    },
+    {
+      "date": "2007-05-28",
+      "balance": 669.08,
+      "page": 24
+    },
+    {
+      "date": "2007-06-20",
+      "balance": 369.7,
+      "page": 26
+    },
+    {
+      "date": "2007-07-10",
+      "balance": 1252.33,
+      "page": 27
+    },
+    {
+      "date": "2007-09-07",
+      "balance": 8.7,
+      "page": 28
+    },
+    {
+      "date": "2007-09-28",
+      "balance": 40318.21,
+      "page": 29
+    },
+    {
+      "date": "2007-10-21",
+      "balance": 29390.21,
+      "page": 30
+    },
+    {
+      "date": "2007-11-24",
+      "balance": 28165.98,
+      "page": 31
+    },
+    {
+      "date": "2007-12-10",
+      "balance": 10650.35,
+      "page": 33
+    },
+    {
+      "date": "2007-12-30",
+      "balance": 6226.85,
+      "page": 34
+    },
+    {
+      "date": "2008-02-17",
+      "balance": 208.87,
+      "page": 35
+    },
+    {
+      "date": "2008-02-28",
+      "balance": 3342.52,
+      "page": 36
+    },
+    {
+      "date": "2008-04-01",
+      "balance": 9368.08,
+      "page": 37
+    },
+    {
+      "date": "2008-04-05",
+      "balance": 6972.86,
+      "page": 38
+    },
+    {
+      "date": "2008-04-13",
+      "balance": 429.86,
+      "page": 39
+    },
+    {
+      "date": "2008-05-21",
+      "balance": 6450.96,
+      "page": 41
+    },
+    {
+      "date": "2008-06-26",
+      "balance": 13994.52,
+      "page": 42
+    },
+    {
+      "date": "2008-07-07",
+      "balance": 13140.25,
+      "page": 43
+    },
+    {
+      "date": "2008-07-16",
+      "balance": 3529.5,
+      "page": 44
+    },
+    {
+      "date": "2008-08-15",
+      "balance": 465.25,
+      "page": 45
+    },
+    {
+      "date": "2008-08-26",
+      "balance": 1503.18,
+      "page": 46
+    },
+    {
+      "date": "2008-09-02",
+      "balance": 4491.18,
+      "page": 47
+    },
+    {
+      "date": "2008-09-10",
+      "balance": 2064.04,
+      "page": 48
+    },
+    {
+      "date": "2008-10-12",
+      "balance": 278.67,
+      "page": 49
+    },
+    {
+      "date": "2008-11-23",
+      "balance": 7328.06,
+      "page": 50
+    },
+    {
+      "date": "2008-12-30",
+      "balance": 151316.06,
+      "page": 51
+    },
+    {
+      "date": "2009-01-08",
+      "balance": 121830.79,
+      "page": 52
+    },
+    {
+      "date": "2009-01-27",
+      "balance": 39638.3,
+      "page": 53
+    },
+    {
+      "date": "2009-02-25",
+      "balance": 28264.54,
+      "page": 55
+    },
+    {
+      "date": "2009-03-22",
+      "balance": 21046.4,
+      "page": 56
+    },
+    {
+      "date": "2009-04-29",
+      "balance": 6918.5,
+      "page": 57
+    },
+    {
+      "date": "2009-05-04",
+      "balance": 5864.98,
+      "page": 58
+    },
+    {
+      "date": "2009-07-08",
+      "balance": 77867.98,
+      "page": 59
+    },
+    {
+      "date": "2009-07-26",
+      "balance": 25055.93,
+      "page": 60
+    },
+    {
+      "date": "2009-07-29",
+      "balance": 46769.18,
+      "page": 61
+    },
+    {
+      "date": "2009-08-18",
+      "balance": 42373.69,
+      "page": 62
+    },
+    {
+      "date": "2009-10-02",
+      "balance": 25060.19,
+      "page": 63
+    },
+    {
+      "date": "2009-11-17",
+      "balance": 17001.69,
+      "page": 64
+    },
+    {
+      "date": "2009-12-09",
+      "balance": 6448.02,
+      "page": 65
+    },
+    {
+      "date": "2009-12-13",
+      "balance": 662.53,
+      "page": 66
+    },
+    {
+      "date": "2010-01-12",
+      "balance": 2665.07,
+      "page": 67
+    },
+    {
+      "date": "2010-01-31",
+      "balance": 50872.49,
+      "page": 68
+    },
+    {
+      "date": "2010-03-14",
+      "balance": 157237.49,
+      "page": 69
+    },
+    {
+      "date": "2010-03-24",
+      "balance": 0.11,
+      "page": 70
+    },
+    {
+      "date": "2010-05-04",
+      "balance": 1386.31,
+      "page": 71
+    },
+    {
+      "date": "2010-05-28",
+      "balance": -18.63,
+      "page": 72
+    },
+    {
+      "date": "2010-06-21",
+      "balance": 9136.4,
+      "page": 74
+    },
+    {
+      "date": "2010-07-08",
+      "balance": 9441.75,
+      "page": 75
+    },
+    {
+      "date": "2010-08-22",
+      "balance": 284.23,
+      "page": 76
+    },
+    {
+      "date": "2010-09-25",
+      "balance": 9845.72,
+      "page": 77
+    },
+    {
+      "date": "2010-10-23",
+      "balance": 571.92,
+      "page": 78
+    },
+    {
+      "date": "2010-12-03",
+      "balance": 1055.42,
+      "page": 79
+    },
+    {
+      "date": "2010-12-14",
+      "balance": 214.22,
+      "page": 81
+    },
+    {
+      "date": "2011-01-05",
+      "balance": 5.96,
+      "page": 82
+    },
+    {
+      "date": "2011-01-24",
+      "balance": 1661.46,
+      "page": 83
+    },
+    {
+      "date": "2011-02-17",
+      "balance": 47.58,
+      "page": 84
+    },
+    {
+      "date": "2011-03-10",
+      "balance": 1643.08,
+      "page": 85
+    },
+    {
+      "date": "2011-03-25",
+      "balance": 117.3,
+      "page": 87
+    },
+    {
+      "date": "2011-04-19",
+      "balance": 3119.3,
+      "page": 88
+    },
+    {
+      "date": "2011-05-10",
+      "balance": 3009.34,
+      "page": 89
+    },
+    {
+      "date": "2011-06-05",
+      "balance": 3010.98,
+      "page": 90
+    },
+    {
+      "date": "2011-06-29",
+      "balance": 1906.4,
+      "page": 91
+    },
+    {
+      "date": "2011-07-25",
+      "balance": 3207.4,
+      "page": 92
+    },
+    {
+      "date": "2011-08-15",
+      "balance": 27170.5,
+      "page": 94
+    },
+    {
+      "date": "2011-08-26",
+      "balance": 260416.18,
+      "page": 95
+    },
+    {
+      "date": "2011-09-13",
+      "balance": 41076.18,
+      "page": 96
+    },
+    {
+      "date": "2011-10-03",
+      "balance": 34722.61,
+      "page": 97
+    },
+    {
+      "date": "2011-10-29",
+      "balance": 68.36,
+      "page": 98
+    },
+    {
+      "date": "2011-12-11",
+      "balance": 97167.29,
+      "page": 100
+    },
+    {
+      "date": "2012-02-13",
+      "balance": 65390.37,
+      "page": 101
+    },
+    {
+      "date": "2012-02-22",
+      "balance": 54269.14,
+      "page": 102
+    },
+    {
+      "date": "2012-03-27",
+      "balance": 50574.09,
+      "page": 104
+    },
+    {
+      "date": "2012-04-25",
+      "balance": 49232.06,
+      "page": 105
+    },
+    {
+      "date": "2012-05-08",
+      "balance": 55355.95,
+      "page": 106
+    },
+    {
+      "date": "2012-05-20",
+      "balance": 60697.25,
+      "page": 107
+    },
+    {
+      "date": "2012-06-17",
+      "balance": 9987.75,
+      "page": 108
+    },
+    {
+      "date": "2012-07-01",
+      "balance": 42940.22,
+      "page": 110
+    },
+    {
+      "date": "2012-07-18",
+      "balance": 15199.92,
+      "page": 111
+    },
+    {
+      "date": "2012-08-10",
+      "balance": 13675.92,
+      "page": 112
+    },
+    {
+      "date": "2012-09-03",
+      "balance": 2373.5,
+      "page": 113
+    },
+    {
+      "date": "2012-09-15",
+      "balance": 94696.7,
+      "page": 115
+    },
+    {
+      "date": "2012-11-02",
+      "balance": 84144.46,
+      "page": 116
+    },
+    {
+      "date": "2012-11-19",
+      "balance": 73050.32,
+      "page": 117
+    },
+    {
+      "date": "2012-12-04",
+      "balance": 17688.45,
+      "page": 118
+    },
+    {
+      "date": "2012-12-28",
+      "balance": 9763.6,
+      "page": 120
+    },
+    {
+      "date": "2013-01-27",
+      "balance": 100259.6,
+      "page": 121
+    },
+    {
+      "date": "2013-02-04",
+      "balance": 97958.06,
+      "page": 122
+    },
+    {
+      "date": "2013-02-25",
+      "balance": 127321.22,
+      "page": 123
+    },
+    {
+      "date": "2013-03-20",
+      "balance": 126631.22,
+      "page": 124
+    },
+    {
+      "date": "2013-03-28",
+      "balance": 129330.42,
+      "page": 125
+    },
+    {
+      "date": "2013-04-30",
+      "balance": 121196.61,
+      "page": 127
+    },
+    {
+      "date": "2013-05-21",
+      "balance": 57514.44,
+      "page": 128
+    },
+    {
+      "date": "2013-05-23",
+      "balance": 53008.82,
+      "page": 129
+    },
+    {
+      "date": "2013-06-15",
+      "balance": 16508.82,
+      "page": 130
+    },
+    {
+      "date": "2013-07-17",
+      "balance": 270.82,
+      "page": 131
+    },
+    {
+      "date": "2013-08-13",
+      "balance": 21116.74,
+      "page": 133
+    },
+    {
+      "date": "2013-09-17",
+      "balance": 30542.11,
+      "page": 134
+    },
+    {
+      "date": "2013-09-29",
+      "balance": 18508.01,
+      "page": 135
+    },
+    {
+      "date": "2013-11-17",
+      "balance": 189347.01,
+      "page": 136
+    },
+    {
+      "date": "2013-11-27",
+      "balance": 396793.41,
+      "page": 138
+    },
+    {
+      "date": "2013-12-16",
+      "balance": 3396.14,
+      "page": 139
+    },
+    {
+      "date": "2014-02-04",
+      "balance": 25536.34,
+      "page": 140
+    },
+    {
+      "date": "2014-03-26",
+      "balance": 2412.39,
+      "page": 141
+    },
+    {
+      "date": "2014-04-04",
+      "balance": 574.94,
+      "page": 142
+    },
+    {
+      "date": "2014-05-26",
+      "balance": 4085.89,
+      "page": 144
+    },
+    {
+      "date": "2014-06-23",
+      "balance": 1580.86,
+      "page": 145
+    },
+    {
+      "date": "2014-06-26",
+      "balance": 14.61,
+      "page": 146
+    },
+    {
+      "date": "2014-08-11",
+      "balance": 299405.34,
+      "page": 147
+    },
+    {
+      "date": "2014-09-04",
+      "balance": 227207.69,
+      "page": 149
+    },
+    {
+      "date": "2014-09-22",
+      "balance": 52639.1,
+      "page": 150
+    },
+    {
+      "date": "2014-10-21",
+      "balance": 263.98,
+      "page": 151
+    },
+    {
+      "date": "2014-12-07",
+      "balance": 132.04,
+      "page": 153
+    },
+    {
+      "date": "2014-12-16",
+      "balance": 131453.29,
+      "page": 154
+    },
+    {
+      "date": "2015-01-11",
+      "balance": 150253.44,
+      "page": 155
+    },
+    {
+      "date": "2015-02-11",
+      "balance": 181606.11,
+      "page": 156
+    },
+    {
+      "date": "2015-03-04",
+      "balance": 219112.47,
+      "page": 157
+    },
+    {
+      "date": "2015-04-12",
+      "balance": 2587.47,
+      "page": 159
+    },
+    {
+      "date": "2015-04-27",
+      "balance": 657.26,
+      "page": 160
+    },
+    {
+      "date": "2015-05-25",
+      "balance": 4016.66,
+      "page": 162
+    },
+    {
+      "date": "2015-07-06",
+      "balance": 1112.93,
+      "page": 163
+    },
+    {
+      "date": "2015-07-29",
+      "balance": 4.74,
+      "page": 164
+    },
+    {
+      "date": "2015-08-13",
+      "balance": 3563.93,
+      "page": 165
+    },
+    {
+      "date": "2015-09-01",
+      "balance": 4537.81,
+      "page": 167
+    },
+    {
+      "date": "2015-10-15",
+      "balance": 0.0,
+      "page": 168
+    },
+    {
+      "date": "2015-10-30",
+      "balance": 3181.86,
+      "page": 169
+    },
+    {
+      "date": "2015-12-03",
+      "balance": 1454.88,
+      "page": 171
+    },
+    {
+      "date": "2015-12-30",
+      "balance": 2483.28,
+      "page": 172
+    },
+    {
+      "date": "2016-02-04",
+      "balance": 177076.99,
+      "page": 173
+    },
+    {
+      "date": "2016-03-06",
+      "balance": 153116.63,
+      "page": 175
+    },
+    {
+      "date": "2016-04-20",
+      "balance": 172252.89,
+      "page": 176
+    },
+    {
+      "date": "2016-05-30",
+      "balance": 168803.54,
+      "page": 177
+    },
+    {
+      "date": "2016-06-13",
+      "balance": 174395.48,
+      "page": 178
+    },
+    {
+      "date": "2016-07-12",
+      "balance": 173302.06,
+      "page": 180
+    },
+    {
+      "date": "2016-08-10",
+      "balance": 173709.14,
+      "page": 181
+    },
+    {
+      "date": "2016-08-28",
+      "balance": 181148.36,
+      "page": 182
+    },
+    {
+      "date": "2016-09-11",
+      "balance": 69720.16,
+      "page": 184
+    },
+    {
+      "date": "2016-10-16",
+      "balance": 209937.79,
+      "page": 185
+    },
+    {
+      "date": "2016-11-14",
+      "balance": 274537.54,
+      "page": 187
+    },
+    {
+      "date": "2016-12-01",
+      "balance": 301270.76,
+      "page": 188
+    },
+    {
+      "date": "2016-12-18",
+      "balance": 295882.34,
+      "page": 189
+    },
+    {
+      "date": "2016-12-30",
+      "balance": 281002.68,
+      "page": 190
+    },
+    {
+      "date": "2017-01-19",
+      "balance": 287141.14,
+      "page": 192
+    },
+    {
+      "date": "2017-02-08",
+      "balance": 274519.72,
+      "page": 193
+    },
+    {
+      "date": "2017-02-23",
+      "balance": 278652.88,
+      "page": 194
+    },
+    {
+      "date": "2017-03-29",
+      "balance": 273215.54,
+      "page": 195
+    },
+    {
+      "date": "2017-04-10",
+      "balance": 266961.09,
+      "page": 197
+    },
+    {
+      "date": "2017-04-19",
+      "balance": 254732.4,
+      "page": 198
+    },
+    {
+      "date": "2017-05-14",
+      "balance": 247309.34,
+      "page": 199
+    },
+    {
+      "date": "2017-06-12",
+      "balance": 248577.07,
+      "page": 200
+    },
+    {
+      "date": "2017-07-12",
+      "balance": 245938.31,
+      "page": 202
+    },
+    {
+      "date": "2017-07-31",
+      "balance": 239035.31,
+      "page": 203
+    },
+    {
+      "date": "2017-08-12",
+      "balance": 243964.39,
+      "page": 204
+    },
+    {
+      "date": "2017-08-21",
+      "balance": 238036.37,
+      "page": 206
+    },
+    {
+      "date": "2017-08-31",
+      "balance": 244480.45,
+      "page": 207
+    },
+    {
+      "date": "2017-09-13",
+      "balance": 235452.18,
+      "page": 208
+    },
+    {
+      "date": "2017-10-09",
+      "balance": 225443.63,
+      "page": 209
+    },
+    {
+      "date": "2017-11-05",
+      "balance": 226616.29,
+      "page": 210
+    },
+    {
+      "date": "2017-12-03",
+      "balance": 229754.14,
+      "page": 212
+    },
+    {
+      "date": "2017-12-14",
+      "balance": 213986.72,
+      "page": 213
+    },
+    {
+      "date": "2018-01-02",
+      "balance": 224475.55,
+      "page": 214
+    },
+    {
+      "date": "2018-01-30",
+      "balance": 211841.13,
+      "page": 216
+    },
+    {
+      "date": "2018-02-22",
+      "balance": 220280.99,
+      "page": 217
+    },
+    {
+      "date": "2018-03-10",
+      "balance": 222985.75,
+      "page": 218
+    },
+    {
+      "date": "2018-03-27",
+      "balance": 234993.08,
+      "page": 220
+    },
+    {
+      "date": "2018-04-08",
+      "balance": 121191.38,
+      "page": 221
+    },
+    {
+      "date": "2018-04-29",
+      "balance": 126703.57,
+      "page": 222
+    },
+    {
+      "date": "2018-05-12",
+      "balance": 111186.33,
+      "page": 224
+    },
+    {
+      "date": "2018-06-07",
+      "balance": 108632.49,
+      "page": 225
+    },
+    {
+      "date": "2018-06-20",
+      "balance": 101047.34,
+      "page": 226
+    },
+    {
+      "date": "2018-07-04",
+      "balance": 106586.19,
+      "page": 227
+    },
+    {
+      "date": "2018-08-01",
+      "balance": 173909.77,
+      "page": 229
+    },
+    {
+      "date": "2018-08-17",
+      "balance": 163163.99,
+      "page": 230
+    },
+    {
+      "date": "2018-09-13",
+      "balance": 81433.99,
+      "page": 231
+    },
+    {
+      "date": "2018-09-28",
+      "balance": 57171.58,
+      "page": 233
+    },
+    {
+      "date": "2018-10-07",
+      "balance": 55221.45,
+      "page": 234
+    },
+    {
+      "date": "2018-10-20",
+      "balance": 40047.45,
+      "page": 235
+    },
+    {
+      "date": "2018-11-01",
+      "balance": 48013.55,
+      "page": 236
+    },
+    {
+      "date": "2018-11-18",
+      "balance": 35851.55,
+      "page": 237
+    },
+    {
+      "date": "2018-11-29",
+      "balance": 32599.9,
+      "page": 238
+    },
+    {
+      "date": "2018-12-22",
+      "balance": 24843.57,
+      "page": 240
+    },
+    {
+      "date": "2018-12-31",
+      "balance": 33436.42,
+      "page": 241
+    },
+    {
+      "date": "2019-01-12",
+      "balance": 7597.52,
+      "page": 242
+    },
+    {
+      "date": "2019-01-29",
+      "balance": 14266.1,
+      "page": 243
+    },
+    {
+      "date": "2019-02-19",
+      "balance": 34.98,
+      "page": 245
+    },
+    {
+      "date": "2019-03-02",
+      "balance": 3497.4,
+      "page": 246
+    },
+    {
+      "date": "2019-03-25",
+      "balance": 14566.17,
+      "page": 248
+    },
+    {
+      "date": "2019-04-14",
+      "balance": 10532.98,
+      "page": 249
+    },
+    {
+      "date": "2019-04-25",
+      "balance": 23904.97,
+      "page": 250
+    },
+    {
+      "date": "2019-04-29",
+      "balance": 19226.64,
+      "page": 251
+    },
+    {
+      "date": "2019-05-15",
+      "balance": 12730.36,
+      "page": 253
+    },
+    {
+      "date": "2019-05-27",
+      "balance": 21854.59,
+      "page": 254
+    },
+    {
+      "date": "2019-06-02",
+      "balance": 14924.42,
+      "page": 255
+    },
+    {
+      "date": "2019-06-18",
+      "balance": 6562.33,
+      "page": 256
+    },
+    {
+      "date": "2019-07-07",
+      "balance": 14598.91,
+      "page": 257
+    },
+    {
+      "date": "2019-07-17",
+      "balance": 9702.92,
+      "page": 259
+    },
+    {
+      "date": "2019-07-25",
+      "balance": 8997.18,
+      "page": 260
+    },
+    {
+      "date": "2019-08-02",
+      "balance": 3780.06,
+      "page": 261
+    },
+    {
+      "date": "2019-08-13",
+      "balance": 7379.04,
+      "page": 263
+    },
+    {
+      "date": "2019-08-25",
+      "balance": 21959.93,
+      "page": 264
+    },
+    {
+      "date": "2019-09-05",
+      "balance": 6507.47,
+      "page": 265
+    },
+    {
+      "date": "2019-09-18",
+      "balance": 3337.47,
+      "page": 266
+    },
+    {
+      "date": "2019-09-26",
+      "balance": 12919.04,
+      "page": 267
+    },
+    {
+      "date": "2019-10-08",
+      "balance": 4272.04,
+      "page": 268
+    },
+    {
+      "date": "2019-10-22",
+      "balance": 2962.04,
+      "page": 270
+    },
+    {
+      "date": "2019-10-26",
+      "balance": 7846.38,
+      "page": 271
+    },
+    {
+      "date": "2019-11-09",
+      "balance": 5399.38,
+      "page": 272
+    },
+    {
+      "date": "2019-11-25",
+      "balance": 4137.75,
+      "page": 273
+    },
+    {
+      "date": "2019-12-22",
+      "balance": 1072.4,
+      "page": 274
+    },
+    {
+      "date": "2019-12-30",
+      "balance": 10033.34,
+      "page": 276
+    },
+    {
+      "date": "2020-01-18",
+      "balance": 3553.7,
+      "page": 277
+    },
+    {
+      "date": "2020-02-02",
+      "balance": 11051.33,
+      "page": 278
+    },
+    {
+      "date": "2020-02-12",
+      "balance": 8151.33,
+      "page": 279
+    },
+    {
+      "date": "2020-02-29",
+      "balance": 13545.41,
+      "page": 280
+    },
+    {
+      "date": "2020-03-05",
+      "balance": 17167.2,
+      "page": 281
+    },
+    {
+      "date": "2020-03-25",
+      "balance": 25351.28,
+      "page": 283
+    },
+    {
+      "date": "2020-04-10",
+      "balance": 15013.8,
+      "page": 284
+    },
+    {
+      "date": "2020-04-28",
+      "balance": 29729.98,
+      "page": 285
+    },
+    {
+      "date": "2020-05-08",
+      "balance": 30875.98,
+      "page": 286
+    },
+    {
+      "date": "2020-05-21",
+      "balance": 41742.76,
+      "page": 288
+    },
+    {
+      "date": "2020-06-05",
+      "balance": 40346.81,
+      "page": 289
+    },
+    {
+      "date": "2020-06-28",
+      "balance": 49445.35,
+      "page": 290
+    },
+    {
+      "date": "2020-07-17",
+      "balance": 174533.35,
+      "page": 291
+    },
+    {
+      "date": "2020-07-22",
+      "balance": 42201.64,
+      "page": 293
+    },
+    {
+      "date": "2020-07-27",
+      "balance": 36819.72,
+      "page": 294
+    },
+    {
+      "date": "2020-08-13",
+      "balance": 30575.45,
+      "page": 295
+    },
+    {
+      "date": "2020-08-22",
+      "balance": 25920.2,
+      "page": 296
+    },
+    {
+      "date": "2020-09-01",
+      "balance": 22425.78,
+      "page": 297
+    },
+    {
+      "date": "2020-09-16",
+      "balance": 22960.97,
+      "page": 298
+    },
+    {
+      "date": "2020-09-25",
+      "balance": 28464.25,
+      "page": 300
+    },
+    {
+      "date": "2020-10-04",
+      "balance": 24560.06,
+      "page": 301
+    },
+    {
+      "date": "2020-10-15",
+      "balance": 22676.35,
+      "page": 302
+    },
+    {
+      "date": "2020-10-27",
+      "balance": 23034.81,
+      "page": 303
+    },
+    {
+      "date": "2020-11-07",
+      "balance": 22912.6,
+      "page": 304
+    },
+    {
+      "date": "2020-11-26",
+      "balance": 25754.76,
+      "page": 306
+    },
+    {
+      "date": "2020-12-08",
+      "balance": 27525.71,
+      "page": 307
+    },
+    {
+      "date": "2020-12-14",
+      "balance": 24123.83,
+      "page": 308
+    },
+    {
+      "date": "2020-12-25",
+      "balance": 21058.41,
+      "page": 310
+    },
+    {
+      "date": "2021-01-16",
+      "balance": 25318.95,
+      "page": 311
+    },
+    {
+      "date": "2021-01-24",
+      "balance": 21341.71,
+      "page": 312
+    },
+    {
+      "date": "2021-01-31",
+      "balance": 18521.3,
+      "page": 313
+    },
+    {
+      "date": "2021-02-15",
+      "balance": 12703.6,
+      "page": 314
+    },
+    {
+      "date": "2021-02-25",
+      "balance": 31529.27,
+      "page": 315
+    },
+    {
+      "date": "2021-03-05",
+      "balance": 17571.77,
+      "page": 317
+    },
+    {
+      "date": "2021-03-25",
+      "balance": 15643.85,
+      "page": 318
+    },
+    {
+      "date": "2021-03-31",
+      "balance": 11232.79,
+      "page": 319
+    },
+    {
+      "date": "2021-04-15",
+      "balance": 9300.79,
+      "page": 320
+    },
+    {
+      "date": "2021-04-25",
+      "balance": 12594.72,
+      "page": 321
+    },
+    {
+      "date": "2021-04-27",
+      "balance": 14380.91,
+      "page": 323
+    },
+    {
+      "date": "2021-05-07",
+      "balance": 2705.91,
+      "page": 324
+    },
+    {
+      "date": "2021-05-20",
+      "balance": 263.91,
+      "page": 325
+    },
+    {
+      "date": "2021-05-25",
+      "balance": 3731.1,
+      "page": 326
+    },
+    {
+      "date": "2021-06-05",
+      "balance": 3200.8,
+      "page": 328
+    },
+    {
+      "date": "2021-06-20",
+      "balance": 1426.1,
+      "page": 329
+    },
+    {
+      "date": "2021-06-27",
+      "balance": 3025.03,
+      "page": 330
+    },
+    {
+      "date": "2021-06-29",
+      "balance": 1855.03,
+      "page": 331
+    },
+    {
+      "date": "2021-07-25",
+      "balance": 14352.51,
+      "page": 333
+    },
+    {
+      "date": "2021-07-27",
+      "balance": 6214.74,
+      "page": 334
+    },
+    {
+      "date": "2021-08-18",
+      "balance": 5253.42,
+      "page": 335
+    },
+    {
+      "date": "2021-08-26",
+      "balance": 986.35,
+      "page": 336
+    },
+    {
+      "date": "2021-09-09",
+      "balance": 2824.41,
+      "page": 337
+    },
+    {
+      "date": "2021-09-25",
+      "balance": 5486.93,
+      "page": 338
+    },
+    {
+      "date": "2021-10-01",
+      "balance": 9513.01,
+      "page": 340
+    },
+    {
+      "date": "2021-10-10",
+      "balance": 3853.15,
+      "page": 341
+    },
+    {
+      "date": "2021-10-19",
+      "balance": 1025.67,
+      "page": 342
+    },
+    {
+      "date": "2021-10-27",
+      "balance": 325.25,
+      "page": 343
+    },
+    {
+      "date": "2021-11-04",
+      "balance": 1200.7,
+      "page": 344
+    },
+    {
+      "date": "2021-11-22",
+      "balance": 904.09,
+      "page": 346
+    },
+    {
+      "date": "2021-11-27",
+      "balance": 7236.51,
+      "page": 347
+    },
+    {
+      "date": "2021-12-06",
+      "balance": 18168.87,
+      "page": 348
+    },
+    {
+      "date": "2021-12-16",
+      "balance": 12300.38,
+      "page": 349
+    },
+    {
+      "date": "2021-12-26",
+      "balance": 21852.88,
+      "page": 351
+    },
+    {
+      "date": "2021-12-28",
+      "balance": 14947.85,
+      "page": 352
+    },
+    {
+      "date": "2022-01-03",
+      "balance": 5346.77,
+      "page": 353
+    },
+    {
+      "date": "2022-01-10",
+      "balance": 2781.2,
+      "page": 355
+    },
+    {
+      "date": "2022-01-22",
+      "balance": 1530.45,
+      "page": 356
+    },
+    {
+      "date": "2022-01-28",
+      "balance": 1655.53,
+      "page": 357
+    },
+    {
+      "date": "2022-02-11",
+      "balance": 646.1,
+      "page": 358
+    },
+    {
+      "date": "2022-02-18",
+      "balance": 23857.1,
+      "page": 359
+    },
+    {
+      "date": "2022-02-24",
+      "balance": 31444.43,
+      "page": 361
+    },
+    {
+      "date": "2022-03-05",
+      "balance": 35027.75,
+      "page": 362
+    },
+    {
+      "date": "2022-03-10",
+      "balance": 27071.1,
+      "page": 363
+    },
+    {
+      "date": "2022-03-21",
+      "balance": 22659.8,
+      "page": 365
+    },
+    {
+      "date": "2022-03-27",
+      "balance": 34247.82,
+      "page": 366
+    },
+    {
+      "date": "2022-04-04",
+      "balance": 31658.55,
+      "page": 367
+    },
+    {
+      "date": "2022-04-12",
+      "balance": 28541.85,
+      "page": 369
+    },
+    {
+      "date": "2022-04-23",
+      "balance": 23150.15,
+      "page": 370
+    },
+    {
+      "date": "2022-04-26",
+      "balance": 32833.92,
+      "page": 371
+    },
+    {
+      "date": "2022-04-30",
+      "balance": 27699.89,
+      "page": 373
+    },
+    {
+      "date": "2022-05-17",
+      "balance": 27562.81,
+      "page": 374
+    },
+    {
+      "date": "2022-05-25",
+      "balance": 35381.31,
+      "page": 375
+    },
+    {
+      "date": "2022-05-27",
+      "balance": 30606.36,
+      "page": 377
+    },
+    {
+      "date": "2022-06-12",
+      "balance": 20897.36,
+      "page": 378
+    },
+    {
+      "date": "2022-06-22",
+      "balance": 16347.36,
+      "page": 379
+    },
+    {
+      "date": "2022-06-26",
+      "balance": 22573.43,
+      "page": 380
+    },
+    {
+      "date": "2022-07-03",
+      "balance": 14966.11,
+      "page": 382
+    },
+    {
+      "date": "2022-07-22",
+      "balance": 12699.36,
+      "page": 383
+    },
+    {
+      "date": "2022-07-25",
+      "balance": 22389.47,
+      "page": 385
+    },
+    {
+      "date": "2022-07-30",
+      "balance": 13431.25,
+      "page": 386
+    },
+    {
+      "date": "2022-08-03",
+      "balance": 11862.37,
+      "page": 388
+    },
+    {
+      "date": "2022-08-12",
+      "balance": 8997.95,
+      "page": 389
+    },
+    {
+      "date": "2022-08-14",
+      "balance": 8568.94,
+      "page": 391
+    },
+    {
+      "date": "2022-08-17",
+      "balance": 7239.0,
+      "page": 392
+    },
+    {
+      "date": "2022-08-24",
+      "balance": 2677.68,
+      "page": 393
+    },
+    {
+      "date": "2022-08-26",
+      "balance": 9078.66,
+      "page": 395
+    },
+    {
+      "date": "2022-09-02",
+      "balance": 2984.22,
+      "page": 396
+    },
+    {
+      "date": "2022-09-07",
+      "balance": 1306.19,
+      "page": 397
+    },
+    {
+      "date": "2022-09-16",
+      "balance": 377.51,
+      "page": 398
+    },
+    {
+      "date": "2022-09-25",
+      "balance": 6329.29,
+      "page": 400
+    },
+    {
+      "date": "2022-10-02",
+      "balance": 3485.29,
+      "page": 401
+    },
+    {
+      "date": "2022-10-14",
+      "balance": 1152.29,
+      "page": 403
+    },
+    {
+      "date": "2022-10-25",
+      "balance": 14574.38,
+      "page": 404
+    },
+    {
+      "date": "2022-10-29",
+      "balance": 5073.8,
+      "page": 405
+    },
+    {
+      "date": "2022-11-13",
+      "balance": 3257.8,
+      "page": 407
+    },
+    {
+      "date": "2022-11-22",
+      "balance": 2654.72,
+      "page": 408
+    },
+    {
+      "date": "2022-11-26",
+      "balance": 13898.8,
+      "page": 410
+    },
+    {
+      "date": "2022-12-07",
+      "balance": 10500.8,
+      "page": 411
+    },
+    {
+      "date": "2022-12-14",
+      "balance": 6156.8,
+      "page": 412
+    },
+    {
+      "date": "2022-12-25",
+      "balance": 17331.96,
+      "page": 413
+    },
+    {
+      "date": "2022-12-29",
+      "balance": 12300.05,
+      "page": 415
+    },
+    {
+      "date": "2023-01-09",
+      "balance": 10500.76,
+      "page": 416
+    },
+    {
+      "date": "2023-01-19",
+      "balance": 8000.76,
+      "page": 418
+    },
+    {
+      "date": "2023-01-25",
+      "balance": 14201.55,
+      "page": 419
+    },
+    {
+      "date": "2023-02-07",
+      "balance": 10200.32,
+      "page": 420
+    },
+    {
+      "date": "2023-02-26",
+      "balance": 14679.25,
+      "page": 422
+    },
+    {
+      "date": "2023-02-28",
+      "balance": 9660.0,
+      "page": 423
+    },
+    {
+      "date": "2023-03-04",
+      "balance": 3759.15,
+      "page": 424
+    },
+    {
+      "date": "2023-03-20",
+      "balance": 7602.21,
+      "page": 425
+    },
+    {
+      "date": "2023-03-22",
+      "balance": 113.49,
+      "page": 427
+    },
+    {
+      "date": "2023-03-26",
+      "balance": 10.84,
+      "page": 428
+    },
+    {
+      "date": "2023-03-31",
+      "balance": 1261.4,
+      "page": 430
+    },
+    {
+      "date": "2023-04-16",
+      "balance": 35731.4,
+      "page": 431
+    },
+    {
+      "date": "2023-04-25",
+      "balance": 46962.9,
+      "page": 432
+    },
+    {
+      "date": "2023-04-27",
+      "balance": 36413.95,
+      "page": 434
+    },
+    {
+      "date": "2023-05-09",
+      "balance": 33107.95,
+      "page": 435
+    },
+    {
+      "date": "2023-05-20",
+      "balance": 6917.58,
+      "page": 436
+    },
+    {
+      "date": "2023-05-25",
+      "balance": 19711.66,
+      "page": 438
+    },
+    {
+      "date": "2023-05-27",
+      "balance": 20311.03,
+      "page": 439
+    },
+    {
+      "date": "2023-06-01",
+      "balance": 2554.14,
+      "page": 440
+    },
+    {
+      "date": "2023-06-09",
+      "balance": 3760.07,
+      "page": 442
+    },
+    {
+      "date": "2023-06-18",
+      "balance": 1984.07,
+      "page": 443
+    },
+    {
+      "date": "2023-06-25",
+      "balance": 12044.57,
+      "page": 445
+    },
+    {
+      "date": "2023-06-30",
+      "balance": 9489.07,
+      "page": 446
+    },
+    {
+      "date": "2023-07-05",
+      "balance": 15844.69,
+      "page": 447
+    },
+    {
+      "date": "2023-07-13",
+      "balance": 8361.69,
+      "page": 448
+    },
+    {
+      "date": "2023-07-16",
+      "balance": 6411.74,
+      "page": 450
+    },
+    {
+      "date": "2023-07-24",
+      "balance": 4930.3,
+      "page": 451
+    },
+    {
+      "date": "2023-07-27",
+      "balance": 3194.79,
+      "page": 452
+    },
+    {
+      "date": "2023-08-02",
+      "balance": 12080.14,
+      "page": 454
+    },
+    {
+      "date": "2023-08-12",
+      "balance": 3065.14,
+      "page": 455
+    },
+    {
+      "date": "2023-08-21",
+      "balance": 1509.14,
+      "page": 456
+    },
+    {
+      "date": "2023-08-26",
+      "balance": 6511.07,
+      "page": 458
+    },
+    {
+      "date": "2023-09-02",
+      "balance": 3845.59,
+      "page": 459
+    },
+    {
+      "date": "2023-09-07",
+      "balance": 378.2,
+      "page": 460
+    },
+    {
+      "date": "2023-09-12",
+      "balance": 4269.62,
+      "page": 462
+    },
+    {
+      "date": "2023-09-16",
+      "balance": 1704.54,
+      "page": 463
+    },
+    {
+      "date": "2023-09-23",
+      "balance": 2172.69,
+      "page": 465
+    },
+    {
+      "date": "2023-09-25",
+      "balance": 10548.77,
+      "page": 466
+    },
+    {
+      "date": "2023-10-02",
+      "balance": 707.34,
+      "page": 468
+    },
+    {
+      "date": "2023-10-16",
+      "balance": 2077.34,
+      "page": 469
+    },
+    {
+      "date": "2023-10-25",
+      "balance": 10244.42,
+      "page": 470
+    },
+    {
+      "date": "2023-11-02",
+      "balance": 2800.42,
+      "page": 471
+    },
+    {
+      "date": "2023-11-06",
+      "balance": 2908.05,
+      "page": 473
+    },
+    {
+      "date": "2023-11-26",
+      "balance": 12884.48,
+      "page": 475
+    },
+    {
+      "date": "2023-11-27",
+      "balance": 6419.49,
+      "page": 476
+    },
+    {
+      "date": "2023-12-02",
+      "balance": 3418.74,
+      "page": 477
+    },
+    {
+      "date": "2023-12-03",
+      "balance": 2311.54,
+      "page": 479
+    },
+    {
+      "date": "2023-12-13",
+      "balance": 621.48,
+      "page": 480
+    },
+    {
+      "date": "2023-12-19",
+      "balance": 2107.18,
+      "page": 482
+    },
+    {
+      "date": "2023-12-25",
+      "balance": 6400.38,
+      "page": 483
+    },
+    {
+      "date": "2023-12-25",
+      "balance": 4293.8,
+      "page": 484
+    },
+    {
+      "date": "2024-01-03",
+      "balance": 146.8,
+      "page": 486
+    },
+    {
+      "date": "2024-01-14",
+      "balance": 569.8,
+      "page": 487
+    },
+    {
+      "date": "2024-01-25",
+      "balance": 10002.45,
+      "page": 489
+    },
+    {
+      "date": "2024-01-26",
+      "balance": 2642.7,
+      "page": 490
+    },
+    {
+      "date": "2024-02-01",
+      "balance": -460.4,
+      "page": 491
+    },
+    {
+      "date": "2024-02-06",
+      "balance": 20026.55,
+      "page": 493
+    },
+    {
+      "date": "2024-02-17",
+      "balance": 19556.4,
+      "page": 494
+    },
+    {
+      "date": "2024-02-25",
+      "balance": 20211.17,
+      "page": 496
+    },
+    {
+      "date": "2024-02-28",
+      "balance": 24375.45,
+      "page": 497
+    },
+    {
+      "date": "2024-03-07",
+      "balance": 18405.45,
+      "page": 498
+    },
+    {
+      "date": "2024-03-17",
+      "balance": 17848.37,
+      "page": 500
+    },
+    {
+      "date": "2024-03-24",
+      "balance": 16582.37,
+      "page": 501
+    },
+    {
+      "date": "2024-03-27",
+      "balance": 16472.12,
+      "page": 503
+    },
+    {
+      "date": "2024-03-27",
+      "balance": 13489.38,
+      "page": 504
+    },
+    {
+      "date": "2024-04-06",
+      "balance": 7725.39,
+      "page": 506
+    },
+    {
+      "date": "2024-04-11",
+      "balance": 7710.39,
+      "page": 507
+    },
+    {
+      "date": "2024-04-17",
+      "balance": 5836.59,
+      "page": 508
+    },
+    {
+      "date": "2024-04-21",
+      "balance": 24.94,
+      "page": 510
+    },
+    {
+      "date": "2024-04-26",
+      "balance": 1098.94,
+      "page": 511
+    },
+    {
+      "date": "2024-04-29",
+      "balance": 234.68,
+      "page": 512
+    },
+    {
+      "date": "2024-05-02",
+      "balance": 990.1,
+      "page": 514
+    },
+    {
+      "date": "2024-05-05",
+      "balance": 15264.52,
+      "page": 515
+    },
+    {
+      "date": "2024-05-12",
+      "balance": 11537.67,
+      "page": 517
+    },
+    {
+      "date": "2024-05-17",
+      "balance": 9658.67,
+      "page": 519
+    },
+    {
+      "date": "2024-05-20",
+      "balance": 9923.87,
+      "page": 520
+    },
+    {
+      "date": "2024-05-21",
+      "balance": 3776.82,
+      "page": 522
+    },
+    {
+      "date": "2024-05-27",
+      "balance": 2868.04,
+      "page": 524
+    },
+    {
+      "date": "2024-05-30",
+      "balance": 7138.66,
+      "page": 525
+    },
+    {
+      "date": "2024-05-31",
+      "balance": 7676.56,
+      "page": 526
+    },
+    {
+      "date": "2024-06-09",
+      "balance": 4041.66,
+      "page": 528
+    },
+    {
+      "date": "2024-06-19",
+      "balance": 141.41,
+      "page": 529
+    },
+    {
+      "date": "2024-07-01",
+      "balance": 2749.41,
+      "page": 530
+    },
+    {
+      "date": "2024-07-15",
+      "balance": 1048.12,
+      "page": 531
+    },
+    {
+      "date": "2024-07-17",
+      "balance": 371.12,
+      "page": 533
+    },
+    {
+      "date": "2024-07-21",
+      "balance": 149.39,
+      "page": 534
+    },
+    {
+      "date": "2024-08-02",
+      "balance": 373.61,
+      "page": 536
+    },
+    {
+      "date": "2024-08-08",
+      "balance": 658.8,
+      "page": 537
+    },
+    {
+      "date": "2024-08-17",
+      "balance": 653.3,
+      "page": 538
+    },
+    {
+      "date": "2024-08-22",
+      "balance": 653.3,
+      "page": 539
+    },
+    {
+      "date": "2024-09-01",
+      "balance": 5237.15,
+      "page": 541
+    },
+    {
+      "date": "2024-09-01",
+      "balance": 637.15,
+      "page": 542
+    },
+    {
+      "date": "2024-09-06",
+      "balance": 37.11,
+      "page": 543
+    },
+    {
+      "date": "2024-09-11",
+      "balance": 4836.88,
+      "page": 545
+    },
+    {
+      "date": "2024-09-17",
+      "balance": 870.3,
+      "page": 546
+    },
+    {
+      "date": "2024-09-24",
+      "balance": 2300.3,
+      "page": 548
+    },
+    {
+      "date": "2024-09-30",
+      "balance": 2161.3,
+      "page": 550
+    },
+    {
+      "date": "2024-10-01",
+      "balance": 4686.02,
+      "page": 551
+    },
+    {
+      "date": "2024-10-07",
+      "balance": 489.5,
+      "page": 552
+    },
+    {
+      "date": "2024-10-12",
+      "balance": 4909.45,
+      "page": 554
+    },
+    {
+      "date": "2024-10-17",
+      "balance": 3891.45,
+      "page": 555
+    },
+    {
+      "date": "2024-10-27",
+      "balance": 1866.45,
+      "page": 557
+    },
+    {
+      "date": "2024-11-03",
+      "balance": 3573.95,
+      "page": 558
+    },
+    {
+      "date": "2024-11-14",
+      "balance": 1104.01,
+      "page": 560
+    },
+    {
+      "date": "2024-11-20",
+      "balance": 101.43,
+      "page": 561
+    },
+    {
+      "date": "2024-11-27",
+      "balance": 190.08,
+      "page": 563
+    },
+    {
+      "date": "2024-12-01",
+      "balance": 4113.08,
+      "page": 564
+    },
+    {
+      "date": "2024-12-03",
+      "balance": 1184.01,
+      "page": 566
+    },
+    {
+      "date": "2024-12-06",
+      "balance": 888.28,
+      "page": 567
+    },
+    {
+      "date": "2024-12-16",
+      "balance": 12.78,
+      "page": 568
+    },
+    {
+      "date": "2024-12-23",
+      "balance": 1556.63,
+      "page": 570
+    },
+    {
+      "date": "2024-12-30",
+      "balance": 0.43,
+      "page": 571
+    },
+    {
+      "date": "2025-01-02",
+      "balance": 3439.57,
+      "page": 572
+    },
+    {
+      "date": "2025-01-21",
+      "balance": 65.57,
+      "page": 574
+    },
+    {
+      "date": "2025-01-30",
+      "balance": 3320.97,
+      "page": 575
+    },
+    {
+      "date": "2025-02-04",
+      "balance": 520.99,
+      "page": 576
+    },
+    {
+      "date": "2025-02-18",
+      "balance": 2070.45,
+      "page": 578
+    },
+    {
+      "date": "2025-02-25",
+      "balance": 39.45,
+      "page": 579
+    },
+    {
+      "date": "2025-02-27",
+      "balance": 200.11,
+      "page": 581
+    },
+    {
+      "date": "2025-02-28",
+      "balance": 72.35,
+      "page": 582
+    },
+    {
+      "date": "2025-03-05",
+      "balance": 1201.5,
+      "page": 583
+    },
+    {
+      "date": "2025-03-27",
+      "balance": 686.17,
+      "page": 585
+    },
+    {
+      "date": "2025-04-03",
+      "balance": 3012.17,
+      "page": 586
+    },
+    {
+      "date": "2025-04-14",
+      "balance": 1886.37,
+      "page": 587
+    },
+    {
+      "date": "2025-04-23",
+      "balance": 75.7,
+      "page": 589
+    },
+    {
+      "date": "2025-04-30",
+      "balance": 69.71,
+      "page": 590
+    },
+    {
+      "date": "2025-05-03",
+      "balance": 4046.3,
+      "page": 592
+    },
+    {
+      "date": "2025-05-10",
+      "balance": 2592.34,
+      "page": 593
+    },
+    {
+      "date": "2025-05-19",
+      "balance": 2060.39,
+      "page": 595
+    },
+    {
+      "date": "2025-05-25",
+      "balance": 1679.08,
+      "page": 596
+    },
+    {
+      "date": "2025-05-30",
+      "balance": 936.58,
+      "page": 598
+    },
+    {
+      "date": "2025-06-10",
+      "balance": 1828.59,
+      "page": 599
+    },
+    {
+      "date": "2025-06-23",
+      "balance": 1085.01,
+      "page": 601
+    },
+    {
+      "date": "2025-07-01",
+      "balance": 1620.3,
+      "page": 602
+    },
+    {
+      "date": "2025-07-02",
+      "balance": 4836.24,
+      "page": 604
+    },
+    {
+      "date": "2025-07-08",
+      "balance": 2094.91,
+      "page": 605
+    },
+    {
+      "date": "2025-07-15",
+      "balance": 892.41,
+      "page": 607
+    },
+    {
+      "date": "2025-07-23",
+      "balance": 8107.67,
+      "page": 609
+    },
+    {
+      "date": "2025-07-28",
+      "balance": 5080.58,
+      "page": 610
+    },
+    {
+      "date": "2025-08-02",
+      "balance": 6836.59,
+      "page": 612
+    },
+    {
+      "date": "2025-08-09",
+      "balance": 1038.51,
+      "page": 613
+    },
+    {
+      "date": "2025-08-16",
+      "balance": 5715.85,
+      "page": 615
+    },
+    {
+      "date": "2025-08-19",
+      "balance": 335.69,
+      "page": 616
+    },
+    {
+      "date": "2025-09-01",
+      "balance": 5907.69,
+      "page": 618
+    },
+    {
+      "date": "2025-09-02",
+      "balance": 2960.06,
+      "page": 619
+    },
+    {
+      "date": "2025-09-09",
+      "balance": 1641.43,
+      "page": 620
+    },
+    {
+      "date": "2025-09-15",
+      "balance": 2830.63,
+      "page": 622
+    },
+    {
+      "date": "2025-09-22",
+      "balance": 4681.85,
+      "page": 623
+    },
+    {
+      "date": "2025-09-30",
+      "balance": 13812.4,
+      "page": 625
+    },
+    {
+      "date": "2025-10-02",
+      "balance": 3244.03,
+      "page": 626
+    },
+    {
+      "date": "2025-10-10",
+      "balance": 76289.03,
+      "page": 628
+    },
+    {
+      "date": "2025-10-19",
+      "balance": 67532.35,
+      "page": 629
+    },
+    {
+      "date": "2025-10-30",
+      "balance": 525.14,
+      "page": 630
+    },
+    {
+      "date": "2025-11-01",
+      "balance": 698.75,
+      "page": 631
+    },
+    {
+      "date": "2025-11-05",
+      "balance": 6517.57,
+      "page": 633
+    },
+    {
+      "date": "2025-11-12",
+      "balance": 3254.84,
+      "page": 635
+    },
+    {
+      "date": "2025-11-20",
+      "balance": 2136.14,
+      "page": 636
+    },
+    {
+      "date": "2025-12-01",
+      "balance": 362.29,
+      "page": 638
+    },
+    {
+      "date": "2025-12-02",
+      "balance": 11076.7,
+      "page": 639
+    },
+    {
+      "date": "2025-12-21",
+      "balance": 1259.5,
+      "page": 640
+    },
+    {
+      "date": "2026-01-01",
+      "balance": 890.62,
+      "page": 642
+    },
+    {
+      "date": "2026-01-03",
+      "balance": 12.17,
+      "page": 643
+    },
+    {
+      "date": "2026-01-12",
+      "balance": 5066.97,
+      "page": 645
+    },
+    {
+      "date": "2026-01-25",
+      "balance": 2044.91,
+      "page": 646
+    },
+    {
+      "date": "2026-02-02",
+      "balance": 2596.99,
+      "page": 648
+    },
+    {
+      "date": "2026-02-07",
+      "balance": 3208.53,
+      "page": 649
+    },
+    {
+      "date": "2026-02-14",
+      "balance": 528.74,
+      "page": 651
+    },
+    {
+      "date": "2026-03-01",
+      "balance": 351.69,
+      "page": 652
+    },
+    {
+      "date": "2026-03-14",
+      "balance": 1353.54,
+      "page": 653
+    },
+    {
+      "date": "2026-03-31",
+      "balance": 36.42,
+      "page": 655
+    },
+    {
+      "date": "2026-04-05",
+      "balance": 71.84,
+      "page": 656
+    },
+    {
+      "date": "2026-04-22",
+      "balance": 37.34,
+      "page": 658
+    },
+    {
+      "date": "2026-05-17",
+      "balance": 180.09,
+      "page": 659
+    },
+    {
+      "date": "2026-05-25",
+      "balance": 1060.11,
+      "page": 660
+    },
+    {
+      "date": "2026-05-31",
+      "balance": 188.57,
+      "page": 662
+    },
+    {
+      "date": "2026-06-05",
+      "balance": 1804.24,
+      "page": 663
+    },
+    {
+      "date": "2026-06-15",
+      "balance": 758.0,
+      "page": 665
+    },
+    {
+      "date": "2026-06-27",
+      "balance": 319.0,
+      "page": 666
+    },
+    {
+      "date": "2026-06-30",
+      "balance": 67.2,
+      "page": 668
+    },
+    {
+      "date": "2026-07-02",
+      "balance": 25613.54,
+      "page": 669
+    },
+    {
+      "date": "2026-07-07",
+      "balance": 20671.64,
+      "page": 671
+    },
+    {
+      "date": "2026-07-14",
+      "balance": 271.99,
+      "page": 672
+    },
+    {
+      "date": "2026-07-23",
+      "balance": 3672.99,
+      "page": 674
+    },
+    {
+      "date": "2026-07-30",
+      "balance": 9357.89,
+      "page": 675
+    },
+    {
+      "date": "2026-08-06",
+      "balance": 5306.38,
+      "page": 677
+    },
+    {
+      "date": "2026-08-16",
+      "balance": 1998.8,
+      "page": 678
+    },
+    {
+      "date": "2026-08-29",
+      "balance": 3922.87,
+      "page": 680
+    },
+    {
+      "date": "2026-09-03",
+      "balance": 4070.51,
+      "page": 681
+    },
+    {
+      "date": "2026-09-05",
+      "balance": 11428.26,
+      "page": 682
+    },
+    {
+      "date": "2026-09-08",
+      "balance": 3388.18,
+      "page": 684
+    }
+  ],
+  "yoy_growth": [
+    {
+      "year": 2001,
+      "prev_year": 2000,
+      "total_amount": 200.0,
+      "prev_total_amount": 476.0,
+      "growth_pct": -57.98
+    },
+    {
+      "year": 2003,
+      "prev_year": 2001,
+      "total_amount": 200.0,
+      "prev_total_amount": 200.0,
+      "growth_pct": 0.0
+    },
+    {
+      "year": 2004,
+      "prev_year": 2003,
+      "total_amount": 6200.0,
+      "prev_total_amount": 200.0,
+      "growth_pct": 3000.0
+    },
+    {
+      "year": 2005,
+      "prev_year": 2004,
+      "total_amount": 35087.07,
+      "prev_total_amount": 6200.0,
+      "growth_pct": 465.92
+    },
+    {
+      "year": 2006,
+      "prev_year": 2005,
+      "total_amount": 529283.93,
+      "prev_total_amount": 35087.07,
+      "growth_pct": 1408.49
+    },
+    {
+      "year": 2007,
+      "prev_year": 2006,
+      "total_amount": 233765.99,
+      "prev_total_amount": 529283.93,
+      "growth_pct": -55.83
+    },
+    {
+      "year": 2008,
+      "prev_year": 2007,
+      "total_amount": 351742.15,
+      "prev_total_amount": 233765.99,
+      "growth_pct": 50.47
+    },
+    {
+      "year": 2009,
+      "prev_year": 2008,
+      "total_amount": 624157.89,
+      "prev_total_amount": 351742.15,
+      "growth_pct": 77.45
+    },
+    {
+      "year": 2010,
+      "prev_year": 2009,
+      "total_amount": 851194.83,
+      "prev_total_amount": 624157.89,
+      "growth_pct": 36.37
+    },
+    {
+      "year": 2011,
+      "prev_year": 2010,
+      "total_amount": 1144832.53,
+      "prev_total_amount": 851194.83,
+      "growth_pct": 34.5
+    },
+    {
+      "year": 2012,
+      "prev_year": 2011,
+      "total_amount": 643402.09,
+      "prev_total_amount": 1144832.53,
+      "growth_pct": -43.8
+    },
+    {
+      "year": 2013,
+      "prev_year": 2012,
+      "total_amount": 1501567.46,
+      "prev_total_amount": 643402.09,
+      "growth_pct": 133.38
+    },
+    {
+      "year": 2014,
+      "prev_year": 2013,
+      "total_amount": 1373692.7,
+      "prev_total_amount": 1501567.46,
+      "growth_pct": -8.52
+    },
+    {
+      "year": 2015,
+      "prev_year": 2014,
+      "total_amount": 471770.16,
+      "prev_total_amount": 1373692.7,
+      "growth_pct": -65.66
+    },
+    {
+      "year": 2016,
+      "prev_year": 2015,
+      "total_amount": 1075065.16,
+      "prev_total_amount": 471770.16,
+      "growth_pct": 127.88
+    },
+    {
+      "year": 2017,
+      "prev_year": 2016,
+      "total_amount": 508129.13,
+      "prev_total_amount": 1075065.16,
+      "growth_pct": -52.74
+    },
+    {
+      "year": 2018,
+      "prev_year": 2017,
+      "total_amount": 923753.13,
+      "prev_total_amount": 508129.13,
+      "growth_pct": 81.79
+    },
+    {
+      "year": 2019,
+      "prev_year": 2018,
+      "total_amount": 561075.28,
+      "prev_total_amount": 923753.13,
+      "growth_pct": -39.26
+    },
+    {
+      "year": 2020,
+      "prev_year": 2019,
+      "total_amount": 743195.47,
+      "prev_total_amount": 561075.28,
+      "growth_pct": 32.46
+    },
+    {
+      "year": 2021,
+      "prev_year": 2020,
+      "total_amount": 661839.98,
+      "prev_total_amount": 743195.47,
+      "growth_pct": -10.95
+    },
+    {
+      "year": 2022,
+      "prev_year": 2021,
+      "total_amount": 545372.22,
+      "prev_total_amount": 661839.98,
+      "growth_pct": -17.6
+    },
+    {
+      "year": 2023,
+      "prev_year": 2022,
+      "total_amount": 766027.61,
+      "prev_total_amount": 545372.22,
+      "growth_pct": 40.46
+    },
+    {
+      "year": 2024,
+      "prev_year": 2023,
+      "total_amount": 438046.23,
+      "prev_total_amount": 766027.61,
+      "growth_pct": -42.82
+    },
+    {
+      "year": 2025,
+      "prev_year": 2024,
+      "total_amount": 529922.81,
+      "prev_total_amount": 438046.23,
+      "growth_pct": 20.97
+    },
+    {
+      "year": 2026,
+      "prev_year": 2025,
+      "total_amount": 330389.42,
+      "prev_total_amount": 529922.81,
+      "growth_pct": -37.65
+    }
+  ],
+  "busiest_days": [
+    {
+      "date": "2024-09-01",
+      "count": 19,
+      "in_amount": 6385.0,
+      "out_amount": 6741.29
+    },
+    {
+      "date": "2023-12-25",
+      "count": 17,
+      "in_amount": 10275.0,
+      "out_amount": 6281.58
+    },
+    {
+      "date": "2022-12-25",
+      "count": 15,
+      "in_amount": 14758.08,
+      "out_amount": 6727.95
+    },
+    {
+      "date": "2023-04-25",
+      "count": 15,
+      "in_amount": 14466.08,
+      "out_amount": 4777.88
+    },
+    {
+      "date": "2025-07-01",
+      "count": 13,
+      "in_amount": 10001.0,
+      "out_amount": 3987.06
+    },
+    {
+      "date": "2009-04-29",
+      "count": 12,
+      "in_amount": 0.0,
+      "out_amount": 2491.42
+    },
+    {
+      "date": "2009-07-26",
+      "count": 12,
+      "in_amount": 0.0,
+      "out_amount": 2475.24
+    },
+    {
+      "date": "2023-03-26",
+      "count": 12,
+      "in_amount": 15360.59,
+      "out_amount": 15443.73
+    },
+    {
+      "date": "2024-03-27",
+      "count": 12,
+      "in_amount": 0.0,
+      "out_amount": 3282.74
+    },
+    {
+      "date": "2025-02-27",
+      "count": 12,
+      "in_amount": 3672.0,
+      "out_amount": 2615.61
+    }
+  ],
+  "largest_volume_days": [
+    {
+      "date": "2013-11-27",
+      "count": 4,
+      "in_amount": 140000.0,
+      "out_amount": 500000.0,
+      "total_volume": 640000.0
+    },
+    {
+      "date": "2014-12-10",
+      "count": 2,
+      "in_amount": 250000.0,
+      "out_amount": 100000.0,
+      "total_volume": 350000.0
+    },
+    {
+      "date": "2014-08-10",
+      "count": 1,
+      "in_amount": 300000.0,
+      "out_amount": 0.0,
+      "total_volume": 300000.0
+    },
+    {
+      "date": "2015-04-08",
+      "count": 1,
+      "in_amount": 0.0,
+      "out_amount": 240000.0,
+      "total_volume": 240000.0
+    },
+    {
+      "date": "2011-09-13",
+      "count": 1,
+      "in_amount": 0.0,
+      "out_amount": 230000.0,
+      "total_volume": 230000.0
+    },
+    {
+      "date": "2010-03-23",
+      "count": 2,
+      "in_amount": 60000.0,
+      "out_amount": 130000.0,
+      "total_volume": 190000.0
+    },
+    {
+      "date": "2013-11-21",
+      "count": 2,
+      "in_amount": 179000.0,
+      "out_amount": 50.0,
+      "total_volume": 179050.0
+    },
+    {
+      "date": "2013-11-13",
+      "count": 1,
+      "in_amount": 175438.0,
+      "out_amount": 0.0,
+      "total_volume": 175438.0
+    },
+    {
+      "date": "2016-01-06",
+      "count": 1,
+      "in_amount": 175000.0,
+      "out_amount": 0.0,
+      "total_volume": 175000.0
+    },
+    {
+      "date": "2014-09-11",
+      "count": 1,
+      "in_amount": 0.0,
+      "out_amount": 153577.0,
+      "total_volume": 153577.0
+    }
+  ]
+}
