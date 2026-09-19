@@ -11,11 +11,18 @@ import { Trends } from "@/components/dashboard/trends";
 import { DeepAnalysis } from "@/components/dashboard/deep-analysis";
 import { Sizes } from "@/components/dashboard/sizes";
 import { NamesAnalyzer } from "@/components/dashboard/names-analyzer";
+import { LoginPage } from "@/components/dashboard/login-page";
 import { Analytics, Transaction, TransactionData, NamesData } from "@/lib/analytics";
+import { getSession, clearSession, AuthSession } from "@/lib/auth";
 import { Loader2, AlertCircle } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 export default function Home() {
+  // Auth state
+  const [authSession, setAuthSession] = React.useState<AuthSession | null>(null);
+  const [authChecked, setAuthChecked] = React.useState(false);
+
+  // Dashboard state
   const [activeTab, setActiveTab] = React.useState("overview");
   const [analytics, setAnalytics] = React.useState<Analytics | null>(null);
   const [transactions, setTransactions] = React.useState<Transaction[]>([]);
@@ -23,8 +30,16 @@ export default function Home() {
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
 
-  // Load analytics (lightweight)
+  // Check auth on mount
   React.useEffect(() => {
+    const session = getSession();
+    setAuthSession(session);
+    setAuthChecked(true);
+  }, []);
+
+  // Load analytics (lightweight) — only if authenticated
+  React.useEffect(() => {
+    if (!authSession) return;
     fetch("/analytics.json")
       .then((r) => {
         if (!r.ok) throw new Error("Failed to load analytics");
@@ -37,10 +52,11 @@ export default function Home() {
         console.error(e);
         setError("تعذر تحميل بيانات التحليل");
       });
-  }, []);
+  }, [authSession]);
 
   // Load transactions (heavy) only when table tab is opened
   React.useEffect(() => {
+    if (!authSession) return;
     if (activeTab !== "transactions") return;
     if (transactions.length > 0) return;
     fetch("/transactions.json")
@@ -55,10 +71,11 @@ export default function Home() {
         console.error(e);
         setError("تعذر تحميل المعاملات");
       });
-  }, [activeTab, transactions.length]);
+  }, [activeTab, transactions.length, authSession]);
 
   // Load names data only when names tab is opened
   React.useEffect(() => {
+    if (!authSession) return;
     if (activeTab !== "names") return;
     if (namesData) return;
     fetch("/names.json")
@@ -73,12 +90,41 @@ export default function Home() {
         console.error(e);
         setError("تعذر تحميل بيانات الأسماء");
       });
-  }, [activeTab, namesData]);
+  }, [activeTab, namesData, authSession]);
 
   React.useEffect(() => {
-    if (analytics) setLoading(false);
-  }, [analytics]);
+    if (authSession && analytics) setLoading(false);
+  }, [analytics, authSession]);
 
+  function handleLogout() {
+    clearSession();
+    setAuthSession(null);
+    setAnalytics(null);
+    setTransactions([]);
+    setNamesData(null);
+    setActiveTab("overview");
+    setLoading(true);
+    setError(null);
+  }
+
+  // Show nothing while checking auth on initial mount
+  if (!authChecked) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-background">
+        <Loader2 className="h-8 w-8 animate-spin text-primary" />
+      </div>
+    );
+  }
+
+  // Show login page if not authenticated
+  if (!authSession) {
+    return <LoginPage onSuccess={(email) => {
+      const session = getSession();
+      setAuthSession(session);
+    }} />;
+  }
+
+  // Loading state for dashboard
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
@@ -104,7 +150,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
-      <Header />
+      <Header onLogout={handleLogout} userEmail={authSession.email} />
       <TabsNav active={activeTab} onChange={setActiveTab} />
       <main className="flex-1 container mx-auto px-3 sm:px-4 py-4 sm:py-6">
         <div key={activeTab} className="animate-fade-in-up">

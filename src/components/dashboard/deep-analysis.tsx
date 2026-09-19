@@ -15,6 +15,7 @@ import {
   PolarRadiusAxis, Radar, Legend, ScatterChart, Scatter, ZAxis,
 } from "recharts";
 import { Analytics, formatSAR, formatDateAr } from "@/lib/analytics";
+import { TOOLTIP_CONTENT_STYLE, TOOLTIP_LABEL_STYLE, TOOLTIP_ITEM_STYLE, TOOLTIP_CURSOR_STYLE } from "@/lib/chart-tooltip";
 
 interface DeepAnalysisProps {
   data: Analytics;
@@ -225,13 +226,10 @@ export function DeepAnalysis({ data }: DeepAnalysisProps) {
                   fillOpacity={0.4}
                 />
                 <Tooltip
-                  contentStyle={{
-                    background: "oklch(0.18 0.02 160)",
-                    border: "1px solid oklch(0.3 0.05 160)",
-                    borderRadius: "0.5rem",
-                    fontSize: "12px",
-                    color: "white",
-                  }}
+                  contentStyle={TOOLTIP_CONTENT_STYLE}
+                  labelStyle={TOOLTIP_LABEL_STYLE}
+                  itemStyle={TOOLTIP_ITEM_STYLE}
+                  cursor={TOOLTIP_CURSOR_STYLE}
                   formatter={(v: any) => [`${v.toLocaleString("en-US")} ألف ر.س`, "المبلغ"]}
                 />
               </RadarChart>
@@ -257,13 +255,10 @@ export function DeepAnalysis({ data }: DeepAnalysisProps) {
                   fillOpacity={0.4}
                 />
                 <Tooltip
-                  contentStyle={{
-                    background: "oklch(0.18 0.02 160)",
-                    border: "1px solid oklch(0.3 0.05 160)",
-                    borderRadius: "0.5rem",
-                    fontSize: "12px",
-                    color: "white",
-                  }}
+                  contentStyle={TOOLTIP_CONTENT_STYLE}
+                  labelStyle={TOOLTIP_LABEL_STYLE}
+                  itemStyle={TOOLTIP_ITEM_STYLE}
+                  cursor={TOOLTIP_CURSOR_STYLE}
                   formatter={(v: any) => [`${v.toLocaleString("en-US")} معاملة`, "العدد"]}
                 />
               </RadarChart>
@@ -307,13 +302,10 @@ export function DeepAnalysis({ data }: DeepAnalysisProps) {
                 name="صافي التدفق"
               />
               <Tooltip
-                contentStyle={{
-                  background: "oklch(0.18 0.02 160)",
-                  border: "1px solid oklch(0.3 0.05 160)",
-                  borderRadius: "0.5rem",
-                  fontSize: "12px",
-                  color: "white",
-                }}
+                contentStyle={TOOLTIP_CONTENT_STYLE}
+                labelStyle={TOOLTIP_LABEL_STYLE}
+                itemStyle={TOOLTIP_ITEM_STYLE}
+                cursor={{ strokeDasharray: "3 3", stroke: "oklch(0.55 0.16 160)" }}
                 formatter={(v: any, n: string) => {
                   if (n === "count") return [`${v} معاملة`, "العدد"];
                   if (n === "amount") return [formatSAR(v), "المبلغ"];
@@ -321,7 +313,6 @@ export function DeepAnalysis({ data }: DeepAnalysisProps) {
                   return [v, n];
                 }}
                 labelFormatter={() => ""}
-                cursor={{ strokeDasharray: "3 3" }}
               />
               <Scatter
                 data={scatterData}
@@ -369,13 +360,10 @@ export function DeepAnalysis({ data }: DeepAnalysisProps) {
                 tickFormatter={(v) => `${v}`}
               />
               <Tooltip
-                contentStyle={{
-                  background: "oklch(0.18 0.02 160)",
-                  border: "1px solid oklch(0.3 0.05 160)",
-                  borderRadius: "0.5rem",
-                  fontSize: "12px",
-                  color: "white",
-                }}
+                contentStyle={TOOLTIP_CONTENT_STYLE}
+                labelStyle={TOOLTIP_LABEL_STYLE}
+                itemStyle={TOOLTIP_ITEM_STYLE}
+                cursor={TOOLTIP_CURSOR_STYLE}
                 formatter={(v: any, n: string) => {
                   if (n === "index") return [v, "المؤشر (100=متوسط)"];
                   return [formatSAR(v), "إجمالي المبلغ"];

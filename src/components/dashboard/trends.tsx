@@ -13,6 +13,7 @@ import {
   CartesianGrid, BarChart, Bar, Legend, AreaChart, Area,
 } from "recharts";
 import { Analytics, formatSAR, formatDateAr } from "@/lib/analytics";
+import { TOOLTIP_CONTENT_STYLE, TOOLTIP_LABEL_STYLE, TOOLTIP_ITEM_STYLE, TOOLTIP_CURSOR_STYLE } from "@/lib/chart-tooltip";
 
 interface TrendsProps {
   data: Analytics;
@@ -131,13 +132,10 @@ export function Trends({ data }: TrendsProps) {
                 width={45}
               />
               <Tooltip
-                contentStyle={{
-                  background: "oklch(0.18 0.02 160)",
-                  border: "1px solid oklch(0.3 0.05 160)",
-                  borderRadius: "0.5rem",
-                  fontSize: "12px",
-                  color: "white",
-                }}
+                contentStyle={TOOLTIP_CONTENT_STYLE}
+                labelStyle={TOOLTIP_LABEL_STYLE}
+                itemStyle={TOOLTIP_ITEM_STYLE}
+                cursor={TOOLTIP_CURSOR_STYLE}
                 formatter={(v: any, n: string) => {
                   if (n === "total_count") return [`${v.toLocaleString("en-US")} معاملة`, "عدد المعاملات"];
                   return [formatSAR(v), n === "in_amount" ? "وارد" : "صادر"];
@@ -183,13 +181,10 @@ export function Trends({ data }: TrendsProps) {
                 width={55}
               />
               <Tooltip
-                contentStyle={{
-                  background: "oklch(0.18 0.02 160)",
-                  border: "1px solid oklch(0.3 0.05 160)",
-                  borderRadius: "0.5rem",
-                  fontSize: "12px",
-                  color: "white",
-                }}
+                contentStyle={TOOLTIP_CONTENT_STYLE}
+                labelStyle={TOOLTIP_LABEL_STYLE}
+                itemStyle={TOOLTIP_ITEM_STYLE}
+                cursor={TOOLTIP_CURSOR_STYLE}
                 formatter={(v: any, n: string) => [formatSAR(v), n === "cumulative" ? "التراكمي" : "صافي السنة"]}
                 labelFormatter={(v) => `سنة ${v}`}
               />
@@ -226,13 +221,10 @@ export function Trends({ data }: TrendsProps) {
                 width={55}
               />
               <Tooltip
-                contentStyle={{
-                  background: "oklch(0.18 0.02 160)",
-                  border: "1px solid oklch(0.3 0.05 160)",
-                  borderRadius: "0.5rem",
-                  fontSize: "12px",
-                  color: "white",
-                }}
+                contentStyle={TOOLTIP_CONTENT_STYLE}
+                labelStyle={TOOLTIP_LABEL_STYLE}
+                itemStyle={TOOLTIP_ITEM_STYLE}
+                cursor={TOOLTIP_CURSOR_STYLE}
                 formatter={(v: any, n: string) => {
                   if (n === "growth") return [`${v}%`, "النمو"];
                   return [formatSAR(v), "الإجمالي"];
@@ -276,13 +268,10 @@ export function Trends({ data }: TrendsProps) {
                   width={70}
                 />
                 <Tooltip
-                  contentStyle={{
-                    background: "oklch(0.18 0.02 160)",
-                    border: "1px solid oklch(0.3 0.05 160)",
-                    borderRadius: "0.5rem",
-                    fontSize: "12px",
-                    color: "white",
-                  }}
+                  contentStyle={TOOLTIP_CONTENT_STYLE}
+                  labelStyle={TOOLTIP_LABEL_STYLE}
+                  itemStyle={TOOLTIP_ITEM_STYLE}
+                  cursor={TOOLTIP_CURSOR_STYLE}
                   formatter={(v: any, n: string) => [formatSAR(v), n === "in_amount" ? "وارد" : "صادر"]}
                 />
                 <Legend
@@ -321,13 +310,10 @@ export function Trends({ data }: TrendsProps) {
                   width={50}
                 />
                 <Tooltip
-                  contentStyle={{
-                    background: "oklch(0.18 0.02 160)",
-                    border: "1px solid oklch(0.3 0.05 160)",
-                    borderRadius: "0.5rem",
-                    fontSize: "12px",
-                    color: "white",
-                  }}
+                  contentStyle={TOOLTIP_CONTENT_STYLE}
+                  labelStyle={TOOLTIP_LABEL_STYLE}
+                  itemStyle={TOOLTIP_ITEM_STYLE}
+                  cursor={TOOLTIP_CURSOR_STYLE}
                   formatter={(v: any, n: string) => [formatSAR(v), n === "in_amount" ? "وارد" : "صادر"]}
                 />
                 <Legend

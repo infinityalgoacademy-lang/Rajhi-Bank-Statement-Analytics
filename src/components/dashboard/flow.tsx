@@ -13,6 +13,7 @@ import {
   CartesianGrid, BarChart, Bar, Legend, LineChart, Line,
 } from "recharts";
 import { Analytics, formatSAR, formatDateAr } from "@/lib/analytics";
+import { TOOLTIP_CONTENT_STYLE, TOOLTIP_LABEL_STYLE, TOOLTIP_ITEM_STYLE, TOOLTIP_CURSOR_STYLE } from "@/lib/chart-tooltip";
 
 interface FlowProps {
   data: Analytics;
@@ -188,13 +189,10 @@ export function Flow({ data }: FlowProps) {
                 width={50}
               />
               <Tooltip
-                contentStyle={{
-                  background: "oklch(0.18 0.02 160)",
-                  border: "1px solid oklch(0.3 0.05 160)",
-                  borderRadius: "0.5rem",
-                  fontSize: "12px",
-                  color: "white",
-                }}
+                contentStyle={TOOLTIP_CONTENT_STYLE}
+                labelStyle={TOOLTIP_LABEL_STYLE}
+                itemStyle={TOOLTIP_ITEM_STYLE}
+                cursor={TOOLTIP_CURSOR_STYLE}
                 formatter={(v: any, n: string) => [formatSAR(v), n === "in_amount" ? "وارد" : "صادر"]}
                 labelFormatter={(v) => `الشهر: ${v}`}
               />
@@ -244,13 +242,10 @@ export function Flow({ data }: FlowProps) {
                 domain={[0, 100]}
               />
               <Tooltip
-                contentStyle={{
-                  background: "oklch(0.18 0.02 160)",
-                  border: "1px solid oklch(0.3 0.05 160)",
-                  borderRadius: "0.5rem",
-                  fontSize: "12px",
-                  color: "white",
-                }}
+                contentStyle={TOOLTIP_CONTENT_STYLE}
+                labelStyle={TOOLTIP_LABEL_STYLE}
+                itemStyle={TOOLTIP_ITEM_STYLE}
+                cursor={TOOLTIP_CURSOR_STYLE}
                 formatter={(v: any, n: string) => [`${v}%`, n === "inPct" ? "نسبة الوارد" : "نسبة الصادر"]}
                 labelFormatter={(v) => `سنة ${v}`}
               />

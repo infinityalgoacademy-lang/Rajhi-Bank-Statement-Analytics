@@ -14,6 +14,7 @@ import {
   CartesianGrid, PieChart, Pie, Cell, Legend,
 } from "recharts";
 import { Analytics, formatSAR, categoryColor, categoryIconName } from "@/lib/analytics";
+import { TOOLTIP_CONTENT_STYLE, TOOLTIP_LABEL_STYLE, TOOLTIP_ITEM_STYLE, TOOLTIP_CURSOR_STYLE } from "@/lib/chart-tooltip";
 import * as LucideIcons from "lucide-react";
 
 interface CategoriesProps {
@@ -104,13 +105,10 @@ export function Categories({ data }: CategoriesProps) {
                   ))}
                 </Pie>
                 <Tooltip
-                  contentStyle={{
-                    background: "oklch(0.18 0.02 160)",
-                    border: "1px solid oklch(0.3 0.05 160)",
-                    borderRadius: "0.5rem",
-                    fontSize: "12px",
-                    color: "white",
-                  }}
+                  contentStyle={TOOLTIP_CONTENT_STYLE}
+                  labelStyle={TOOLTIP_LABEL_STYLE}
+                  itemStyle={TOOLTIP_ITEM_STYLE}
+                  cursor={TOOLTIP_CURSOR_STYLE}
                   formatter={(v: any, _n: string, p: any) => [formatSAR(v), p.payload.name]}
                 />
               </PieChart>

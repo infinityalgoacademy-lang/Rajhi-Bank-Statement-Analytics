@@ -19,6 +19,7 @@ import {
   CartesianGrid, Legend, PieChart, Pie, Cell,
 } from "recharts";
 import { NamesData, NameEntry, BothDirectionEntry, formatSAR, formatDateAr } from "@/lib/analytics";
+import { TOOLTIP_CONTENT_STYLE, TOOLTIP_LABEL_STYLE, TOOLTIP_ITEM_STYLE, TOOLTIP_CURSOR_STYLE } from "@/lib/chart-tooltip";
 import { KpiCard, SectionHeader } from "./kpi-card";
 import { cn } from "@/lib/utils";
 
@@ -204,13 +205,10 @@ export function NamesAnalyzer({ data }: NamesAnalyzerProps) {
                   width={120}
                 />
                 <Tooltip
-                  contentStyle={{
-                    background: "oklch(0.18 0.02 160)",
-                    border: "1px solid oklch(0.3 0.05 160)",
-                    borderRadius: "0.5rem",
-                    fontSize: "12px",
-                    color: "white",
-                  }}
+                  contentStyle={TOOLTIP_CONTENT_STYLE}
+                  labelStyle={TOOLTIP_LABEL_STYLE}
+                  itemStyle={TOOLTIP_ITEM_STYLE}
+                  cursor={TOOLTIP_CURSOR_STYLE}
                   formatter={(v: any, n: string) => n === "amount" ? [formatSAR(v), "المبلغ"] : [v, "عدد المعاملات"]}
                   labelFormatter={(_, p: any) => p && p[0] ? p[0].payload.fullName : ""}
                 />
@@ -242,13 +240,10 @@ export function NamesAnalyzer({ data }: NamesAnalyzerProps) {
                   width={120}
                 />
                 <Tooltip
-                  contentStyle={{
-                    background: "oklch(0.18 0.02 160)",
-                    border: "1px solid oklch(0.3 0.05 160)",
-                    borderRadius: "0.5rem",
-                    fontSize: "12px",
-                    color: "white",
-                  }}
+                  contentStyle={TOOLTIP_CONTENT_STYLE}
+                  labelStyle={TOOLTIP_LABEL_STYLE}
+                  itemStyle={TOOLTIP_ITEM_STYLE}
+                  cursor={TOOLTIP_CURSOR_STYLE}
                   formatter={(v: any, n: string) => n === "amount" ? [formatSAR(v), "المبلغ"] : [v, "عدد المعاملات"]}
                   labelFormatter={(_, p: any) => p && p[0] ? p[0].payload.fullName : ""}
                 />
@@ -329,13 +324,10 @@ export function NamesAnalyzer({ data }: NamesAnalyzerProps) {
                   ))}
                 </Pie>
                 <Tooltip
-                  contentStyle={{
-                    background: "oklch(0.18 0.02 160)",
-                    border: "1px solid oklch(0.3 0.05 160)",
-                    borderRadius: "0.5rem",
-                    fontSize: "12px",
-                    color: "white",
-                  }}
+                  contentStyle={TOOLTIP_CONTENT_STYLE}
+                  labelStyle={TOOLTIP_LABEL_STYLE}
+                  itemStyle={TOOLTIP_ITEM_STYLE}
+                  cursor={false}
                 />
               </PieChart>
             </ResponsiveContainer>
