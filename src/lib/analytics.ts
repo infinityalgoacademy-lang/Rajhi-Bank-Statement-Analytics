@@ -199,6 +199,14 @@ export interface NameSampleTx {
   description: string;
   category: string;
   category_ar: string;
+  page?: number | null;
+  seq_in_page?: number | null;
+  reference_number?: string | null;
+  date_hijri?: string | null;
+  balance_after?: number | null;
+  direction?: 'in' | 'out' | 'unknown';
+  description_full?: string;
+  raw_text_block?: string;
 }
 
 export interface NameEntry {
@@ -212,7 +220,10 @@ export interface NameEntry {
   first_date: string | null;
   last_date: string | null;
   categories: string[];
+  pages?: number[];
+  page_count?: number;
   sample_transactions: NameSampleTx[];
+  transactions?: NameSampleTx[];
 }
 
 export interface BothDirectionEntry {
@@ -227,6 +238,9 @@ export interface BothDirectionEntry {
   net: number;
   first_date: string | null;
   last_date: string | null;
+  pages?: number[];
+  page_count?: number;
+  transactions?: NameSampleTx[];
 }
 
 export interface NamesData {

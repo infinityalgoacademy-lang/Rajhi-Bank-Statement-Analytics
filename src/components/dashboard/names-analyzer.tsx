@@ -5,7 +5,7 @@ import {
   Users, UserCheck, UserX, ArrowLeftRight, Search, Filter, X,
   ArrowDownToLine, ArrowUpFromLine, Crown, Hash, TrendingUp,
   TrendingDown, Calendar, Globe, Type, Award, Scale, Repeat,
-  Wallet, ChevronLeft, Languages,
+  Wallet, ChevronLeft, Languages, FileText, Building2,
 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -14,6 +14,9 @@ import { Input } from "@/components/ui/input";
 import {
   Select, SelectContent, SelectItem, SelectTrigger, SelectValue,
 } from "@/components/ui/select";
+import {
+  Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription,
+} from "@/components/ui/dialog";
 import {
   ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip,
   CartesianGrid, Legend, PieChart, Pie, Cell,
@@ -432,13 +435,19 @@ export function NamesAnalyzer({ data }: NamesAnalyzerProps) {
                     <th className="px-3 py-3 text-center font-cairo font-semibold text-muted-foreground">الفترة</th>
                   </>
                 )}
+                <th className="px-3 py-3 text-center font-cairo font-semibold text-muted-foreground whitespace-nowrap">
+                  <span className="flex items-center gap-1 justify-center">
+                    <FileText className="h-3.5 w-3.5" />
+                    الصفحات
+                  </span>
+                </th>
                 <th className="px-3 py-3"></th>
               </tr>
             </thead>
             <tbody>
               {pageData.length === 0 ? (
                 <tr>
-                  <td colSpan={view === "both" ? 8 : 6} className="px-3 py-12 text-center text-muted-foreground">
+                  <td colSpan={view === "both" ? 9 : 7} className="px-3 py-12 text-center text-muted-foreground">
                     <Users className="h-10 w-10 mx-auto mb-2 opacity-50" />
                     <p className="font-cairo">لا توجد أسماء مطابقة</p>
                   </td>
@@ -519,13 +528,19 @@ export function NamesAnalyzer({ data }: NamesAnalyzerProps) {
                             </td>
                           </>
                         )}
+                        <td className="px-3 py-3 text-center">
+                          <Badge variant="outline" className="font-cairo text-[10px] bg-primary/5 border-primary/20 text-primary ltr-numbers gap-0.5">
+                            <FileText className="h-2.5 w-2.5" />
+                            {n.page_count || 0} صفحة
+                          </Badge>
+                        </td>
                         <td className="px-3 py-3 text-left">
                           <ChevronLeft className={cn("h-4 w-4 text-muted-foreground transition-transform", isSelected && "-rotate-90")} />
                         </td>
                       </tr>
                       {isSelected && (
                         <tr>
-                          <td colSpan={view === "both" ? 8 : 6} className="px-3 py-4 bg-muted/20 border-b border-border/40">
+                          <td colSpan={view === "both" ? 9 : 7} className="px-3 py-4 bg-muted/20 border-b border-border/40">
                             <NameDetail name={n} view={view} />
                           </td>
                         </tr>
@@ -559,8 +574,20 @@ export function NamesAnalyzer({ data }: NamesAnalyzerProps) {
 }
 
 function NameDetail({ name, view }: { name: any; view: string }) {
+  const [showAllTx, setShowAllTx] = React.useState(false);
+  const [selectedTx, setSelectedTx] = React.useState<any | null>(null);
+
+  // Get all transactions (or fall back to samples)
+  const allTx = (name.transactions && name.transactions.length > 0)
+    ? name.transactions
+    : (name.sample_transactions || []);
+
+  // Show 5 most recent by default; toggle for all
+  const displayTx = showAllTx ? allTx : allTx.slice(0, 5);
+
   return (
     <div className="space-y-4">
+      {/* Stats grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {view === "both" ? (
           <>
@@ -586,28 +613,222 @@ function NameDetail({ name, view }: { name: any; view: string }) {
           </>
         )}
       </div>
-      {view !== "both" && name.sample_transactions && name.sample_transactions.length > 0 && (
+
+      {/* Pages info */}
+      {name.pages && name.pages.length > 0 && (
         <div>
-          <h5 className="font-cairo text-sm font-bold text-foreground mb-2">عينات من المعاملات:</h5>
-          <div className="space-y-1.5">
-            {name.sample_transactions.map((t: any, i: number) => (
-              <div key={i} className="flex items-center justify-between gap-3 p-2 rounded-md bg-card border border-border/60 text-xs">
-                <div className="flex items-center gap-2 min-w-0">
-                  <Badge variant="outline" className="font-cairo text-[10px] shrink-0">{t.category_ar}</Badge>
-                  <span className="font-cairo text-foreground truncate">{t.description}</span>
-                </div>
-                <div className="flex items-center gap-3 shrink-0">
-                  <span className="text-muted-foreground ltr-numbers">{formatDateAr(t.date_greg)}</span>
-                  <span className={cn("font-cairo font-bold ltr-numbers", name.direction === "in" ? "text-success" : "text-destructive")}>
-                    {name.direction === "out" ? "-" : ""}{formatSAR(t.amount)}
-                  </span>
-                </div>
-              </div>
+          <h5 className="font-cairo text-sm font-bold text-foreground mb-2 flex items-center gap-2">
+            <FileText className="h-4 w-4 text-primary" />
+            ظهر في {name.page_count} صفحة من كشف الحساب:
+          </h5>
+          <div className="flex flex-wrap gap-1 max-h-32 overflow-y-auto custom-scrollbar p-2 rounded-lg bg-card border border-border/60">
+            {name.pages.map((p: number, idx: number) => (
+              <Badge
+                key={`${p}-${idx}`}
+                variant="outline"
+                className="font-cairo text-[10px] bg-primary/5 border-primary/20 text-primary ltr-numbers cursor-default"
+                title={`صفحة ${p} من كشف الحساب`}
+              >
+                ص. {p}
+              </Badge>
             ))}
           </div>
         </div>
       )}
+
+      {/* All transactions list */}
+      {allTx.length > 0 && (
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <h5 className="font-cairo text-sm font-bold text-foreground flex items-center gap-2">
+              <ArrowLeftRight className="h-4 w-4 text-primary" />
+              {showAllTx ? `جميع المعاملات (${allTx.length})` : `أحدث ${displayTx.length} معاملات`}
+            </h5>
+            {allTx.length > 5 && (
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setShowAllTx(!showAllTx)}
+                className="font-cairo text-xs h-7"
+              >
+                {showAllTx ? "عرض أقل" : `عرض الكل (${allTx.length})`}
+              </Button>
+            )}
+          </div>
+          <div className="space-y-1.5 max-h-96 overflow-y-auto custom-scrollbar pe-1">
+            {displayTx.map((t: any, i: number) => {
+              const dir = t.direction || (view === "incoming" ? "in" : view === "outgoing" ? "out" : name.direction);
+              return (
+                <div
+                  key={`${t.page}-${t.seq_in_page}-${i}`}
+                  className="flex items-center justify-between gap-3 p-2.5 rounded-md bg-card border border-border/60 text-xs hover:border-primary/40 hover:bg-primary/5 transition-colors cursor-pointer"
+                  onClick={() => setSelectedTx(t)}
+                >
+                  <div className="flex items-center gap-2 min-w-0 flex-1">
+                    {/* Page badge */}
+                    <Badge variant="outline" className="font-cairo text-[9px] shrink-0 bg-primary/5 border-primary/20 text-primary ltr-numbers gap-0.5 px-1.5 py-0">
+                      <FileText className="h-2.5 w-2.5" />
+                      ص.{t.page}
+                      {t.seq_in_page ? `#${t.seq_in_page}` : ""}
+                    </Badge>
+                    <Badge variant="outline" className="font-cairo text-[10px] shrink-0">{t.category_ar}</Badge>
+                    <span className="font-cairo text-foreground truncate">{t.description}</span>
+                  </div>
+                  <div className="flex items-center gap-2 shrink-0">
+                    {t.reference_number && (
+                      <Badge variant="outline" className="font-cairo text-[9px] bg-secondary/50 ltr-numbers gap-0.5">
+                        <Hash className="h-2.5 w-2.5" />
+                        {t.reference_number.length > 18 ? t.reference_number.substring(0, 18) + "…" : t.reference_number}
+                      </Badge>
+                    )}
+                    <span className="text-muted-foreground ltr-numbers text-[10px]">{formatDateAr(t.date_greg)}</span>
+                    <span className={cn("font-cairo font-bold ltr-numbers", dir === "in" ? "text-success" : "text-destructive")}>
+                      {dir === "out" ? "-" : "+"}{formatSAR(t.amount, { compact: true })}
+                    </span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          {showAllTx && allTx.length > 5 && (
+            <p className="text-[11px] text-muted-foreground font-cairo text-center mt-2">
+              انقر على أي معاملة لرؤية النص الأصلي من كشف الحساب PDF
+            </p>
+          )}
+        </div>
+      )}
+
+      {/* Transaction Detail Dialog (raw PDF text) */}
+      <NameTransactionDialog
+        transaction={selectedTx}
+        open={!!selectedTx}
+        onOpenChange={(v) => !v && setSelectedTx(null)}
+        nameLabel={name.name}
+      />
     </div>
+  );
+}
+
+/**
+ * Dialog showing a single transaction's raw PDF text block.
+ */
+function NameTransactionDialog({
+  transaction,
+  open,
+  onOpenChange,
+  nameLabel,
+}: {
+  transaction: any | null;
+  open: boolean;
+  onOpenChange: (v: boolean) => void;
+  nameLabel?: string;
+}) {
+  if (!transaction) return null;
+  const dir = transaction.direction;
+  return (
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto custom-scrollbar">
+        <DialogHeader>
+          <DialogTitle className="font-cairo text-base flex items-center gap-2">
+            <FileText className="h-4 w-4 text-primary" />
+            معاملة {nameLabel ? `· ${nameLabel}` : ""}
+          </DialogTitle>
+          <DialogDescription className="font-cairo">
+            النص الأصلي للمعاملة من كشف حساب بنك الراجحي
+          </DialogDescription>
+        </DialogHeader>
+        <div className="space-y-4">
+          {/* Key info */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className="p-2.5 rounded-lg bg-card border border-border/60">
+              <p className="text-[10px] text-muted-foreground font-cairo mb-0.5">التاريخ الميلادي</p>
+              <p className="text-xs font-cairo font-bold text-foreground ltr-numbers" dir="auto">{formatDateAr(transaction.date_greg)}</p>
+            </div>
+            <div className="p-2.5 rounded-lg bg-card border border-border/60">
+              <p className="text-[10px] text-muted-foreground font-cairo mb-0.5">التاريخ الهجري</p>
+              <p className="text-xs font-cairo font-bold text-foreground ltr-numbers" dir="auto">{transaction.date_hijri || "—"}</p>
+            </div>
+            <div className="p-2.5 rounded-lg bg-card border border-border/60">
+              <p className="text-[10px] text-muted-foreground font-cairo mb-0.5">رقم الصفحة</p>
+              <p className="text-xs font-cairo font-bold text-primary ltr-numbers">
+                صفحة {transaction.page}
+                {transaction.seq_in_page ? ` · معاملة #${transaction.seq_in_page}` : ""}
+              </p>
+            </div>
+            <div className="p-2.5 rounded-lg bg-card border border-border/60">
+              <p className="text-[10px] text-muted-foreground font-cairo mb-0.5">الرقم المرجعي</p>
+              <p className="text-xs font-cairo font-bold text-foreground ltr-numbers" dir="auto">
+                {transaction.reference_number || "غير متوفر"}
+              </p>
+            </div>
+          </div>
+
+          {/* Amount & Direction */}
+          <div className="p-3 rounded-lg bg-secondary/30 grid grid-cols-3 gap-3">
+            <div>
+              <p className="text-[10px] text-muted-foreground font-cairo mb-0.5">الاتجاه</p>
+              {dir === "in" ? (
+                <Badge variant="outline" className="bg-success/10 text-success border-success/20 gap-1 font-cairo text-xs">
+                  <ArrowDownToLine className="h-3 w-3" /> وارد
+                </Badge>
+              ) : dir === "out" ? (
+                <Badge variant="outline" className="bg-destructive/10 text-destructive border-destructive/20 gap-1 font-cairo text-xs">
+                  <ArrowUpFromLine className="h-3 w-3" /> صادر
+                </Badge>
+              ) : (
+                <Badge variant="outline" className="font-cairo text-xs">غير محدد</Badge>
+              )}
+            </div>
+            <div>
+              <p className="text-[10px] text-muted-foreground font-cairo mb-0.5">المبلغ</p>
+              <p className={cn("font-cairo font-bold text-sm ltr-numbers", dir === "in" ? "text-success" : dir === "out" ? "text-destructive" : "text-foreground")}>
+                {dir === "out" ? "-" : ""}{formatSAR(transaction.amount)}
+              </p>
+            </div>
+            <div>
+              <p className="text-[10px] text-muted-foreground font-cairo mb-0.5">الرصيد بعد المعاملة</p>
+              <p className="font-cairo font-bold text-sm text-foreground ltr-numbers">{formatSAR(transaction.balance_after)}</p>
+            </div>
+          </div>
+
+          {/* Description */}
+          <div>
+            <h4 className="font-cairo text-xs font-bold text-foreground mb-1.5">وصف المعاملة</h4>
+            <Card className="p-2.5 bg-card">
+              <p className="font-cairo text-xs text-foreground leading-relaxed">{transaction.description}</p>
+              {transaction.description_full && transaction.description_full !== transaction.description && (
+                <p className="font-cairo text-[11px] text-muted-foreground leading-relaxed mt-1.5 pt-1.5 border-t border-border/60">
+                  {transaction.description_full}
+                </p>
+              )}
+            </Card>
+          </div>
+
+          {/* Raw PDF Text */}
+          <div>
+            <h4 className="font-cairo text-xs font-bold text-foreground mb-1.5 flex items-center gap-1.5">
+              <FileText className="h-3.5 w-3.5 text-gold" />
+              النص الأصلي من كشف الحساب PDF
+            </h4>
+            <Card className="p-0 overflow-hidden border-gold/30">
+              <div className="bg-gold/10 px-3 py-1.5 border-b border-gold/20">
+                <p className="text-[10px] text-gold-foreground font-cairo flex items-center gap-1.5">
+                  <Building2 className="h-3 w-3" />
+                  بنك الراجحي · صفحة {transaction.page} · معاملة #{transaction.seq_in_page || "—"}
+                </p>
+              </div>
+              <pre
+                dir="ltr"
+                className="p-3 text-[11px] font-mono text-foreground leading-relaxed overflow-x-auto custom-scrollbar bg-card"
+                style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}
+              >
+{transaction.raw_text_block || "لا يوجد نص أصلي متوفر"}
+              </pre>
+            </Card>
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
   );
 }
 
