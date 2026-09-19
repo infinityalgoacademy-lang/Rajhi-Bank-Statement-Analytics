@@ -72,6 +72,9 @@ tests/
 # Generated data files (large JSON files - regenerated from scripts)
 /scripts/transactions.json
 /scripts/transactions_enhanced.json
+# Public JSON files contain sensitive bank statement data
+/public/transactions.json
+/public/names.json
 
 # Build artifacts
 download/
