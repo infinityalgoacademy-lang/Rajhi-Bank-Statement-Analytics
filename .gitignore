@@ -67,6 +67,9 @@ tests/
 # Build artifacts
 download/
 
+# Screenshots (temporary testing)
+dashboard-*.png
+
 # OS files
 Thumbnails.db
 ehthumbs.db
