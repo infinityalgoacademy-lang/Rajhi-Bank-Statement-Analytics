@@ -17,6 +17,9 @@ export interface AccountInfo {
 
 export interface Transaction {
   page: number;
+  seq_in_page?: number;
+  reference_number?: string | null;
+  raw_text_block?: string;
   balance_after: number | null;
   debit: number | null;
   credit: number | null;
