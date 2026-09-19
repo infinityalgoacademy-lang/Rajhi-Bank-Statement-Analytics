@@ -264,7 +264,7 @@ export function NamesAnalyzer({ data }: NamesAnalyzerProps) {
           />
           <div className="space-y-2 max-h-80 overflow-y-auto custom-scrollbar pe-1">
             {both_directions.slice(0, 10).map((n, i) => (
-              <div key={n.name_normalized} className="flex items-center justify-between gap-3 p-3 rounded-lg bg-gradient-to-l from-primary/5 to-gold/5 border border-primary/10 hover:shadow-sm transition-shadow">
+              <div key={`${n.name_normalized}-${i}`} className="flex items-center justify-between gap-3 p-3 rounded-lg bg-gradient-to-l from-primary/5 to-gold/5 border border-primary/10 hover:shadow-sm transition-shadow">
                 <div className="flex items-center gap-3 min-w-0 flex-1">
                   <div className="h-8 w-8 shrink-0 rounded-full bg-gold/15 text-gold flex items-center justify-center font-cairo font-bold text-xs">
                     {i + 1}
@@ -447,7 +447,7 @@ export function NamesAnalyzer({ data }: NamesAnalyzerProps) {
                 pageData.map((n: any, i) => {
                   const isSelected = selectedName === (n.name_normalized || n.name);
                   return (
-                    <React.Fragment key={n.name_normalized || n.name + i}>
+                    <React.Fragment key={`${n.name_normalized || n.name}-${n.direction || ""}-${i}`}>
                       <tr
                         className={cn(
                           "border-b border-border/40 hover:bg-muted/30 transition-colors cursor-pointer",
