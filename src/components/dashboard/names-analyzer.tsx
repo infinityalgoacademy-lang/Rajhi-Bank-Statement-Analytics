@@ -818,9 +818,13 @@ function NameTransactionDialog({
                 </p>
               </div>
               <pre
-                dir="ltr"
-                className="p-3 text-[11px] font-mono text-foreground leading-relaxed overflow-x-auto custom-scrollbar bg-card"
-                style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}
+                dir="rtl"
+                className="p-3 text-[11px] font-mono text-foreground leading-relaxed overflow-x-auto custom-scrollbar bg-card text-right"
+                style={{
+                  whiteSpace: "pre-wrap",
+                  wordBreak: "break-word",
+                  unicodeBidi: "plaintext",
+                }}
               >
 {transaction.raw_text_block || "لا يوجد نص أصلي متوفر"}
               </pre>
